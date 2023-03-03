@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, #4e7e5f, #428a5a, #148b4a, #106436,#11522d);
+    width: auto;
+    height: auto;
+    margin: -8px -10px 0px -8px;
+    box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.575);
+}
+
+header > h1{
+    margin: 0px;
+    padding: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', monospace ;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.568);
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.568);
+}
+
+nav{
+    margin: 0px 0px 1px 2px;
+    padding-top: 20px;
+}
+
+nav > a:hover{
+    background-color: rgb(44, 122, 96);
+    border-radius: 2px;
+    color: rgb(51, 51, 51);
+    padding: 2px;
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px 1px 17px 17px;
+    margin: 3px 25px 9px 25px;
+    
+}
+
+h2#História-Principal{
+    font-family: idroid, sans-serif;
+    color: #093d12;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+}
+
+h3.A-Primeira-versão{
+    background-image: linear-gradient(to right, #7efcaa, #65c585, #749683, #99c5ac,#e0ffdf);
+    font-family: idroid, sans-serif;
+    padding: 5px;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    word-spacing: 14px;
+}
+
+h3#novo-mascote{
+    background-image: linear-gradient(to right, #7efcaa, #65c585, #749683, #99c5ac,#e0ffdf);
+    font-family: idroid, sans-serif;
+    padding: 5px;
+}
+
+
+ iframe{
+    border-width: 10px;
+    color: #1d522e;
+    border-style: solid;
+
+}
+
+#Extra{
+    background-color: #148b4a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+aside{
+    background-color: #99c5ac;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.Extra{
+    text-indent: 30px;
+    padding: 5px;
+}
+
+footer{
+    background-color: #1e642b;
+    color: blanchedalmond;
+    padding: 4px;
+    margin: 8px -30px -14px -30px;
+    font-size: 14px;
+
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}

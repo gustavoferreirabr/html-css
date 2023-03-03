@@ -1,0 +1,10 @@
+div > p{
+    display: none ;
+}
+div:hover > p{
+    display: block;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    color: antiquewhite;
+}
