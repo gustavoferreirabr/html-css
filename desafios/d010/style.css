@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(55, 198, 119), rgb(28, 99, 59));
+    height: 178px;
+    width: 100%;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+nav{
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: rgb(85, 167, 139);
+    color: white;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #84e1ad;
+}
+
+main{
+    background-color: white;
+    max-width: 600px;
+    min-width: 457px;
+    max-height: 100%;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section > h2{
+    padding-top: 15px;
+    color: rgb(26, 92, 56);
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
+section > p{
+    text-indent: 10px;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+
+section > h3{
+    color: rgb(26, 92, 56);
+    text-indent: 10px;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(to  right, rgb(133, 226, 175), rgb(197, 233, 212));
+    font-size: 20px;
+}
+
+#imagem-android{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+aside{
+    border-radius: 0px, 7px, 0px, 7px;
+    background-color: rgb(197, 235, 214);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+aside > h1{
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(47, 168, 102);
+}
+
+aside > p{
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+aside > ul{
+    text-indent: 15px;
+    text-decoration: none;
+}
+
+aside > ul > li{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(26, 92, 56);
+    margin-top: 10px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}

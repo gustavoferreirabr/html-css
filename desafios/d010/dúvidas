@@ -1,0 +1,82 @@
+Primeira dúvida, como deixar o menu da navegação certinho alinhado a linha do header?
+Resposta: Respondido.
+
+Como deixar o background transparente?
+Resposta: linear-gradient (to right, var(--cor1), transparent);
+
+
+
+Como centralizar a imagem do android amigo?
+Resposta: A gente pode colocolar como widht: 00%, porque ela vai ocupar 100% da div.
+
+Como adicionar o vídeo?
+Resposta:
+
+Como deixar uma margin entre cada linha?
+Resposta: line-height: 1em; (Espaçamento entre linhas)
+
+Como adicionar a fonte interna?
+Resposta: Para adicionar fonts, precisamos realizar o danwload dela, assim que feito iremos adicionar o seguinte comando.
+
+@font-face{
+  font-family: 'Android'; (Neste caso, coloquei android porque é o nome que eu dei para a minha fonte, ele pode ser qualquer nome, mas é importante nomeala certo.)
+
+  src: (aqui seria o arquivo, ou seja a pasta aonde ele está e o arquivo da fonte)
+  format: ('formato da font se é opentype ou outro estilo.')
+}
+
+Como tirar a personalização da ul?
+Resposta:
+
+
+A tag nav, não deveria ficar dentro do header e sim fora, embaixo dele.
+
+Esquecemos de criar a pasta do css, para ficar mais organizado.
+
+Esquecemos do abbr.
+
+Variárveis:
+
+:root{
+  --cor0: #00000
+  --cor1: #00000
+  --cor2: #00000
+  --cor3: #00000
+  --cor4: #00000
+  --cor5: #00000
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-android: Arial, Verdana, Helvetica, sans-serif;
+}
+
+Através disso, conseguimos deixar padrão nosso código, em caso de adicionar uma cor, em vez de digitarmos o código dela, podemos usar o "nome" que está na variavel, por exemplo:
+
+background-color: var(--cor0);
+Isso quer dizer que nesse background, vai puxar a cor que está na váriavel --cor0
+
+Tmbém podemos usar as fonts, nas váriaveis, como uma forma de padrão seguindo o mesmo modelo, que foi feito acima, por exemplo:
+
+
+Largura minimo e máximo:
+
+max-widht: 600px;
+Isso quer dizer que o máximo que a minha vai ter de largura será de 600 px
+
+min-widht: 300px;
+Isso quer dizer então que a largura minima que a div vai ter vai ser de 300px
+
+Para centralizar uma imagem, teremos que deixar ela como um block-lelvel, usando a tag display:block
+
+e depois margin auto.
+
+Como colocar o tempo de animação no hover:
+transition-duration: 1s;
+
+Como tirar a formatação da bolinha do ul
+
+list-style-position: inside; (ajustar a bolinha para dentro)
+
+para dividir a coluna:
+
+columns: 2; (dividir em 2)
