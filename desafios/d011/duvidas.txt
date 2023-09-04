@@ -1,0 +1,2 @@
+Como deixar as imagens grandes conforme ajustamos o tamanho da pagina.
+
