@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        body{
+            background-color: azure;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse; /** O border collapse é para não deixar espaça entre as linhas e colunas **/
+        }
+
+        tr.linha{
+            background-color: aquamarine;
+        }
+        
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!--Dentro da Tabela, temos o tr que seria a linha, e dentro da linha, temos td que seria dados da tabela, cade tr seria uma linha-->
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr class="linha">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
