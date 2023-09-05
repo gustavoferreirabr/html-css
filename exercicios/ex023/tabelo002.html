@@ -31,11 +31,12 @@
 <body>
     <table>
 
+        <caption>Tabela de População</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade federativa</th>
-                <th>PIB</th>
+                <th scope="col">Posição</th><!--Scope col, ele serve para indicar que o dado deste titulo está na horizontal, tecnicamente isso é semântica, e não reflete no visual da página-->
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">PIB</th>
             </tr>
         </thead>
 
@@ -133,8 +134,8 @@
 
         <tfoot>
             <tr>
-                <th>Total</th>
-                <th>Estados</th>
+                <th scope="row">Total</th> <!--Scope ROW, significa quando o dado daquele determinado titulo está a vertical dele-->
+                <th scope="row">Estados</th>
                 <td>735.768.000</td>
             </tr>
         </tfoot>
