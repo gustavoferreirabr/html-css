@@ -1,0 +1,15 @@
+1	São Paulo	Aumento 2.377.639.000	
+2	Rio de Janeiro	Baixa 753.824.000	
+3	Minas Gerais	Aumento 682.786.000	
+4	Paraná	Aumento 487.931.000	
+5	Rio Grande do Sul	Baixa 470.942.000
+6	Santa Catarina	Aumento 349.275.000	
+7	Bahia Bahia	Aumento 305.321.000	
+8	Distrito Federal	Baixa 265.847.000
+9	Goiás	Aumento 224.126.000
+10	Pará Pará	Aumento 215.936.000
+11	Pernambuco	Baixa 193.307.000
+12	Mato Grosso	Aumento 178.650.000
+13	Ceará	Aumento 166.915.000
+14	Espírito Santo	Aumento 138.446.000
+15  Mato Grosso do Sul	Aumento 122.628.000
