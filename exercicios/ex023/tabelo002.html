@@ -21,6 +21,10 @@
             border-collapse: collapse;
         }
 
+        tr:nth-child(2n){
+            background-color: aquamarine;
+        }
+
         tfoot{
             background-color: black;
             color: white;
@@ -31,7 +35,7 @@
 <body>
     <table>
 
-        <caption>Tabela de População</caption>
+        <caption>Tabela de População</caption><!--O caption em si, em forma semântica, ele seria o titulo da tabela, o nome da tabela.-->
         <thead>
             <tr>
                 <th scope="col">Posição</th><!--Scope col, ele serve para indicar que o dado deste titulo está na horizontal, tecnicamente isso é semântica, e não reflete no visual da página-->
