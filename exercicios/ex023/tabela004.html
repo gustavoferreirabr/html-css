@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 05</title>
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 450px;
+        }
+
+        tr, th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col#coluna-nome{
+            background-color: blue;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="coluna-nome">
+            <col id="coluna-sexo">
+            <col id="coluna-idade">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Bruna</td>
+            <td>F</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>52</td>
+        </tr>
+
+    </table>
+</body>
+</html>
