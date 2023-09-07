@@ -8,7 +8,16 @@
 
         table{
             border-collapse: collapse;
-            width: 400px;
+            width: 600px;
+        }
+
+        thead{
+            text-align: center;
+        }
+
+
+        th{
+            font-weight: bold;
         }
 
         td, th{
@@ -18,6 +27,16 @@
             text-align: center;
         }
 
+        .personalizado{
+            background-color: rgb(114, 114, 114);
+            color: white;
+            font-weight: bolder;   
+        }
+
+        .p2{
+            text-align: left;
+        }
+
     </style>
 </head>
 <body>
@@ -25,14 +44,14 @@
 
         <thead>
             <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2" scope="col">Disciplinas</th>
-                <th colspan="2" scope="colgroup">Notas</th>
-                <th rowspan="2" scope="col">Média</th>
+                <th rowspan="2" scope="col" class="personalizado">Área</th>
+                <th rowspan="2" scope="col" class="personalizado">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="personalizado">Notas</th>
+                <th rowspan="2" scope="col" class="personalizado">Média</th>
             </tr>
             <tr>
-                <th scope="col">Nota 1</th>
-                <th scope="col">Nota 2</th>
+                <th scope="col" class="personalizado">Nota 1</th>
+                <th scope="col" class="personalizado">Nota 2</th>
             </tr>
         </thead>
 
@@ -40,27 +59,48 @@
 
             <tr>
                 <th rowspan="4" scope="rowgroup">Exatas</th>
-                <td>Matemática</td>
+                <td class="p2">Matemática</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Fisíca</td>
+                <td class="p2">Fisíca</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td> 
             </tr>
             <tr>
-                <td>Quimica</td>
+                <td class="p2">Quimica</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Biologia</td>
+                <td class="p2">Biologia</td>
                 <td>0</td>
                 <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr class="personalizado">
+                <th colspan="4" scope="row" class="p2">Média de Exatas</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td class="p2">História</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="p2">Geografia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr class="personalizado">
+                <th colspan="4" scope="row" class="p2">Média em Humanas</th>
                 <td>0</td>
             </tr>
 
