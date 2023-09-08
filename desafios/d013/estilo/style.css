@@ -11,17 +11,32 @@ body, html{
     width: 100vw;
 }
 
+body{
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main{
     height: 100vh;
     position: relative;
-    background-color: aqua;
 }
 
 #telefone{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
-
-    background-color: green;
     height: 625px;
-    max-width: 310px;
+    width: 310px;
+
+    background-image: url(../imagens/frame-iphone.png);
 }
 
+.iframe{
+    height: 400px;
+    width: 400px;
+}
