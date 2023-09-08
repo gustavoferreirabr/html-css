@@ -4,3 +4,12 @@ Resposta:
 Como deixar as imagens do outro lado, sem quebrar o código?
 Resposta:
 
+Importante: Para conseguirmos deixar sem margin e padding, devemos usar o novo body e html com height e widht de 100vh/widht, assim podemos aplicar essa mesma configuração para o nosso main, para que ocupe a tela toda, sendo as mesmas configurações.
+
+Importante: Adicionar o fundo da imagem sempre no body.
+
+Um segredo muito importante é usar o vw e vh no body.
+
+**Como o guanabara alinhou as imagens?
+
+Ele usou comandos diferentes, por exemplo, para as imagens, ele usou border o margin, porém para fazer o alinhamentento ele usou apenas a sections, ele consegue alterar arquivos diferentes com comandos diferentes
