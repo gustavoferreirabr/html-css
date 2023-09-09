@@ -13,7 +13,5 @@ Um segredo muito importante é usar o vw e vh no body.
 **Como o guanabara alinhou as imagens?
 
 Ele usou comandos diferentes, por exemplo, para as imagens, ele usou border o margin, porém para fazer o alinhamentento ele usou apenas a sections, ele consegue alterar arquivos diferentes com comandos diferentes
-
-
 sssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssss
+sssssssssssss
