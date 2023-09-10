@@ -50,4 +50,11 @@ section#redes-sociais img{
     border-radius: 50%;
     width: 50px;
     margin: 5px;
+    box-sizing: border-box; /** Oque isso significa? Resposta: O box-sizing com o valor border-box faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura. Com isso conseguindos fazer que o valor hover se aplique individualmente para cada img**/
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition-duration: 0.3s border 0.4s; /** Essa configuração determina o tempo da até iniciar a animação ou seja após ficar em cim da img, duraria 0.3 segundos para apareder a border white com 2 px. **/
 }
