@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 02</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+
+        <p>
+            <label for="isuario">usuário: </label>
+            <input type="text" name="usuario" id="iusuario" required minlength="4" maxlength="8" placeholder="Nome do usuário" autocomplete="username">
+
+            <!--Atributo minlength: Significa que o determinado input, o minimo de letra ou numero que pode ser inserido seria 4, caso o usuário insira algarismos menores que 4 letras ou numeros, o mesmo será bloqueado até atingir o requisito-->
+
+            <!--Atributo maxlength: Significa que o contrário do input acima, determinando o maximo de caracteres que ode possuir o usuário, ele não permite o usuário colocar mais doque foi requisitado-->
+
+            <!--Atributo placeholder: Significa que será sobreescrito em cima do input, como se fosse uma dica no qual o cliente deve preencher.-->
+
+            <!--Atributo autocomplete:"username" - Significa que, podemos usar o autocomplete individualmente nos nossos inputs e separa-los por autocompeltes que normalmente são preenchidos automaticamente. Neste código coloquei o username, então será preenchido automaticamente com o seu usuário no qual você insere em diversos sites, também podemos usar senhas, como passowords e etc...-->
+            
+        </p>
+        <p>
+            <label for="isenha">senha:</label> 
+            <input type="password" name="senha" id="isenha" required size="10">
+
+            <!--Atributo required: O atributo required, aponta que aquele determinado input seria obritário de ser preenchido, ou seja se o usário não o preencher, seria impossível prosseguir com a ação.-->
+
+            <!--Atributo Size: O atributo size determina o tamanho da caixa, vale-se observar que mesmo inserindo uma senha que seja maior que a caixa do input, o mesmo não ira quebrar, ira ser mantido o tamanho e só ira ocupar no espaço as letras ou numeros que ficariam visiveis naquele determinado tamanho-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
