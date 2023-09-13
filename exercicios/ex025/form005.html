@@ -12,6 +12,9 @@
             <legend>Sexo</legend>
             <input type="radio" name="sexo" id="imas" value="Masculino" checked><label for="imas">Masculino</label><br>
             <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+            <!--Porque o name dos dois inputs são iguais? Deixams iguais os names, para qe seja possível selecionar apenas uma opção do input radio, se deixarmos diferentes, o usuario ira conseguir selecionar mais de uma opção, e não conseguira desmarcar.-->
+            <!--Atributo Checked: Serve para deixar aquele determinado input, já selecionado.-->
+            <!--Atributo Value: Serve para já deixar na URL, qual input o usuário está selecionando, visto que as informações que serão enviadas, serão referentes ao input e não  texto.-->
         </fieldset>
         <fieldset>
             <legend>Esportrs favoritos</legend>
@@ -19,6 +22,7 @@
             <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label><br>
             <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label><br>
             <input type="checkbox" name="ten" id="iten"><label for="iten">Tênis</label><br>
+            <!--Atributo checkbox: Com este atributo, permite que o usuário possa selecionar mais de uma caixinha/alternativa, diferente do input radio no qual em tese só permitiria selecionar apenas uma opção.-->
         </fieldset>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
