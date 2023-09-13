@@ -15,18 +15,26 @@
         <p>
             <label for="inum">Media</label>
             <input type="number" id="inum" name="num" required value="5" max="10" min="0" step="0,01">
+            <!--Atributo type="number" significa que esse determinado input, sera um input onde será permitido apenas números.-->
+            <!--Atributo max, o mesmo significa o máximo de de numeral que permitirei naquele determinado input-->
+            <!--Atributo min, o mesmo significa o minimo de de numeral que permitirei naquele determinado input-->
+            <!--Atributo step, significa de quanto em quanto será adicionado no meu input.-->
         </p>
         <p>
             <label for="imes">Periodo</label>
             <input type="month" name="mes" id="imes" value="2023-09">
+            <!--Atributo month, significa mês-->
+            <!--Atributo value, conseguimos já deixar um valor pré determinado, assim que o usuario entrar no site, o nosso vlue já estara preenchido, podendo sobrescrever o placehold-->
         </p>
         <p>
             <label for="idata">Dia da Prova</label>
             <input type="date" name="data" id="idata" value="2023-09-12">
+            <!--Atributo date, significa a data, seria um input de data-->
         </p>
         <p>
             <label for="itime">Horário</label>
             <input type="time" id="itime" name="time" value="00:00">
+            <!--Atributo time, é um input que determina o tempo-->
         </p>
         <p>
             <input type="submit" value="Enviar">
