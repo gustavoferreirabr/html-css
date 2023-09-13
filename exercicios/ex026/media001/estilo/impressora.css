@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* CSS para estilo Impressora */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: "Esse site foi gerido através de Media Query";
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+
+}
+
+article h1{
+    text-align: center;
+    padding: 10px;
+}
+
+article > p{
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+}
+
