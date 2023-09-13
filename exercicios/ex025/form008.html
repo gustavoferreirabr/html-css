@@ -10,7 +10,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             Numero 1:
-            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)"><!--Neste comando que dizer que, o valor do nosso oniput é igual ao numero que está no nosso id="in1" + o numero que está no nosso id="in2". Sendo assim, será somado os valores que estão ambos os ids, dando o resultado no nosso oniput-->
         </p>
         <p>
             Numero 2:
@@ -18,7 +18,7 @@
         </p> 
         <p>
             <label for="isoma">Soma:</label>
-            <output name="soma" id="isoma">0</output>
+            <output name="soma" id="isoma">0</output><!--Atributo Oniput: O usuário não conseguira alterar ele.-->
         </p>
         <p>
             <input type="submit" value="Enviar">
