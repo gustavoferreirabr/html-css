@@ -38,8 +38,8 @@ img{
     margin: auto;
 }
 
-img#phone{display: block;}
-img#tv{display: none;}
-img#tablet{display: none;}
-img#print{display: none;}
+img#phone{display: block;} /* Screen Celular */
+img#tv{display: none;} /* Screen TV */
+img#tablet{display: none;} /* Screen Tablet */
+img#print{display: none;} 
 img#pc{display: none;}
