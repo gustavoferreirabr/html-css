@@ -4,7 +4,51 @@
 Small screens, laptops – 769px — 1024px.
 Desktops, large screens – 1025px — 1200px.
 Extra large screens, TV – 1201px, and more.
-/*
+*/
 
 
-@media
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+    
+    span#botao-menu{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        background-color: gray(228, 228, 228);
+        padding: 10px;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        background-color: rgb(138, 138, 138);
+        margin-right: 5px;
+    }
+
+    main{
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width: 1025px){
+    span#botao-menu{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        background-color: gray(228, 228, 228);
+        padding: 10px;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        background-color: rgb(138, 138, 138);
+        margin-right: 5px;
+    }
+
+    main{
+        max-width: 1025px;
+    }
+}
