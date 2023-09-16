@@ -27,6 +27,7 @@ span#botao-menu{
     display: block;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 span#botao-menu:hover{
@@ -36,6 +37,7 @@ span#botao-menu:hover{
 
 menu{
     background-color: rgb(73, 73, 73);
+    display: none;
 }
 
 ul{

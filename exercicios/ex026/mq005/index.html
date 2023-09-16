@@ -10,8 +10,8 @@
 <body>
     <header>
         <h1>Meu site</h1>
-        <span id="botao-menu" class="material-icons">menu</span>
-        <menu>
+        <span id="botao-menu" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -31,5 +31,16 @@
         
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sequi quia ipsam aliquid repudiandae illo tenetur voluptates totam aliquam, exercitationem eum molestiae distinctio aperiam sit ullam a sunt iste voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit labore nobis est corrupti, hic odit quaerat voluptas perspiciatis saepe eveniet aut libero nisi repellendus autem at ad facere quos!</p>
     </main>
+    <script>
+        function clickMenu(){
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+           } 
+           else {
+            itens.style.display = 'block'
+           }
+        }
+
+    </script>
 </body>
 </html>
