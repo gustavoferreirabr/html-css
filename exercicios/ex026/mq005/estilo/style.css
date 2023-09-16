@@ -21,6 +21,19 @@ header > h1{
     padding: 10px;
 }
 
+span#botao-menu{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+span#botao-menu:hover{
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
 menu{
     background-color: rgb(73, 73, 73);
 }
