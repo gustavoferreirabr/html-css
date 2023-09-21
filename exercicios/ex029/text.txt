@@ -1,0 +1,5 @@
+http://127.0.0.1:5501/exercicios/ex029/index.html?nome=Gustavo+F&email=gustavo.ferreira%40gmail.com&contato=965469890&profissão=on&observações=jwohiuwhfywugfeugygfyegeyfgeygfyegfyegfyfgeuf&autorização-de-recebimento-email=on#
+
+http://127.0.0.1:5501/exercicios/ex029/index.html?nome=Gustavo+F&email=gustavo.ferreira%40gmail.com&contato=965469890&profissão=on&observações=dedede&autorização-de-recebimento-email=on#
+
+http://127.0.0.1:5501/exercicios/ex029/index.html?nome=Gustavo+F&email=gustavo.ferreira%40gmail.com&contato=965469890&profissão=Dev&observações=dddd&autorização-de-recebimento-email=on#
