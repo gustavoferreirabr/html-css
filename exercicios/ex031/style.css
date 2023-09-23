@@ -34,12 +34,33 @@ img{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    p{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
     img{
         width: 95%;
         height: auto;
+        display: block;
+        margin: auto;
     }
 }
 
+@media screen and (min-width: 1025px){
+    p{
+        font: normal;
+        font-size: 12px;
+    }
+
+    img{
+        height: 350px;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+    }
+}
 
 
 
