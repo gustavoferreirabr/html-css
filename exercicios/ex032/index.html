@@ -19,6 +19,14 @@
         main{
             background-color: rgb(197, 197, 197);
             min-height: 100vh;
+            padding: 10px;
+
+            display: flex;
+            justify-content: center;
+            gap: 10px 10px;
+            flex-direction: row;
+            align-items: center;
+
         }
 
         div.bloco{
@@ -30,7 +38,14 @@
             font-size: 18px;
 
             display: flex;
-            gap: 5px 15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            background-color: blue;
+            color: white;
+            padding: 10px;
         }
 
     </style>
@@ -38,13 +53,13 @@
 <body>
     <main>
         <div class="bloco" id="1">
-            Item 1
+            <p>Item 1</p>
         </div>
         <div class="bloco" id="2">
-            Item 2
+            <p>Item 2</p>
         </div>
         <div class="bloco" id="3">
-            Item 3
+            <p>Item 3</p>
         </div>
     </main>
 </body>
