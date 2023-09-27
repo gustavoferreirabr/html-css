@@ -26,8 +26,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #i2{
-    flex: 1 0 200px;
+    flex: 2 0 200px;
 }
