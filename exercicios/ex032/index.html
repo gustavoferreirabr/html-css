@@ -41,13 +41,20 @@
             align-items: center;
 
             /* Nova Aula */
-            /* flex-basic: Significa o tamanho basico do nosso item, podemos aumentar nosso bloco com esse comando, observa-se que o flex basic só funciona sozinho, se for add o flex-grow ele não funciona*/
+            /* flex-basic: Significa o tamanho basico do nosso item, podemos aumentar nosso bloco com esse comando, observa-se que o flex basic só funciona sozinho, se for add o flex-grow ele não funciona
+            
+            Importante: O flex-basic determina o limite de tal função, ou seja flex-grow, quer dizer que vai se expandir quando atingir a medida de 200px, ou seja acima de 200 px ele começara expandindo | flex-shrink: 2; ele vai dimnuir quando o limite do basic for batido. ou seja abaixo de 200px ele ira dimnuir
+            
+
+            Testar no Inspecionar
+            */
 
             flex-basis: 200px;
 
             /* flex-grow: vai esticar o quadrado até a largura máxima do meu view width, indepente se temos o flex-basic ou não */
            
-            flex-grow: 2;
+            flex-grow: 1;
+            
         }
 
         p{
@@ -57,7 +64,8 @@
         }
 
         div#i1{
-            
+            flex-shrink: 2;
+            /* flex-shrink: 2 significa que essa div do item 1, ira diminuir primeiro que as outras divs */
         }
 
         div#i2{
