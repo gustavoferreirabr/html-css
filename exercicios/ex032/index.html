@@ -34,7 +34,7 @@
             background-color: white;
             color: black;
             border: 2px solid black;
-            height: 200px;
+            height: 100px;
             width: 100vw;
             font-size: 18px;
 
@@ -72,7 +72,14 @@
         }
 
         div#i2{
+            flex: 1 0 200px;
+            /* 
+            Neste caso usamos shortrends, onde o primeiro algarismo significa o flex-grow, no qual indifica que quando chegarmos a flex-basic 200px ele ira espandir apenas o id i2 
 
+            o segundo algumrismo é o flex-shrink, isso signfica que o 0 é padrão então ele não vai dimnuir em nada, ao menos que eu inserisse o algarismo 2, neste caso ele iria ser o primeiro bloco a dimnuir quando alncançar a altura basica de 200px
+
+            o terceiro algarismo de 200px, significa o flex-basic, observa-se que com essa configuração aplicada no i2, o tamanho desse bloco aumentou.
+            */
         }
 
         div#i3{
