@@ -17,8 +17,6 @@ nav{
     justify-content: space-between;
 }
 
-
-
 img{
     height: 45%;
 }
@@ -30,4 +28,16 @@ ul{
     display: flex;
     justify-content: space-around;
     gap: 0px 10px;
+}
+
+ul > li{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul > li:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
