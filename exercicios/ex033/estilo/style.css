@@ -5,3 +5,18 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+nav{
+    height: 100px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+img{
+    height: 45%;
+}
