@@ -34,12 +34,20 @@
             color: black;
             border: 2px solid black;
             height: 200px;
-            width: 200px;
             font-size: 18px;
 
             display: flex;
             justify-content: center;
             align-items: center;
+
+            /* Nova Aula */
+            /* flex-basic: Significa o tamanho basico do nosso item, podemos aumentar nosso bloco com esse comando, observa-se que o flex basic só funciona sozinho, se for add o flex-grow ele não funciona*/
+
+            flex-basis: 200px;
+
+            /* flex-grow: vai esticar o quadrado até a largura máxima do meu view width, indepente se temos o flex-basic ou não */
+           
+            flex-grow: 2;
         }
 
         p{
@@ -48,17 +56,29 @@
             padding: 10px;
         }
 
+        div#i1{
+            
+        }
+
+        div#i2{
+
+        }
+
+        div#i3{
+
+        }
+
     </style>
 </head>
 <body>
     <main>
-        <div class="bloco" id="1">
+        <div class="bloco" id="i1">
             <p>Item 1</p>
         </div>
-        <div class="bloco" id="2">
+        <div class="bloco" id="i2">
             <p>Item 2</p>
         </div>
-        <div class="bloco" id="3">
+        <div class="bloco" id="i3">
             <p>Item 3</p>
         </div>
     </main>
