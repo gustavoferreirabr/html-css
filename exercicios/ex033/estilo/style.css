@@ -8,7 +8,7 @@
 }
 
 nav{
-    height: 100px;
+    height: 75px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -16,29 +16,40 @@ nav{
 
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
 }
 
 img{
     height: 45%;
 }
 
-ul{
-    color: white;
-    list-style: none;
+img#logo{
+    width: 200px;
+}
 
+div#botoes{
     display: flex;
     justify-content: space-around;
-    gap: 0px 10px;
+    gap: 10px;
+    align-items: center;
 }
 
-ul > li{
-    border: 2px solid white;
-    border-radius: 10px;
+button{
     padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    
+    transition: 0.4s;
+    cursor: pointer;
+    box-sizing: border-box;
 }
 
-ul > li:hover{
-    background-color: white;
-    color: black;
+
+button:hover{
     font-weight: bold;
+    border: 2px solid red;
+    box-sizing: border-box;
 }
