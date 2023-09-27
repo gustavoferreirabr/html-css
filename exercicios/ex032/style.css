@@ -10,16 +10,15 @@
 main{
     background-color: gainsboro;
     height: 100vh;
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    
 }
 
 .bloco{
-    height: 70px;
+    height: 200px;
     width: 100%;
     background-color: white;
     border: 2px solid black;
@@ -29,6 +28,5 @@ main{
     flex-wrap: wrap;
 }
 
-#i2{
-    flex: 2 0 200px;
-}
+/* Provavelmente, o motivo de não estar dando certo seja a configuração do .item, visto que em meu projeto não foi realizada essa configuração -- DEVEMOS REVISAR NOVAMENTE */
+
