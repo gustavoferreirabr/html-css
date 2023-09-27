@@ -23,9 +23,10 @@
 
             display: flex;
             justify-content: center;
-            gap: 10px 10px;
+            gap: 0px 10px;
             flex-direction: row;
             align-items: center;
+            flex-direction: column;
 
         }
 
@@ -34,11 +35,13 @@
             color: black;
             border: 2px solid black;
             height: 200px;
+            width: 100vw;
             font-size: 18px;
 
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
 
             /* Nova Aula */
             /* flex-basic: Significa o tamanho basico do nosso item, podemos aumentar nosso bloco com esse comando, observa-se que o flex basic só funciona sozinho, se for add o flex-grow ele não funciona
@@ -49,11 +52,11 @@
             Testar no Inspecionar
             */
 
-            flex-basis: 200px;
+            /*flex-basis: 200px;*/
 
             /* flex-grow: vai esticar o quadrado até a largura máxima do meu view width, indepente se temos o flex-basic ou não */
            
-            flex-grow: 1;
+            flex-grow: 1;*/
             
         }
 
@@ -64,7 +67,7 @@
         }
 
         div#i1{
-            flex-shrink: 2;
+            /*flex-shrink: 2;*/
             /* flex-shrink: 2 significa que essa div do item 1, ira diminuir primeiro que as outras divs */
         }
 
