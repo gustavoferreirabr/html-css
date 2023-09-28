@@ -24,6 +24,7 @@ body{
     min-height: 100vh;
 }
 
+
 main{
     background-color: gray;
     min-height: 100vh;
@@ -64,11 +65,11 @@ footer{
 
 /* Media Tablet */
 
-@media screen and (min-width: 430px) and (max-width: 768px){
+@media screen and (min-width: 500px){
     
     main{
         display: flex;
-        color: blue;
+        color: black;
         flex-direction: row;
         padding: 10px;
         gap: 0px 10px;
