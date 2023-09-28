@@ -20,7 +20,7 @@
 
 */
 
-div#conteiner{
+body{
     background-color: rgb(190, 190, 190);
     min-height: 100vh; /* Sempre usar esse comando */
     display: flex;
