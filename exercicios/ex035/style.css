@@ -11,9 +11,11 @@ body{
     min-height: 100vh;
     background-color: rgb(175, 175, 175);
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Pedaço da tela */ 
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); /* Pedaço da tela */ 
+    /*grid-template-rows: repeat(3, 1fr);*/
     gap: 10px 15px;
+    grid-auto-rows: minmax(250px, 100%);
+    
 }
 
 section{
