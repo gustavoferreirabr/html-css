@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(175, 175, 175);
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+section{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+section#cor{
+    background-color: blue;
+}
