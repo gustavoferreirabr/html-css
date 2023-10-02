@@ -94,9 +94,3 @@ footer{
 
 
 }
-
-@media screen and (max-width: 268px){
-    main{
-        max-width: 268px;
-    }
-}
