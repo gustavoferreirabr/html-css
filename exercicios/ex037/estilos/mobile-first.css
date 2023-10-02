@@ -11,7 +11,7 @@
 
 :root{
     --cor-header: rgb(42, 40, 42);
-    -font-padrao: Arial, Helvetica, sans-serif;
+    --font-dest: 'Times New Roman', Times, serif;
 }
 
 
@@ -20,6 +20,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 header{
@@ -52,10 +53,81 @@ nav > a{
     padding: 10px;  
     border-radius: 10px;
     transition: 0.5s;
-    
 }
 
 nav > a:hover{
     background-color: rgb(63, 63, 63);
-    
+}
+
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    align-items: center;
+    flex: 1 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+main > h1{
+    text-align: center;
+    font-family: var(--font-dest);
+}
+
+main > p{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+section{
+    height: auto;
+    background-color: rgb(251, 251, 252);
+    width: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+section > img{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+section > h2{
+    padding: 10px;
+}
+
+section > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+aside#conteudo-extra{
+    background-color: var(--cor-header);
+    font-family: var(--font-dest);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0px;
+}
+
+aside > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+section#b{
+    border-radius: 10px;
+}
+
+section#b > img{
+    border-radius: 10px;
+    width: 100%;
+    display: block;
 }
