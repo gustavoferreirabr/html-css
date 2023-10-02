@@ -58,9 +58,11 @@ section#item4{
 
 section#item5{
     grid-area: item5;
+    min-width: 250px;
 }
 section#item6{
     grid-area: item6;
+    min-width: 250px;
 }
 
 section{
@@ -92,5 +94,22 @@ footer{
     ;
     }
 
+
+}
+
+
+@media screen and (max-width: 528px){
+    
+    main{
+        transition: 0.10s;
+        grid-template-areas: 
+        "item1 item1 item1"
+        "item2 item2 item2"
+        "item3 item3 item3"
+        "item4 item4 item4"
+        "item5 item5 item5"
+        "item6 item6 item6"
+    ;
+    }
 
 }
