@@ -23,6 +23,7 @@ header{
 }
 
 main{
+    flex: 1 0 auto;
     gap: 10px 10px;
     padding: 10px;
     display: grid;
@@ -32,19 +33,23 @@ main{
     "item4 item4 item4"
     "item5 item5 item6"
     ;
-    flex: 1 0 auto;
+    
+    
 }
 
 section#item1{
     grid-area: item1;
+    min-width: 250px;
 }
 
 section#item2{
     grid-area: item2;
+    min-width: 250px;
 }
 
 section#item3{
     grid-area: item3;
+    min-width: 250px;
 }
 
 section#item4{
@@ -72,4 +77,26 @@ footer{
     width: 100%;
     padding: 10px;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 786px) {
+    
+    main{
+        transition: 0.10s;
+        grid-template-areas: 
+        "item1 item1 item1"
+        "item2 item2 item2"
+        "item3 item3 item3"
+        "item4 item4 item4"
+        "item5 item5 item6"
+    ;
+    }
+
+
+}
+
+@media screen and (max-width: 268px){
+    main{
+        max-width: 268px;
+    }
 }
