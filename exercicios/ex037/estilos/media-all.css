@@ -59,6 +59,7 @@ Extra large screens, TV – 1201px, and more.
         "item5 item6"
         "item7 item8"
         "item9 item9"
+        "conteudo-extra conteudo-extra"
     ;
     }
 
@@ -108,6 +109,10 @@ Extra large screens, TV – 1201px, and more.
     section#item9{
         grid-area: item9;
     }
+
+    aside#conteudo-extra{
+        grid-area: conteudo-extra;
+    }
     
 
     footer{
@@ -119,3 +124,100 @@ Extra large screens, TV – 1201px, and more.
 
 }
 
+@media screen and (min-width: 1025px){
+
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    nav{
+        width: 300px;
+        display: flex;
+        gap: 10px;
+        font-size: 25px;
+    }
+
+    main > p{
+        margin-bottom: 10px;
+    }
+
+    div#COLUNA{
+        flex: 1 0 auto;
+        gap: 20px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "item1 item2 conteudo-extra"
+        "item3 item4 conteudo-extra"
+        "item5 item6 conteudo-extra"
+        "item7 item8 conteudo-extra"
+        "item9 item9 conteudo-extra"
+    ;
+    }
+
+    section.conteudo{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        
+    }
+
+    section.conteudo > img{
+        height: 50%;
+    }
+
+    section#item1{
+        grid-area: item1;
+    }
+
+    section#item2{
+         grid-area: item2;   
+    }
+
+    section#item3{
+        grid-area: item3;
+    }
+
+    section#item4{
+        grid-area: item4;
+    }
+
+    section#item5{
+        grid-area: item5;
+    }
+
+    section#item6{
+        grid-area: item6;
+    }
+
+    section#item7{
+        grid-area: item7;
+    }
+
+    section#item8{
+        grid-area: item8;
+    }
+
+    section#item9{
+        grid-area: item9;
+    }
+
+    aside#conteudo-extra{
+        grid-area: conteudo-extra;
+    }
+
+    aside{
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+    }
+
+    aside > section{
+        height: 100%;
+    }
+
+}
