@@ -40,8 +40,18 @@ Extra large screens, TV – 1201px, and more.
         "item5 item6"
         "item7 item8"
         "item9 item9"
-
     ;
+    }
+
+    section.conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    section.conteudo > img{
+        height: 50%;
     }
 
     section#item1{
