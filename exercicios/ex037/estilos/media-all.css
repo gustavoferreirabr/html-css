@@ -2,8 +2,91 @@
 
 /* Media all */
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+/*
+
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+
+*/
+
+@media screen and (min-width:481px) and (max-width:768px){
+    
+    section.conteudo{
+        width: 70vw;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        gap: 0px 20px;
+        justify-content: space-around;
+    }
+
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    
+    div#COLUNA{
+        flex: 1 0 auto;
+        gap: 10px 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+        "item7 item8"
+        "item9 item9"
+
+    ;
+    }
+
+    section#item1{
+        grid-area: item1;
+    }
+
+    section#item2{
+         grid-area: item2;   
+    }
+
+    section#item3{
+        grid-area: item3;
+    }
+
+    section#item4{
+        grid-area: item4;
+    }
+
+    section#item5{
+        grid-area: item5;
+    }
+
+    section#item6{
+        grid-area: item6;
+    }
+
+    section#item7{
+        grid-area: item7;
+    }
+
+    section#item8{
+        grid-area: item8;
+    }
+
+    section#item9{
+        grid-area: item9;
+    }
+    
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        gap: 0px 20px;
+        justify-content: space-around;
+    }
+
+}
+
