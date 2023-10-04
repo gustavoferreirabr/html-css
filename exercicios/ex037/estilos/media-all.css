@@ -34,19 +34,23 @@ Extra large screens, TV – 1201px, and more.
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px;
+        padding: 30px;
     }
 
     nav{
-        width: 400px;
+        width: 300px;
         display: flex;
         gap: 10px;
         font-size: 25px;
     }
 
+    main > p{
+        margin-bottom: 10px;
+    }
+
     div#COLUNA{
         flex: 1 0 auto;
-        gap: 10px 10px;
+        gap: 20px 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
