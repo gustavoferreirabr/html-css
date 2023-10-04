@@ -106,7 +106,7 @@ section > p{
 }
 
 aside#conteudo-extra{
-    background-color: var(--cor-header);
+    background-color: rgb(77, 77, 77);
     font-family: var(--font-dest);
     padding: 15px;
     color: white;
@@ -115,23 +115,26 @@ aside#conteudo-extra{
     flex-direction: column;
     align-items: center;
     gap: 10px 0px;
+    flex: 1 0 auto;
 }
 
-aside > img{
+section > img{
     width: 100%;
+}
+
+section.extra{
+    min-width: 50px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+section.extra > img{
     border-radius: 10px;
 }
 
-/*
-Essa configuração a seguir foi por causa que a imagem da bicicleta não estava dando certo, por esse motivo, tive que realizar essa gambiarra.
-*/
 
-section#b{
-    border-radius: 10px;
-}
-
-section#b > img{
-    border-radius: 10px;
-    width: 100%;
-    display: block;
-}
