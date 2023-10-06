@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    height: 180px;
+    min-height: 40px;
     width: 100%;
     background-color: var(--cor-header);
 
