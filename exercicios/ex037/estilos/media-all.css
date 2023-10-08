@@ -217,7 +217,7 @@ Extra large screens, TV – 1201px, and more.
     }
 
     aside > section{
-        height: 100%;
+        min-height: 100%;
     }
 
 }
