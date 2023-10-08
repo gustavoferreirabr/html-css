@@ -10,7 +10,7 @@
 body{
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    padding: 60px;
 }
 
 header{
@@ -18,7 +18,7 @@ header{
 }
 
 header h1{
-    background-color: rgb(94, 76, 110);
+    background-color: rgb(218, 182, 250);
     color: rgb(1, 1, 51);
     text-align: center;
 }
@@ -29,8 +29,9 @@ header p{
     margin: 15px 0px 0px 0px;
 }
 
-p{
+p, h3, h4, li{
     font-size: small;
+    text-align: left;
 }
 
 main{
@@ -39,9 +40,9 @@ main{
 }
 
 main h2{
-    background-color: gray;
+    background-color: rgb(197, 197, 197);
     padding: 10px;
-    color: rgb(0, 0, 43);
+    color: rgb(0, 0, 165);
     margin-top: 20px;
 }
 
@@ -49,6 +50,12 @@ main h3, p{
     line-height: 40px;
 }
 
-span{
+main span{
     color: blue;
+    font-weight: bolder;
+}
+
+ul li{
+    list-style: inside;
+    margin-top: 10px;
 }
