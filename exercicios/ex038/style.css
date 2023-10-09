@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px;
+    background-color: rgb(218, 218, 218);
 }
 
 header{
@@ -36,7 +37,6 @@ p, h3, h4, li{
 
 main{
     margin: auto;
-    background-color: rgb(255, 255, 255);
 }
 
 main h2{
@@ -44,6 +44,7 @@ main h2{
     padding: 10px;
     color: rgb(0, 0, 165);
     margin-top: 20px;
+    border-bottom: 3px solid;
 }
 
 main h3, p{
