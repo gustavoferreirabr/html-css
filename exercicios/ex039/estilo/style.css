@@ -1,5 +1,45 @@
 @charset "UTF-8";
 
 *{
-    padi
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+    min-height: 100vh;
+}
+
+header{
+    height: 350px;
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+    background-image: url(../imagens/bg-3.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 90px;
+}
+
+nav a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: black;
 }
