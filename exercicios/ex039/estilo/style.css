@@ -13,12 +13,12 @@ body{
 }
 
 header{
-    height: 350px;
+    height: 400px;
     width: 100%;
     padding: 20px;
     background-color: gray;
     background-image: url(../imagens/bg-3.jpg);
-    background-position: top center;
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ nav{
     width: 100%;
     text-align: right;
     padding: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 nav a{
@@ -42,4 +42,21 @@ nav a{
 
 nav a:hover{
     background-color: black;
+}
+
+header h1{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header p{
+    max-width: 450px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin: auto;
 }
