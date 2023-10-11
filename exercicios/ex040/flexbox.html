@@ -96,9 +96,35 @@
             */
         }
 
-        .flex-container3 .div3{
+        .flex-container3 .div{
             flex: 2 3 130px; /* Ordem: gow,shrink, basic*/
         }
+
+
+        .flex-container4{
+            flex-direction: column;
+
+        }
+
+        .flex-container4 div{
+            background-color: blue;
+            border: 2px solid black;
+            font-size: 18px;
+            width: 150px;
+            height: 100px;
+            color: white;
+        }
+
+        .flex-container4 .div2{
+            order: 2;
+            align-self: flex-end;
+        }
+
+        .flex-container4 .div4{
+            order: 3;
+            align-self: center;
+        }
+
 
 
     </style>
@@ -120,6 +146,13 @@
     </div>
 
     <div class="flexbox flex-container3">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div class="flexbox flex-container4">
         <div class="div1">1</div>
         <div class="div2">2</div>
         <div class="div3">3</div>
