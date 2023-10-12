@@ -42,6 +42,7 @@ ul.list{
     display: flex;
     border: 1px solid #eee;
     padding: 15px;
+    transition: 0.3s
 }
 
 .list-conteudo__descrição{
@@ -62,4 +63,19 @@ ul.list{
 .list-conteudo__imagem-perfil img{
     width: 90px;
     border-radius: 50%;
+}
+
+.list-conteudo__button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: .0;
+}
+
+.list-conteudo:hover{
+    background-color: gainsboro;
+}
+
+.list-conteudo:hover .list-conteudo__button{
+    opacity: 0.5;
 }
