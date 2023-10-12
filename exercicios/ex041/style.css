@@ -65,5 +65,31 @@ li{
     left: 95px;
 }
 
+.list-conteudo__descrição{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-conteudo__nome{
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+.list-conteudo__email{
+    color: rgb(141, 141, 141);
+}
+
+.list-conteudo__button{
+    height: 70px;
+    background-color: gainsboro;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
