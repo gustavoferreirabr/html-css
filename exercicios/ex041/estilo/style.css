@@ -29,9 +29,21 @@ body h1{
     width: 90%;
     max-width: 450px;
     max-height: 350px;
-    padding: 20px;
     overflow: hidden;
     overflow: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.24);
+}
+ul.list{
+    list-style: none;
+}
+
+.list-conteudo{
+    display: flex;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.list-conteudo__descrição{
+    line-height: 30px;
 }
