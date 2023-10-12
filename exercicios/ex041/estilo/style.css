@@ -7,63 +7,31 @@
     font-family: sans-serif;
 }
 
-main{
-    background-color: aquamarine;
+html, body{
     min-height: 100vh;
+}
+
+body{
+    background-color: aqua;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-main h1{
-    width: 350px;
+body h1{
     padding: 10px;
-    text-align: center;
+    color: rgb(63, 63, 63);
 }
 
-section{
+.container-list{
     background-color: white;
-    flex-basis: 430px;
-    width: 420px;
+    width: 90%;
+    max-width: 450px;
+    max-height: 350px;
+    padding: 20px;
     overflow: hidden;
     overflow: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.24);
 }
-
-
-
-article .contato{
-    padding: 10px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    transition: 0.4s;
-    border: 1px solid rgba(0, 0, 0, 0.144);
-}
-
-article .contato:hover{
-    background-color: gainsboro;
-}
-
-article .contato img{
-    border-radius: 50%;
-    width: 20%;
-}
-
-article .descrição{
-    font-size: 14px;
-}
-
-.butao{
-    width: 70%;
-}
-
-.butao a img{
-    color: gainsboro;
-}
-
-
-
-
