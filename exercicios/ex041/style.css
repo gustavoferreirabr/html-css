@@ -23,8 +23,7 @@ li{
 }
 
 .list{
-    background-color: bisque;
-    width: 90vw;
+    width: 70vw;
     flex-basis: 500px;
     display: flex;
     flex-flow: wrap row;
