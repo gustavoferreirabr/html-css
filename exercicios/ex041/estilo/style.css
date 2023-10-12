@@ -7,10 +7,6 @@
     font-family: sans-serif;
 }
 
-body{
-    
-}
-
 main{
     background-color: aquamarine;
     min-height: 100vh;
@@ -35,11 +31,13 @@ section{
 }
 
 
+
 article .contato{
     padding: 10px;
     height: 100px;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     gap: 20px;
     transition: 0.4s;
     border: 1px solid rgba(0, 0, 0, 0.144);
@@ -56,6 +54,14 @@ article .contato img{
 
 article .descrição{
     font-size: 14px;
+}
+
+.butao{
+    width: 70%;
+}
+
+.butao a img{
+    color: gainsboro;
 }
 
 
