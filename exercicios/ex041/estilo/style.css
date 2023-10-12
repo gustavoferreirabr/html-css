@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+}
+
+main{
+    background-color: aquamarine;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    flex-basis: 400px;
+    width: 350px;
+    overflow: hidden;
+    overflow: auto;
+}
+
