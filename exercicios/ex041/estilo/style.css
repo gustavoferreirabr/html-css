@@ -28,9 +28,36 @@ main h1{
 
 section{
     background-color: white;
-    flex-basis: 400px;
-    width: 350px;
+    flex-basis: 430px;
+    width: 420px;
     overflow: hidden;
     overflow: auto;
 }
+
+
+article .contato{
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: 0.4s;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+article .contato:hover{
+    background-color: gainsboro;
+}
+
+article .contato img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+article .descrição{
+    font-size: 14px;
+}
+
+
+
 
