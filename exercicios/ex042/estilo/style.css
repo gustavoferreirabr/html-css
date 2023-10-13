@@ -11,7 +11,7 @@
 html, body{
     min-height: 100vh;
     padding: 10px;
-    background-color: rgb(30, 34, 41);
+    background-color: rgb(13, 14, 14);
 }
 
 .container-geral{
@@ -59,7 +59,6 @@ header{
 }
 
 main{
-    background-color: red;
     width: 90%;
     display: flex;
     flex-flow: column wrap;
@@ -68,13 +67,76 @@ main{
 }
 
 .main__titulo-principal{
-    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .main-bloco{
-    background-color: rgb(20, 73, 218);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+}
+
+.main-bloco__conteudo{
+    background-color: rgb(42, 44, 46);
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 350px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.main-bloco__conteudo ul{
+    list-style: inside;
+    color: rgb(204, 226, 1);
     
 }
 
+.main-bloco__conteudo ul li{
+    list-style: inside;
+    color: rgb(204, 226, 1);
+    font-size: 14px;
+}
+
+.conteudos-principais{
+    padding: 10px;
+}
+
+.conteudos-principais h2{
+    border-bottom: 1px solid rgb(204, 226, 1);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bloco-conteudo__pequeno{
+    font-size: 10px;
+}
+
+.botao{
+    background-color: rgb(204, 226, 1);
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: 1px solid white;
+}
 
 
