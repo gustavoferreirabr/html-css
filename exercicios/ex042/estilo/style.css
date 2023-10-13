@@ -5,6 +5,7 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html, body{
@@ -22,9 +23,39 @@ html, body{
 }
 
 header{
-    background-color: blue;
+    background-color: black;
     width: 90%;
-    height: 100px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-flow: row wrap;
+    border-radius: 5px;
+}
+
+.header__logo-tipo{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.header-nav__menu-opções{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.header-nav__menu-opções a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.header-nav__menu-opções a:hover{
+    background-color: rgb(204, 226, 1);
 }
 
 main{
