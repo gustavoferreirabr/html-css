@@ -1,2 +1,36 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body{
+    min-height: 100vh;
+    padding: 10px;
+    background-color: rgb(30, 34, 41);
+}
+
+.container-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+header{
+    background-color: blue;
+    width: 90%;
+    height: 100px;
+}
+
+main{
+    background-color: red;
+    width: 90%;
+}
+
+
+
