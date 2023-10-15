@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Configurações Gerais */
+
 *{
     padding: 0px;
     margin: 0px;
@@ -14,6 +16,9 @@ html, body{
     background-color: rgb(13, 14, 14);
 }
 
+/* Configurações Gerais */
+
+/* Configurações do conteúdo */
 .container-geral{
     display: flex;
     flex-direction: column;
