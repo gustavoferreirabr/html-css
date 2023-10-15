@@ -72,6 +72,8 @@ main{
     text-transform: uppercase;
 }
 
+/* Bloco Principal */
+
 .main-bloco{
     display: flex;
     flex-flow: row wrap;
@@ -80,6 +82,8 @@ main{
     height: fit-content;
     padding: 10px;
 }
+
+/* Bloco Principal */
 
 .main-bloco__conteudo{
     background-color: rgb(42, 44, 46);
@@ -123,6 +127,8 @@ main{
 .bloco-conteudo__pequeno{
     font-size: 10px;
 }
+
+/* Botões */
 
 .botao{
     background-color: rgb(204, 226, 1);
