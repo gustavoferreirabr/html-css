@@ -18,6 +18,12 @@ body{
     background-attachment: fixed;
 }
 /* Configurações Geráis */
+div#container{
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    di
+}
 
 header#header-geral{
     background-color: red;
