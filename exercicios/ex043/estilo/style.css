@@ -19,6 +19,16 @@ body{
 }
 /* Configurações Geráis */
 
+header#header-geral{
+    background-color: red;
+}
+
+main#main-geral{
+    background-color: white;
+}
+
+
+
 /* Configurações do Conteudo */
 
 
