@@ -18,18 +18,27 @@ body{
     background-attachment: fixed;
 }
 /* Configurações Geráis */
+
 div#container-geral{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.226);
+    min-height: 100vh;
     padding: 10px;
     display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 header#header-geral{
     background-color: red;
+    width: 600px;
 }
 
 main#main-geral{
     background-color: white;
+    width: 600px;
+    height: 400px;
 }
 
 
