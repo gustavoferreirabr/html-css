@@ -11,6 +11,11 @@
 body{
     min-height: 100vh;
     background-color: rgb(187, 187, 187);
+    background-image: url(../imagens/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 /* Configurações Geráis */
 
