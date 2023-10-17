@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
 /* Configurações Geráis */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-
-
+body{
+    min-height: 100vh;
+    background-color: rgb(187, 187, 187);
+}
 /* Configurações Geráis */
 
 /* Configurações do Conteudo */
