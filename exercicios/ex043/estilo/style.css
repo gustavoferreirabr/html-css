@@ -19,8 +19,9 @@ body{
 }
 /* Configurações Geráis */
 
+/* Configurações do Conteudo */
+
 div#container-geral{
-    background-color: rgba(137, 43, 226, 0.226);
     min-height: 100vh;
     padding: 10px;
     display: flex;
@@ -29,6 +30,7 @@ div#container-geral{
     justify-content: center;
     gap: 30px;
 }
+    /* Configurações do Header */
 
 header#header-geral{
     width: 90%;
@@ -36,7 +38,7 @@ header#header-geral{
     color: white;
 
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -54,19 +56,53 @@ p#header-geral__paragrafo{
     border-bottom: 1px solid white;
 }
 
+    /* Configurações do Header */
+    /* Configurações do Contéudo Principal */
+
 main#main-geral{
     background-color: white;
-    width: 90%;
+    width: 80%;
     height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 div.main-geral-caixas{
     background-color: blue;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    flex-grow: 1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+h2.main-geral-caixas__texto{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+div#main-geral-caixas__caixa1{
+    background-image: url(../imagens/card_01.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
-/* Configurações do Conteudo */
 
 
 
+    /* Configurações do Contéudo Principal */
 /* Configurações do Conteudo */
