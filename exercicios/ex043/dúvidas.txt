@@ -1,0 +1,4 @@
+Como fazer para centralizar as divs gerais, para centralizar o header e o main.
+
+* Ao inserir as imagens, no meu site ficou com um zoom maior, porém no projeto as imagens estão com uma visão mais ampla, neste caso como resolvemos isso?
+
