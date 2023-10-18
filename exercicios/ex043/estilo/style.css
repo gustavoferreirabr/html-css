@@ -23,7 +23,7 @@ body{
 
 div#container-geral{
     min-height: 100vh;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -61,11 +61,11 @@ p#header-geral__paragrafo{
 
 main#main-geral{
     background-color: white;
-    width: 80%;
-    height: 500px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-flow: row wrap;
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     padding: 10px;
