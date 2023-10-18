@@ -74,8 +74,8 @@ main#main-geral{
 
 div.main-geral-caixas{
     background-color: blue;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 230px;
     overflow: hidden;
     flex-grow: 1;
     border-radius: 5px;
@@ -94,6 +94,41 @@ h2.main-geral-caixas__texto{
 }
 
 div#main-geral-caixas__caixa1{
+    background-image: url(../imagens/card_01.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main-geral-caixas__caixa2{
+    background-image: url(../imagens/card_02.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main-geral-caixas__caixa3{
+    background-image: url(../imagens/card_03.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main-geral-caixas__caixa4{
+    background-image: url(../imagens/card_04.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main-geral-caixas__caixa5{
+    background-image: url(../imagens/card_05.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main-geral-caixas__caixa6{
     background-image: url(../imagens/card_01.png);
     background-position: center center;
     background-size: cover;
