@@ -25,6 +25,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
+    gap: 15px;
 }
 
 #header-principal{
@@ -45,15 +46,17 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 10px 40px;
+    align-items: center;
 }
 
 #header-principal__nav p{
-    background-color: aquamarine;
     padding: 10px;
+    font-family: var(--font-titulo-principal);
+    font-size: 2em;
+    color: white;
 }
 
 #header-principal__nav ul{
-    background-color: red;
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -63,7 +66,22 @@ body{
 #header-principal-nav__lista li{
     list-style: none;
     text-transform: uppercase;
+    font-family: var(--font-titulo-principal);
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--cor-do-texto-menu);
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
 }
+
+#header-principal-nav__lista li:hover{
+    background-color: var(--cor-de-texto-footer);
+    border-radius: 5px;
+    color: black;
+}
+
+
 
 
 
