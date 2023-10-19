@@ -10,7 +10,7 @@
             margin: auto;
         }
 
-        div p{
+        /* div p{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
             padding: 10px;
@@ -25,14 +25,33 @@
             -4px 4px 0px rgba(0, 0, 0, .1),
             -5px 5px 0px rgba(0, 0, 0, .1),
             ;
-            */
+            
 
             text-shadow: 
             -1px 1px 0px rgb(0, 0, 0, .1), 
             -2px 2px 0px rgba(0, 0, 0, .1),
             -3px 3px 0px rgba(0, 0, 0, .1),
             -4px 4px 0px rgba(0, 0, 0, .1);
+        */
+
+        @font-face{
+            font-family: Nadia;
+            src: 
+                local(nadia serif),
+                local(nadia-serif),
+                url(./fonts/nadia-serif.ttf) format(truetype),
+                url(./fonts/nadia-serif.svg) format(svg),
+                url(./fonts/nadia-serif.woff) format(woff);
         }
+
+        :root{
+            -fonte--destaque: "Nadia";
+        }
+
+        div p{
+            font-family: var(-fonte--destaque);
+        }
+            
 
 
     </style>
