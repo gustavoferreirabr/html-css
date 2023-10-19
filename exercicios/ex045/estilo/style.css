@@ -28,6 +28,8 @@ body{
     gap: 15px;
 }
 
+/* Inicialização - Conteúdo Header */
+
 #header-principal{
     background-color: #8a2be2;
     height: fit-content;
@@ -81,21 +83,27 @@ body{
     color: black;
 }
 
+/* Finalização - Conteúdo Header */
 
+/* -------------------------------------------------------------------------------------------------------*/
 
-
-
-
+/* Inicialização - Conteúdo Main */
 
 #main-principal{
     background-color: aquamarine;
 }
 
+/* Finalização - Conteudo Main */
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+/* Inicialização - Conteudo Footer + Aside */
 #article-footer-principal{
     background-color: blue;
 }
+/* Finalização - Conteudo Footer + Aside */
 
-
+/* -------------------------------------------------------------------------------------------------------*/
 
 
 
