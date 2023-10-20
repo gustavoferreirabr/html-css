@@ -90,7 +90,6 @@ body{
 /* Inicialização - Conteúdo Main */
 
 #main-principal{
-    background-color: aquamarine;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -100,16 +99,14 @@ body{
 }
 
 #main-principal__titulo{
-    background-color: red;
     margin-top: 50px;
     font-family: var(--font-titulo-principal);
 }
 
 #main-principal__texto{
-    background-color: #8a2be2;
     width: 90%;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     font-family: var(--font-padrão);
 }
@@ -118,13 +115,43 @@ body{
     width: 90%;
     height: fit-content;
     padding: 10px;
-    background-color: #162028;
     display: flex;
     flex-flow: row wrap;
     gap: 12px;
     justify-content: center;
     align-items: center;
 }
+
+.main-principal-container__caixa{
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-principal-container__caixa img{
+    display: block;
+}
+
+.container-caixa__titulo-secundario{
+    font-family: var(--font-titulo-principal);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-caixa__texto{
+    font-family: var(--font-padrão);
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
 
 /* Finalização - Conteudo Main */
 
