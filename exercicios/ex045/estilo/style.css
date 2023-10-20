@@ -91,6 +91,21 @@ body{
 
 #main-principal{
     background-color: aquamarine;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+#main-principal__titulo{
+    background-color: red;
+}
+
+#main-principal__texto{
+    background-color: #8a2be2;
+}
+
+#main-principal-container{
+    background-color: #162028;
 }
 
 /* Finalização - Conteudo Main */
