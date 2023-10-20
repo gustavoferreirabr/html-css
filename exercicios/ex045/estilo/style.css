@@ -165,10 +165,10 @@ p{
     gap: 1em;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 #aside-principal h2{
-    background-color: red;
     width: 85%;
     font-size: 2em;
     padding: 10px;
@@ -177,7 +177,6 @@ p{
 }
 
 #aside-principal p{
-    background-color: blue;
     width: 85%;
     font-size: 1em;
     text-align: left;
@@ -186,7 +185,15 @@ p{
     font-family: var(--font-padrão);
 }
 
+#footer-principal__caixa{
+    background-color: var(--cor-de-fundo-footer);
+    color: var(--cor-de-texto-footer);
+    padding: 10px;
+}
 
+#footer-principal__caixa p{
+    text-align: center;
+}
 
 /* Finalização - Conteudo Footer + Aside */
 
