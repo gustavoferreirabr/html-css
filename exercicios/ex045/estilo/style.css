@@ -53,6 +53,7 @@ p{
     justify-content: space-between;
     padding: 10px 40px;
     align-items: center;
+    text-align: center;
 }
 
 #header-principal__nav p{
@@ -60,6 +61,7 @@ p{
     font-family: var(--font-titulo-principal);
     font-size: 2em;
     color: white;
+    text-align: center;
 }
 
 #header-principal__nav ul{
@@ -159,7 +161,7 @@ p{
 /* Inicialização - Conteudo Footer + Aside */
 #aside-principal{
     background-color: var(--cor-de-fundo-box-imagem-de-detalhe);
-    height: 25em;
+    height: 28em;
     display: flex;
     flex-flow: column nowrap;
     gap: 1em;
