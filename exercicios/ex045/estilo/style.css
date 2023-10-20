@@ -28,6 +28,10 @@ body{
     gap: 15px;
 }
 
+p{
+    color: var(--cor-dos-textos);
+}
+
 /* Inicialização - Conteúdo Header */
 
 #header-principal{
@@ -148,19 +152,42 @@ body{
     text-align: center;
     padding-top: 5px;
 }
-
-
-
-
-
 /* Finalização - Conteudo Main */
 
 /* -------------------------------------------------------------------------------------------------------*/
 
 /* Inicialização - Conteudo Footer + Aside */
-#article-footer-principal{
-    background-color: blue;
+#aside-principal{
+    background-color: var(--cor-de-fundo-box-imagem-de-detalhe);
+    height: 25em;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
 }
+
+#aside-principal h2{
+    background-color: red;
+    width: 85%;
+    font-size: 2em;
+    padding: 10px;
+    font-family: var(--font-titulo-principal);
+    color: white;
+}
+
+#aside-principal p{
+    background-color: blue;
+    width: 85%;
+    font-size: 1em;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-family: var(--font-padrão);
+}
+
+
+
 /* Finalização - Conteudo Footer + Aside */
 
 /* -------------------------------------------------------------------------------------------------------*/
