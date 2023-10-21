@@ -38,6 +38,7 @@ ul#header-principal-nav__opções{
     justify-content: center;
     gap: 10px;
     padding: 5px;
+   
 }
 
 ul#header-principal-nav__opções li{
@@ -70,4 +71,71 @@ a.opções__botões:hover{
 
 section#main-principal__primeiro-container{
     background-image: linear-gradient(to top, #FFFF38, white);
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
 }
+
+article#primeiro-container__conteudo{
+    height: 560px;
+    width: 35%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+}
+
+article#primeiro-container__conteudo h1{
+    color: #2A2A2A;
+    font-size: 60px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+article#primeiro-container__conteudo input{
+    background-color: #FED001;
+    padding: 20px;
+    width: 200px;
+    color: #2A2A2A;
+    font-size: 18px;
+    border: 1px solid #FED001;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.459);
+    transition-duration: 0.5s;
+}
+
+article#primeiro-container__conteudo input:hover{
+    background-color: #2A2A2A;
+    border: 1px solid #FED001;
+    color: #FED001;
+}
+
+section#main-principal__segundo-container{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section#main-principal__segundo-container h2{
+    background-color: blue;
+}
+
+div#segundo-container__blocos-cursos{
+    background-color: red;
+    display: flex;
+}
+
+input#bloco-cursos__botao{
+    background-color: yellow;
+}
+
+
+
+
