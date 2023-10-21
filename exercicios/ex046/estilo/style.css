@@ -139,20 +139,21 @@ section#main-principal__segundo-container h2{
 div#segundo-container__blocos-cursos{
     display: flex;  
     padding: 10px;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .bloco-cursos__conteudo{
-    background-color: rgb(185, 252, 172);
     width: 370px;
     height: 400px;
     display: flex;
     flex-flow: column wrap;
-    gap: 20px;
+    gap: 30px;
     border-radius: 10px;
+    border: 1px solid #2a2a2a0c;
+    box-shadow: 1px 1px 6px -3px black;
 }
 
 .bloco-cursos__conteudo img{
@@ -177,10 +178,36 @@ article.bloco-cursos__texto p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-input#bloco-cursos__botao{
-    background-color: yellow;
+button#bloco-cursos__botao{
+    background-color: #FED001;
+    padding: 20px;
+    width: 200px;
+    color: #2A2A2A;
+    font-size: 18px;
+    border: 1px solid #FED001;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.459);
+    transition-duration: 0.5s;
     margin-bottom: 40px;
 }
+
+button#bloco-cursos__botao:hover{
+    background-color: #2A2A2A;
+    border: 1px solid #FED001;
+    color: #FED001;
+}
+
+button#bloco-cursos__botao a{
+    text-decoration: none;
+    color: #2A2A2A;
+    padding: 15px;
+}
+
+button#bloco-cursos__botao a:hover{
+    color: #FED001;
+}
+
+
 
 
 
