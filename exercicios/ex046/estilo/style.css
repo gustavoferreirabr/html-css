@@ -15,11 +15,11 @@
 
 header#header-principal{
     width: 100%;
-    height: 135px;
+    height: fit-content;
     background-color: #2A2A2A;
-    padding: 5px 80px;
+    padding: 10px 80px;
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -29,22 +29,39 @@ header#header-principal img{
 }
 
 nav#header-principal-nav{
-    width: 400px;
+    width: 440px;
 }
 
 ul#header-principal-nav__opções{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 70px;
-    padding: 10px;
-    color
+    gap: 10px;
+    padding: 5px;
 }
 
 ul#header-principal-nav__opções li{
     list-style: none;
-    background-color: blue;
-    padding: 10px;
-    color: white;
+    outline: 1px solid #FED001;
+    padding: 6px;
+    transition-duration: 0.3s;
 }
 
+a.opções__botões{
+    color: #FED001;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+ul#header-principal-nav__opções li:hover{
+    background-color: #FED001;
+    color: #2A2A2A;
+}
+
+a.opções__botões:hover{
+    color: #2A2A2A;
+}
+
+/* Finalizando Configurações Header */
