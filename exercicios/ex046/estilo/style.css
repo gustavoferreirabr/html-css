@@ -65,3 +65,9 @@ a.opções__botões:hover{
 }
 
 /* Finalizando Configurações Header */
+
+/* Inicialização Configurações Main */
+
+section#main-principal__primeiro-container{
+    background-image: linear-gradient(to top, #FFFF38, white);
+}
