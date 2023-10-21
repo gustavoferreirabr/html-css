@@ -188,7 +188,7 @@ button#bloco-cursos__botao{
     border-radius: 5px;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.459);
     transition-duration: 0.5s;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 button#bloco-cursos__botao:hover{
@@ -207,7 +207,33 @@ button#bloco-cursos__botao a:hover{
     color: #FED001;
 }
 
+/* Terceiro container ---------------------------------------------------- */
 
+
+
+section#main-principal__terceiro-container{
+    background-color: #003464;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+section#main-principal__terceiro-container img{
+    display: block;
+    background-color: yellow;
+}
+
+article#terceiro-container__conteudo{
+    background-color: red;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    gap: 2em;
+    padding: 10px;
+    height: 300px;
+}
 
 
 
