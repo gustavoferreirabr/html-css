@@ -18,7 +18,7 @@ body{
 /* Inicializando Configurações Header */
 
 header#header-principal{
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     background-color: #2A2A2A;
     padding: 10px 80px;
@@ -72,6 +72,10 @@ a.opções__botões:hover{
 /* Finalizando Configurações Header */
 
 /* Inicialização Configurações Main */
+
+#main-principal{
+    width: 100vw;
+}
 
 section#main-principal__primeiro-container{
     background-image: linear-gradient(to top, #FFFF38, white);
