@@ -13,8 +13,6 @@ body{
     min-height: 100vh;
 }
 
-/* Finalizando Configurações Gerais */
-
 header#header-principal{
     width: 100vw;
     height: fit-content;
