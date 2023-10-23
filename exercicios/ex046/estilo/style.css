@@ -245,6 +245,7 @@ section#main-principal__quarto-container{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+    align-items: center;
     
 }
 
@@ -263,6 +264,7 @@ div#quarto-container__mapa address p{
     background-color: blue;
     color: white;
     display: block;
+    text-align: right;
 }
 
 
