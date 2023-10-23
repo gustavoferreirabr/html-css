@@ -250,7 +250,15 @@ section#main-principal__quarto-container h2{
     margin-bottom: 15px;
 }
 
+div#quarto-container__mapa img{
+    display: block;
+    margin: auto;
+}
 
+div#quarto-container__mapa address{
+    background-color: blue;
+    color: white;
+}
 
 
 
