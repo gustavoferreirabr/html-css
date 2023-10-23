@@ -241,32 +241,20 @@ article#terceiro-container__conteudo p{
 
 section#main-principal__quarto-container{
     background-color: red;
-    padding: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+    padding: 15px;
 }
 
 section#main-principal__quarto-container h2{
-    background-color: blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-div#quarto-container__mapa{
-    background-color: #071D2E;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 15px;
-}
 
-div#quarto-container__mapa img{
-    width: fit-content;
-}
 
-#mapa-conteudo__endereço{
-    background-color: #FED001;
-}
+
+
+
 
 
 
