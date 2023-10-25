@@ -2,4 +2,6 @@ Devemos usar uma div dentro do nossos conteudos e deixar os mesmo como um margin
 
 Dvemos deixar o nosso conteudo fixado 
 
-Devemos fazer com que a nossa página viaje dentro dos nossos conteudos, linkando as opções do menu em nosso site.
+Devemos fazer com que a nossa página viaje dentro dos nossos conteudos, linkando as opções do menu em nosso site.7
+
+Aprendemos como utilizar vários meios de reset css e normalize css.
