@@ -13,19 +13,22 @@ body{
     min-height: 100vh;
 }
 
+.header{
+    width: 100%;
+    background-color:#2A2A2A;
+}
 
-header#header-principal{
-    width: 100vw;
-    height: fit-content;
-    background-color: #2A2A2A;
-    padding: 10px 80px;
+#header-principal{
+    margin: auto;
+    max-width: 1276px;
+    padding: 10px 15px;
+    
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
 
-header#header-principal img{
+#header-principal img{
     width: auto;
 }
 
