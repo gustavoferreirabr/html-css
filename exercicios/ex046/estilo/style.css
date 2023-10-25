@@ -75,11 +75,12 @@ ul#header-principal-nav__opções li:hover{
 section#main-principal__primeiro-container{
     background-image: linear-gradient(to top, #FFFF38, white);
     height: fit-content;
-
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: row wrap;
     align-items: center;
+    gap:20px;
+    padding: 20px 20px 0px 20px;
 }
 
 section#main-principal__primeiro-container img{
@@ -134,6 +135,7 @@ section#main-principal__segundo-container h2{
     color: #071D2E;
     font-size: 2em;
     text-align: center;
+    margin-top: 25px;
 }
 
 div#segundo-container__blocos-cursos{
@@ -143,6 +145,7 @@ div#segundo-container__blocos-cursos{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .bloco-cursos__conteudo{
