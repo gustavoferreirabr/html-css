@@ -1,3 +1,5 @@
 Devemos usar uma div dentro do nossos conteudos e deixar os mesmo como um margin auto.
 
 Dvemos deixar o nosso conteudo fixado 
+
+Devemos fazer com que a nossa página viaje dentro dos nossos conteudos, linkando as opções do menu em nosso site.
