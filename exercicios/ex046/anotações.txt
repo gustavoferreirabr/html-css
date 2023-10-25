@@ -1,0 +1,2 @@
+Devemos usar uma div dentro do nossos conteudos e deixar os mesmo como um margin auto.
+
