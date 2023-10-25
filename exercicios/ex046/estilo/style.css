@@ -256,39 +256,37 @@ article#terceiro-container__conteudo p{
     line-height: 25.2px;
 }
 
+.section4{
+    background-color: white;
+}
+
 section#main-principal__quarto-container{
-    padding: 15px;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    width: 100%;
-    
+    max-width: 1276px;
 }
 
 section#main-principal__quarto-container h2{
-    width: 95%;
+    width: 100%;
     text-align: center;
     margin-bottom: 15px;
     background-color: white;
-}
-
-div#quarto-container__mapa{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 div#quarto-container__mapa img{
     display: block;
-    width: 95%;
+    width: 100%;
 }
 
 div#quarto-container__mapa address p{
+    padding: 10px 0px;
     color: black;
     display: block;
     text-align: right;
-    width: 95%;
+    width: 100%;
 }
 
 footer#footer-principal{
