@@ -72,8 +72,16 @@ ul#header-principal-nav__opções li:hover{
     max-width: 1276px;
 }
 
-section#main-principal__primeiro-container{
+.section1{
     background-image: linear-gradient(to top, #FFFF38, white);
+}
+
+.section2{
+    background-color: white;
+}
+
+section#main-principal__primeiro-container{
+    
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -210,20 +218,22 @@ button#bloco-cursos__botao a:hover{
     color: #FED001;
 }
 
-section#main-principal__terceiro-container{
+.section3{
     background-color: #003464;
-    padding: 10px;
+}
+
+section#main-principal__terceiro-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 1276px;
 }
 
 #main-principal__terceiro-container img{
     display: block;
-    width: 600px;
+    margin-top: 90px;
 }
 
 article#terceiro-container__conteudo{
