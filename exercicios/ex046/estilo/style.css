@@ -226,7 +226,7 @@ section#main-principal__terceiro-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1px;
     flex-wrap: wrap;
     max-width: 1276px;
 }
@@ -240,9 +240,10 @@ article#terceiro-container__conteudo{
     width: 600px;
     display: flex;
     flex-flow: column;
-    gap: 2em;
     padding: 10px;
     height: 300px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 article#terceiro-container__conteudo h2{
@@ -252,6 +253,7 @@ article#terceiro-container__conteudo h2{
 article#terceiro-container__conteudo p{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25.2px;
 }
 
 section#main-principal__quarto-container{
