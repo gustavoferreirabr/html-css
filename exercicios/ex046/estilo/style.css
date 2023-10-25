@@ -16,6 +16,9 @@ body{
 .header{
     width: 100%;
     background-color:#2A2A2A;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #header-principal{
@@ -136,14 +139,14 @@ section#main-principal__segundo-container{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 section#main-principal__segundo-container h2{
     color: #071D2E;
     font-size: 2em;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 90px;
 }
 
 div#segundo-container__blocos-cursos{
@@ -199,7 +202,7 @@ button#bloco-cursos__botao{
     border-radius: 5px;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.459);
     transition-duration: 0.5s;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 button#bloco-cursos__botao:hover{
@@ -233,7 +236,7 @@ section#main-principal__terceiro-container{
 
 #main-principal__terceiro-container img{
     display: block;
-    margin-top: 90px;
+    margin-top: 110px;
 }
 
 article#terceiro-container__conteudo{
@@ -266,6 +269,7 @@ section#main-principal__quarto-container{
     flex-flow: column wrap;
     align-items: center;
     max-width: 1276px;
+    gap: 20px;
 }
 
 section#main-principal__quarto-container h2{
@@ -273,7 +277,7 @@ section#main-principal__quarto-container h2{
     text-align: center;
     margin-bottom: 15px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 110px;
 }
 
 div#quarto-container__mapa img{
