@@ -12,6 +12,8 @@ body{
     padding: 10px;
 }
 
+/* Configurações de reset */
+
 table{
     border-collapse: collapse;
     margin: auto;
