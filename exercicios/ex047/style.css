@@ -6,12 +6,26 @@
     box-sizing: 0;
 }
 
+
+body{
+    padding: 10px;
+}
+
 table{
     border-collapse: collapse;
     margin: auto;
+    width: 700px;
 }
 
 td,th{
-    background-color: aqua;
     border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.destaque{
+    background-color: yellow;
+    border: 2px solid orange;
+    padding: 10px;
+    width: 200px;
 }
