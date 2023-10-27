@@ -1,2 +1,35 @@
 @charset "UTF-8";
 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(167, 235, 212);
+    margin: auto;
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+fieldset{
+    height: 250px;
+    padding: 10px;
+    color:
+    border: none;
+}
+
+input{
+    display: block;
+}
