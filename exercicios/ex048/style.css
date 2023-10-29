@@ -32,7 +32,6 @@ fieldset{
     color: none;
     margin: none;
     border: none;
-
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
