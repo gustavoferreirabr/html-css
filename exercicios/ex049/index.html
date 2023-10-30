@@ -7,12 +7,12 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="" method="get" autocomplete="on">
+    <form action="" method="get" autocomplete="off">
         <fieldset>
             <legend>Formulário de Contrato</legend>
 
             <label for="name">Seu nome</label>
-            <input type="text" name="name" id="name" required placeholder="Nome completo" class="campo_input">
+            <input type="text" name="name" id="name" required placeholder="Nome completo" class="campo_input" maxlength="30">
 
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required placeholder="decolar@gmail.com" class="campo_input">
@@ -21,7 +21,7 @@
             <input type="text" name="assunto" id="assunto" maxlength="15" placeholder="Assunto: Informação/Reembolso" class="campo_input">
 
             <label for="mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="25" class="campo_input"></textarea>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="250" class="campo_input"></textarea>
 
             <button>Enviar</button>
         </fieldset>
