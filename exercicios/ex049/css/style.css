@@ -4,13 +4,36 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body, main{
     min-height: 100vh;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 form{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+}
+
+form h1{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+}
+
+.input_text{
+    width: 95%;
+    height: 6%;
+    background-color: black;
     
 }
