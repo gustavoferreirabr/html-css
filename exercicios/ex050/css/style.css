@@ -8,9 +8,19 @@
 }
 
 :root{
-    -cor--padrao: #3C68B8;
+    --cor-padrao: #3C68B8;
 }
 
 body{
-    
+    background-color: var(--cor-padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form.formulario{
+    width: 90%;
+    min-width: 450px;
+    max-width: 35em;
 }
