@@ -15,6 +15,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 form{
@@ -22,7 +23,7 @@ form{
     color: white;
     width: 350px;
     height: 400px;
-    padding: 10px;
+    padding: 20px;
 }
 
 form h1{
@@ -38,10 +39,18 @@ form h1{
     border-bottom: 1px solid white;
     outline: none;
     border-right: none;
+    color: white;
+    padding: 0px 3px;
 }
 
 .campo{
     margin-bottom: 10px;
     display: block;
+}
+
+.titulo_text{
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    width: 100%;
 }
 
