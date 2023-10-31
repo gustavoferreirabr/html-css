@@ -27,15 +27,16 @@ form.formulario{
 }
 
 .formulario__field{
-    padding: 10px;
+    padding: 30px;
     border: none;
     background-color: white;
-    height: 350px;
+    height: fit-content;
 
     display: flex;
     justify-content: center;
     flex-flow: column;
     justify-content: space-around;
+    gap: 30px;
 }
 
 .field__titulo-principal{
@@ -62,10 +63,32 @@ form.formulario{
     border-bottom: 1px solid var(--cor-padrao);
     outline: none;
     margin-bottom: 5px;
-    padding: 5px;
-    background-color: red;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.caixas-texto:focus{
+    border: 1px solid var(--cor-padrao);
+    padding-left: 3px;
 }
 
 .formulario-conteudo__botoes{
-    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.botoes__cadastre-se{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    background-color: var(--cor-padrao);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    box-shadow: 1px 1px 5px rgb(29, 44, 133);
+    border-radius: 5px;
 }
