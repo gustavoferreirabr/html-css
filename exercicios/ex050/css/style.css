@@ -99,3 +99,14 @@ form.formulario{
     background-color: white;
     color: var(--cor-padrao);
 }
+
+.formulario-conteudo__login-senha{
+    display: flex;
+    gap: 7px;
+    flex-flow: row;
+    padding: 10px;
+}
+
+.formulario-conteudo__login-senha p{
+    color: rgb(80, 80, 80);
+}
