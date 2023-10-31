@@ -24,6 +24,7 @@ form.formulario{
     min-width: 450px;
     max-width: 35em;
     height: fit-content;
+    
 }
 
 .formulario__field{
@@ -37,6 +38,7 @@ form.formulario{
     flex-flow: column;
     justify-content: space-around;
     gap: 30px;
+    box-shadow: -9px 0px 0px 0px #0d347a;
 }
 
 .field__titulo-principal{
@@ -93,6 +95,7 @@ form.formulario{
     border-radius: 5px;
     transition: 0.4s;
     cursor: pointer;
+    width: 180px;
 }
 
 .botoes__cadastre-se:hover{
