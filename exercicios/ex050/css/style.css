@@ -23,4 +23,31 @@ form.formulario{
     width: 90%;
     min-width: 450px;
     max-width: 35em;
+    height: fit-content;
+}
+
+.formulario__field{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.field__titulo-principal{
+    font-size: 2em;
+    color: var(--cor-padrao);
+    text-shadow: 2px 0px 5px white;
+}
+
+.formulario-conteudo__inputs{
+    background-color: red;
+}
+
+.formulario-conteudo__botoes{
+    background-color: blue;
 }
