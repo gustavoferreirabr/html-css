@@ -62,7 +62,8 @@ form.formulario{
     border-bottom: 1px solid var(--cor-padrao);
     outline: none;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 5px;
+    background-color: red;
 }
 
 .formulario-conteudo__botoes{
