@@ -91,4 +91,11 @@ form.formulario{
     display: block;
     box-shadow: 1px 1px 5px rgb(29, 44, 133);
     border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.botoes__cadastre-se:hover{
+    background-color: white;
+    color: var(--cor-padrao);
 }
