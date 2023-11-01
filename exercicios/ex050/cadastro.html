@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    
+    <form class="formulario">
+        <fieldset class="formulario__field">
+            <h1 class="field__titulo-principal">Login</h1>
+            <section class="formulario-conteudo__inputs">
+                <label for="user" class="inputs-titulos">Usuário</label>
+                <input type="text" name="usuario" id="user" class="caixas-texto">
+
+                <label for="password" class="inputs-titulos">Senha</label>
+                <input type="password" name="senha" id="password" class="caixas-texto">
+            </section>
+
+            <section class="formulario-conteudo__botoes">
+                <input type="submit" value="Cadastra-se" class="botoes__cadastre-se">
+                <div class="formulario-conteudo__login-senha">
+                    <p>Já possui cadastro?</p>
+                    <p><a href="">Faça Login</a></p>
+                </div>
+            </section>
+        </fieldset>
+    </form>
 </body>
 </html>
