@@ -41,6 +41,7 @@ form.formulario{
     box-shadow: -9px 0px 0px 0px #0d347a;
 }
 
+
 .field__titulo-principal{
     font-size: 2em;
     color: var(--cor-padrao);
@@ -112,4 +113,35 @@ form.formulario{
 
 .formulario-conteudo__login-senha p{
     color: rgb(80, 80, 80);
+}
+
+.bnt2{
+    background-color: red;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes__cadastre-se2{
+    padding: 10px 20px;
+}
+
+.login{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: var(--cor-padrao);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    box-shadow: 1px 1px 5px rgb(29, 44, 133);
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 100px;   
+}
+
+.cadastro{
+    
 }
