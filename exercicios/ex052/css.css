@@ -5,3 +5,10 @@ a[href^="http"]::after{
     content: url(img/newWindow-icon.png);
 }
 
+a[href$=".pdf"]::before{
+    content: url(img/pdf-icon.gif);
+}
+
+input#chk1 label{
+    background-color: greenyellow;
+}
