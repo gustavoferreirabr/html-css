@@ -6,26 +6,55 @@
     <title>Seletores</title>
     <style>
 
+    article{
+        outline: 2px solid red;
+        padding: 10px;
+    }
 
+    article a > b{
+        color: red;
+        background-color: blueviolet;
+    }
 
+    article h2 + p{
+        background-color: yellow;
+    }
 
+    article h2 ~ p{
+        outline: 2px solid green;
+    }
 
+    .destaque{
+        padding: 10px;
+    }
 
-
+    p:not(.destaque){
+        color: red;
+    }
 
 
     </style>
 </head>
 <body>
     
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro tenetur culpa quo provident, eos ullam.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur <a href=""><b>adipisicing</b></a> elit. Porro tenetur culpa quo provident, eos ullam.</p>
 
     <article>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
+
+        <h2>Titulo</h3>
+
+        <p class="destaque">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
+
+        <p class="destaque">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
+
+        <p class="destaque">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
+
+        <h1>Titulo 2</h1>
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, saepe?<a href="#"><b>Popai</b></a></p>
+
     </article>
 
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro tenetur culpa quo provident, eos ullam.</p>
