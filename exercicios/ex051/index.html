@@ -6,19 +6,37 @@
     <title>Links</title>
     <style>
 
+        a{
+            padding: 10px;
+            width: 200px;
+            display: block;
+            color: white;
+        }
+
         a[href="#"]{
             color: red;
         }
 
-        a[hr]
+        a[href^="https"]{ /* Quando usamos o atributo ^ após o atributo href, estamos dizendo que iremos configurar todo atributo que começa com oque está dentro da nossa "" (Aspas) */
+            background-color: yellow;
+            color:black;
+        }
 
+        a[href$=".html"]{
+            background-color: blue;
+            padding: 10px;
+        }
 
+        a[target="_blank"]{
+            background-color: aqua;
+        }
 
     </style>
 </head>
 <body>
     <p><a href="#">Link</a></p>
-    <p><a href=".png">Link</a></p>
-    <p><a href="index2.html" target="_blank">Link</a></p>
+    <p><a href="https://despegar.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/learn/lecture/36772014#overview" target="self">Link</a></p>
+    <p><a href="index2.html">Link</a></p>
+    <p><a href="index2.png" target="_blank">Link</a></p>
 </body>
 </html>
