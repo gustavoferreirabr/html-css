@@ -9,14 +9,14 @@ a[href$=".pdf"]::before{
     content: url(img/pdf-icon.gif);
 }
 
-label[for="chk1"]:active{
-    color: greenyellow;
-}
-
-input#chk1:focus:checked{
-    color: greenyellow;
-}
-
 ul > li:nth-child(3){
     background-color: red;
+}
+
+input[type="checkbox"]:checked+label{
+    color: rgb(78, 131, 0);
+}
+
+input[type="checkbox"]+label{
+    color: red;
 }
