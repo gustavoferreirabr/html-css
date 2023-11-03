@@ -9,6 +9,14 @@ a[href$=".pdf"]::before{
     content: url(img/pdf-icon.gif);
 }
 
-input#chk1 label{
-    background-color: greenyellow;
+label[for="chk1"]:active{
+    color: greenyellow;
+}
+
+input#chk1:focus:checked{
+    color: greenyellow;
+}
+
+ul > li:nth-child(3){
+    background-color: red;
 }
