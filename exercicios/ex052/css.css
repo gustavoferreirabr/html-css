@@ -20,3 +20,7 @@ input[type="checkbox"]:checked+label{
 input[type="checkbox"]+label{
     color: red;
 }
+
+input[type="checkbox"]:disabled+label{
+    color: blue;
+}
