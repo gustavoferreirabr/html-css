@@ -2,6 +2,7 @@
     padding: 0px;
     box-sizing: border-box;
     margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
@@ -26,15 +27,15 @@ input[type="checkbox"]:checked+label span{
 .sinal{
     display: none;
     color: rgb(255, 255, 255);
-    width: 10px;
-    height: 10px;
 }
 
 input[type="checkbox"]:checked+label span > p{
     display: inline-block;
-    transform: translate(-5%) scale(.70) rotate(-50deg);
+    transform: translate(-5%) scale(.70) rotate(-45deg);
     font-weight: bolder;
-    
+    width: 10px;
+    height: 10px;
+    margin: auto;
     
     
 }
