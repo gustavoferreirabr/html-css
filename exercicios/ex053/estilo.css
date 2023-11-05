@@ -18,7 +18,7 @@ tr:hover{
     background-color: gainsboro;
 }
 
-input[type="checkbox"]:checked td{
+input[type="checkbox"]:checked:focus td{
     color: green;
     background: greenyellow;
     border-bottom: 1px solid greenyellow;
