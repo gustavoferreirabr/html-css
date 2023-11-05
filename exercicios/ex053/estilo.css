@@ -6,7 +6,7 @@ table{
 }
 
 td,th{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 10px;
 }
 
@@ -18,8 +18,10 @@ tr:hover{
     background-color: gainsboro;
 }
 
-input[type="checkbox"]:checked .tr{
+input[type="checkbox"]:checked td{
     color: green;
+    background: greenyellow;
+    border-bottom: 1px solid greenyellow;
 }
 
 th{
