@@ -31,3 +31,5 @@ span::before{
 .chk:checked+label span::before{
     opacity: 1;
 }
+
+/* Configurações */
