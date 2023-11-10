@@ -2,7 +2,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Configurações Padrões */
+/* 
+Configurações Padrões 
+*/
 label span{
     background-color: blue;
     display: inline-block;
