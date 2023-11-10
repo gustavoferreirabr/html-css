@@ -2,9 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* 
-Configurações Padrões 
-*/
+
 label span{
     background-color: blue;
     display: inline-block;
@@ -12,7 +10,7 @@ label span{
     width: 25px;
     height: 25px;
 }
-/* Configurando nosso CheckBox */
+
 span::before{
     content: "";
     width: 10px;
@@ -34,5 +32,3 @@ span::before{
 .chk:checked+label span::before{
     opacity: 1;
 }
-
-/* Configurações */
