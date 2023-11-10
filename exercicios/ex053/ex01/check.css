@@ -9,7 +9,7 @@ label span{
     width: 25px;
     height: 25px;
 }
-
+/* Configurando nosso CheckBox */
 span::before{
     content: "";
     width: 10px;
