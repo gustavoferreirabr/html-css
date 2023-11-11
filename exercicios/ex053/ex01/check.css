@@ -9,8 +9,9 @@ input[type="checkbox"]{
 
 input[type="checkbox"]+ label > span{
     background-color: red;
-    width: 25px;
-    height: 25px;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
     display: inline-block;
     position: relative;
     background-color: white;
@@ -26,15 +27,15 @@ input[type="checkbox"]:checked + label > span{
 
 input[type="checkbox"]+ label > span::before{
     content: "";
-    border: 2px solid rgb(255, 255, 255);
+    border: .08em solid rgb(255, 255, 255);
     border-left: transparent;
     border-top: transparent;
     display: block;
     position: absolute;
-    top: 5px;
-    right: 8px;
-    left: 10px;
-    bottom: 8px;
+    top: .2em;
+    right: .32em;
+    left: 0.4em;
+    bottom: .32em;
     opacity: 0;
     transform: rotate(45deg);
     transition-duration: 0.2s;
