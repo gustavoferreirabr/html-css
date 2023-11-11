@@ -16,19 +16,5 @@ span::before{
     width: 10px;
     height: 10px;
     display: block;
-    border: 2px solid white;
-    border-left: transparent;
-    border-top: transparent;
-    position: relative;
-    top: 6px;
-    right: 10px;
-    bottom: 6px;
-    left: 6px;
-    transform: rotate(50deg);
-    opacity: 0;
-    transition-duration: 0.3s;
-}
-
-.chk:checked+label span::before{
-    opacity: 1;
+    border:
 }
