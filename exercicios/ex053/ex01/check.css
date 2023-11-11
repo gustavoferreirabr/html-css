@@ -2,33 +2,24 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+input[type="checkbox"]{
+    display: ;
+}
 
-label span{
-    background-color: blue;
+input[type="checkbox"]+ label > span{
+    background-color: red;
+    width: 30px;
+    height: 30px;
     display: inline-block;
-    /*font-size: 26px;*/
-    width: 25px;
-    height: 25px;
 }
 
-span::before{
+input[type="checkbox"]+ label > span::before{
     content: "";
-    width: 10px;
-    height: 10px;
-    display: block;
-    border: 2px solid white;
-    border-left: transparent;
-    border-top: transparent;
-    position: relative;
-    top: 6px;
-    right: 10px;
-    bottom: 6px;
-    left: 6px;
-    transform: rotate(50deg);
-    opacity: 0;
-    transition-duration: 0.3s;
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
-.chk:checked+label span::before{
-    opacity: 1;
-}
+
