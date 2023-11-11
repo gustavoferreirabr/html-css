@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check</title>
+    <style>
+
+        body{
+            padding: 10px;
+        }
+
+        .chk1 input[type="checkbox"] + span{
+            background-color: blue;
+            display: inline-block;
+            font-size: 25px;
+            height: 1em;
+            width: 1em;
+            position: relative;
+            transition: 0.2s;
+        }
+
+        .chk1 input[type="checkbox"] + span::before{
+            content: "";
+            display: inline-block;
+            border: 0.08em solid white;
+            border-top: transparent;
+            border-left: transparent;
+            position: relative;
+            top: 0.08em;
+            right: 0.32em;
+            left: 0.4em;
+            bottom: 0.16em;
+            position: absolute;
+            transform: rotate(45deg);
+            opacity: 0;
+            transition-duration: 0.2s;
+        }
+
+        .chk1 input[type="checkbox"]:checked + span::before{
+            opacity: 1;
+        }
+
+        .chk1 input[type="checkbox"]:checked + span{
+            background-color: rgb(255, 58, 58);
+            border: 1px solid white
+        }
+
+    </style>
+</head>
+<body>
+    
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        HTML
+    </label>
+
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        CSS
+    </label>
+
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        JavaScript
+    </label>
+
+
+</body>
+</html>
