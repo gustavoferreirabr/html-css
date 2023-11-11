@@ -6,7 +6,6 @@
 label span{
     background-color: blue;
     display: inline-block;
-    /*font-size: 26px;*/
     width: 25px;
     height: 25px;
 }
