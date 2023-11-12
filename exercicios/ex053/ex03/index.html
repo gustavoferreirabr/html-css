@@ -6,6 +6,19 @@
     <title>Document</title>
     <style>
 
+        input[type="checkbox"]{
+            width: 1px;
+            height: 1px;
+            position: absolute;
+            padding: none;
+            overflow: hidden;
+            outline: none;
+        }
+
+        input[type="checkbox"]:focus + span{
+            outline: 1px solid rgb(136, 136, 136);
+        }
+
         label input[type="checkbox"] + span{
             background-color: white;
             display: inline-block;
@@ -14,6 +27,7 @@
             border-radius: 10px;
             border: 1.50px solid rgb(156, 156, 156);
             position: relative;
+            opacity: 1;
         }
 
         label input[type="checkbox"] + span::before{
