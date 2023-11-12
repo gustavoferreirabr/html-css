@@ -9,5 +9,16 @@
 body{
     background-color: gainsboro;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
 }
 
+#galeria{
+    width: 85%;
+    background-color: white;
+    height: 500px;
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.397);
+}
