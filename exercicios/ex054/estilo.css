@@ -17,15 +17,16 @@ body{
 }
 
 #galeria{
-    width: 85%;
+    width: 90%;
     background-color: white;
-    height: 500px;
+    height: fit-content;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.397);
-    overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row nowrap;
-    gap: 10px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
 
+
+img{
+    width: 10px;
 }
