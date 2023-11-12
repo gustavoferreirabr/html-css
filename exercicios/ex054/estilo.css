@@ -23,21 +23,19 @@ body{
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.397);
     display: flex;
     flex-flow: column;
-    gap: 10px;
+    gap: 15px;
     padding: 5px;
    
 }
 
 .sessao{
-    background-color: blue;
     height: 200px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
 
 }
 
 .galeria-img{
-    background-color: red;
     flex-grow: 1;
     position: relative;
     
@@ -46,6 +44,9 @@ body{
 .galeria-img img{
     height: 100%;
     width: 100%;
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    
 }
 
 .galeria-descricao{
@@ -60,9 +61,18 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     padding: 5px;
-    display: none;
+    opacity: 0;
 }
 
 img{
     width: 10px;
+}
+
+.galeria-img a:hover > img{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.galeria-img a:hover + p{
+    opacity: 1;
 }
