@@ -17,14 +17,14 @@ body{
 }
 
 #galeria{
-    width: 95%;
+    width: 60rem;
     background-color: white;
     height: fit-content;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.397);
     display: flex;
     flex-flow: column;
     gap: 15px;
-    padding: 5px;
+    padding: 10px;
    
 }
 
@@ -57,6 +57,7 @@ body{
     position: absolute;
     top: 170px;
     left: 0;
+    right: 0;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -75,4 +76,5 @@ img{
 
 .galeria-img a:hover + p{
     opacity: 1;
+    width: 100%;
 }
