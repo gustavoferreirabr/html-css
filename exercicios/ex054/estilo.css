@@ -22,10 +22,15 @@ body{
     height: fit-content;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.397);
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    flex-flow: column;
+    gap: 10px;
+   
 }
 
+.sessao{
+    background-color: blue;
+    height: 200px;
+}
 
 img{
     width: 10px;
