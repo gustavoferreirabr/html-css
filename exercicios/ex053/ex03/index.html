@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        label input[type="checkbox"] + span{
+            background-color: white;
+            display: inline-block;
+            width: 45px;
+            height: 20px;
+            border-radius: 10px;
+            border: 1.50px solid rgb(100, 100, 100);
+            position: relative;
+        }
+
+        label input[type="checkbox"] + span::before{
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            border: 1px solid black;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            right: 6px;
+            bottom: 3px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        HTML
+    </label>
+
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        CSS
+    </label>
+
+    <label class="chk1">
+        <input type="checkbox">
+        <span></span>
+        JavaScript
+    </label>
+</body>
+</html>
