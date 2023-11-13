@@ -16,3 +16,11 @@
 body{
     min-height: 100vh;
 }
+
+#container_perfil{
+    background-color: var(--cor-escura);
+}
+
+#container_conteudo{
+    background-color: var(--cor-principal);
+}
