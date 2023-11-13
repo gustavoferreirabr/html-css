@@ -15,12 +15,16 @@
 
 body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 #container_perfil{
     background-color: var(--cor-escura);
+    width: 20%;
 }
 
 #container_conteudo{
     background-color: var(--cor-principal);
+    width: 80%;
 }
