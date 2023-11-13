@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --cor-principal: #454758;
+    --cor-escura: #32333d;
+    --cor-titulo: #b9664e;
+    --cor-texto: #767782;
+}
+
+body{
+    min-height: 100vh;
+}
