@@ -11,12 +11,15 @@
     --cor-escura: #32333d;
     --cor-titulo: #b9664e;
     --cor-texto: #767782;
+
+    --font-padrão: sans-serif;
 }
 
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: row;
+    font-family: var(--font-padrão);
 }
 
 #container_perfil{
