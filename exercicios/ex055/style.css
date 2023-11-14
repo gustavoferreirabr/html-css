@@ -87,7 +87,6 @@ body{
 }
 
 .conteudo_redes-sociais{
-    background-color: red;
     display: flex;
     gap: 25px;
     padding: 10px;
@@ -97,7 +96,6 @@ body{
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    background-color: blue;
     padding: 10px;
     display: inline-block;
     width: 150px;
