@@ -57,9 +57,26 @@ body{
     border: none;
 }
 
-
-
 #container_conteudo{
     background-color: var(--cor-principal);
     width: 80%;
+    padding: 70px 30px 30px 30px;
+}
+
+.conteudo__titulo-principal{
+    color: gray;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.conteudo-titulo-segundario{
+    color: var(--cor-titulo);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.conteudo-titulo-gerais{
+    color: var(--cor-titulo);
+    font-weight: normal;
+    margin: 15px 0px;
 }
