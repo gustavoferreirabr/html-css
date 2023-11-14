@@ -99,4 +99,14 @@ body{
     font-weight: bolder;
     background-color: blue;
     padding: 10px;
+    display: inline-block;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.conteudo_redes-sociais a > img{
+    width: 20%;
+    color: white;
 }
