@@ -9,7 +9,7 @@
 :root{
     --cor-principal: #454758;
     --cor-escura: #32333d;
-    --cor-titulo: #b9664e;
+    --cor-titulo: #ff6439;
     --cor-texto: #767782;
 
     --font-padrão: sans-serif;
@@ -79,4 +79,24 @@ body{
     color: var(--cor-titulo);
     font-weight: normal;
     margin: 15px 0px;
+}
+
+.conteudo_article p{
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo_redes-sociais{
+    background-color: red;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.conteudo_redes-sociais a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+    padding: 10px;
 }
