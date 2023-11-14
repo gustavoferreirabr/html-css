@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -25,6 +25,11 @@ body{
 #container_perfil{
     background-color: var(--cor-escura);
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+    padding: 20px;
 }
 
 #container_perfil > img{
