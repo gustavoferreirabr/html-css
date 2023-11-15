@@ -7,8 +7,8 @@
 }
 
 :root{
-    --cor-principal: #454758;
-    --cor-escura: #32333d;
+    --cor-principal: #454758a4;
+    --cor-escura: #32333d8c;
     --cor-titulo: #ff6439;
     --cor-texto: #767782;
 
@@ -20,6 +20,11 @@ body{
     display: flex;
     flex-direction: row;
     font-family: var(--font-padrão);
+    background-image: url(img/bg-unsplash.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #container_perfil{
@@ -89,8 +94,7 @@ body{
 .conteudo_redes-sociais{
     display: flex;
     gap: 5px;
-    padding: 10px;
-    background-color: red;
+    padding: 10px 10px 10px 0px;
 }
 
 .conteudo_redes-sociais a{
@@ -98,12 +102,11 @@ body{
     color: white;
     font-weight: bolder;
     padding: 10px;
-    max-width: 150px;
+    max-width: 120px;
     display: inline-block;
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: blue;
 }
 
 .conteudo_redes-sociais a > img{
