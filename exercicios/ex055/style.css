@@ -8,11 +8,10 @@
 
 :root{
     --cor-principal: #454758a4;
-    --cor-escura: #32333db9;
+    --cor-escura: #32333d;
     --cor-titulo: #ff6439;
-    --cor-texto: #767782;
-
-    --font-padrão: sans-serif;
+    --cor-texto: #e7e7e7;
+    --font-padrão: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
 body{
@@ -20,12 +19,54 @@ body{
     display: flex;
     flex-direction: row;
     font-family: var(--font-padrão);
-    background-image: url(img/bg-unsplash.png);
+    /*background-image: url(img/bg-unsplash.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
+
+.main-header{
+    background-color: var(--cor-escura);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 #container_perfil{
     background-color: var(--cor-escura);
@@ -62,6 +103,9 @@ body{
     padding-right: 15px;
 }
 
+/* Header ------------------------- */
+
+/*
 #container_conteudo{
     background-color: var(--cor-principal);
     width: 80%;
@@ -113,3 +157,5 @@ body{
     width: 20%;
     color: white;
 }
+
+*/
