@@ -35,11 +35,34 @@ a{
     background-color: var(--cor-escura);
     flex: 0 0 260px;
     text-align: end;
+    
+}
+
+.main-header nav{
+    padding: 65px 24px 24px;
 }
 
 .main-header_img{
     width: 100px;
     height: 100px;
+}
+
+.main-header ul > li{
+    list-style-type: none;
+    border-bottom: 1px solid var(--cor-texto);
+    padding-bottom: 5px;
+    
+}
+
+.main-header ul li > a{
+    display: block;
+    padding: 10px 0px;
+    transition: padding 0.2s, background-color 0.5s;
+}
+
+.main-header ul li > a:hover{
+    background-color: #252525;
+    padding-right: 10px;
 }
 
 
