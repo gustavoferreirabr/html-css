@@ -59,7 +59,7 @@ body{
 
 #container_perfil  a:hover{
     background-color: rgb(29, 28, 28);
-    border: none;
+    padding-right: 15px;
 }
 
 #container_conteudo{
