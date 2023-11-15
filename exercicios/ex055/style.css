@@ -88,8 +88,9 @@ body{
 
 .conteudo_redes-sociais{
     display: flex;
-    gap: 25px;
+    gap: 5px;
     padding: 10px;
+    background-color: red;
 }
 
 .conteudo_redes-sociais a{
@@ -97,11 +98,12 @@ body{
     color: white;
     font-weight: bolder;
     padding: 10px;
+    max-width: 150px;
     display: inline-block;
-    width: 150px;
     display: flex;
     align-items: center;
     gap: 5px;
+    background-color: blue;
 }
 
 .conteudo_redes-sociais a > img{
