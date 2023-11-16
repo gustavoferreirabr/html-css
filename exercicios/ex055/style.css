@@ -122,10 +122,17 @@ p{
 
 .row{
     background-color: red;
+    margin-top: 15px;
 }
 
 .card{
     background-color: blue;
+    max-width: 470px;
+    background-color: var(--cor-escura);
+}
+
+.card_conteudo{
+    padding: 10px;
 }
 
 
