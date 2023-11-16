@@ -125,12 +125,14 @@ p{
     margin-top: 15px;
     display: flex;
     gap: 15px;
+    flex: 1 0;
 }
 
 .card{
     background-color: blue;
     max-width: 470px;
     background-color: var(--cor-escura);
+    flex-grow: 1;
 }
 
 .card_conteudo{
