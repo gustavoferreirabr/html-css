@@ -9,11 +9,12 @@
 
 body{
     min-height: 100vh;
-    background-image: url(imagens/tile.png);
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(204, 0, 255)),url(imagens/tile.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 20px;
+    background-attachment: fixed, fixed;
 }
 
 .cores{
