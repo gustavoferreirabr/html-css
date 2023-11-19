@@ -27,6 +27,12 @@ body{
 
 * Realizando a configuração de um contador.
 
+* Primeiro passo: Devemos resetar a contação a partir da nossa div pai, no qual é a nossa div section, sendo assim, a partir que adicionamos o comando counter-reset: estamos resetando a nossa contato.
+
+* Segundo passo: Após o primeiro passo, devemos usar o counter-increment, no qual vai ser usado para começar a nossa contagem, ou seja, a partir de cada div.cores, ira ser acrecentado +1, sendo realizado a contagem de 1+1.
+
+* Importante: é importante darmos um nome para a nossa função, para ser usada no content, por exemplo dei o nome "contador".
+
 */
 
 section{
