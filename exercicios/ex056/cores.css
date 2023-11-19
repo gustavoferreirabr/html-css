@@ -25,8 +25,26 @@ body{
 
 /*
 
-* Realizando a configuração de um contador
+* Realizando a configuração de um contador.
 
 */
 
+section{
+    counter-reset: contador;
+}
+
+.cores{
+    counter-increment: contador;
+}
+
+.cores::before{
+    content: "[" counter(contador) "]";
+}
+
+.cores p{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
 
