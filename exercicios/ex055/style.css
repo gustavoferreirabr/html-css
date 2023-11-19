@@ -7,8 +7,8 @@
 }
 
 :root{
-    --cor-principal: #454758;
-    --cor-escura: #32333d;
+    --cor-principal: #45475896;
+    --cor-escura: #32333d9c;
     --cor-titulo: #ff6439;
     --cor-texto: #e7e7e7;
     --cor-hover: #616161;
@@ -24,11 +24,11 @@ body{
     display: flex;
     flex-direction: row;
     font-family: var(--font-padrão);
-    /*background-image: url(img/bg-unsplash.png);
+    background-image: url(img/bg-unsplash.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 
 h1{
@@ -140,8 +140,7 @@ p{
 
 .card img{
     width: 100%;
-
-
+}
 
 
 
