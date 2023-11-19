@@ -44,13 +44,15 @@ section{
 }
 
 .cores::before{
-    content: "[" counter(contador) "]";
+    content: "" counter(contador) ".";
+    background: grey;
+    width: 100%;
+    display: inline-block;
 }
 
 .cores p{
     margin-top: 20px;
-    background-color: blue;
-    color: white;
+    color: rgb(80, 80, 80);
     padding: 5px;
 }
 
