@@ -67,6 +67,9 @@ p{
 
 .main-header nav{
     padding: 65px 24px 24px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
 }
 
 .main-header_img{
