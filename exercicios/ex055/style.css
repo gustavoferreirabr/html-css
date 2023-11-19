@@ -134,6 +134,14 @@ p{
     flex-grow: 1;
 }
 
+.card_conteudo{
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
 
 
 
