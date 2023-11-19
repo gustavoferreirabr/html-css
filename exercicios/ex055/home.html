@@ -8,9 +8,12 @@
     <title>Projeto</title>
     <style>
 
-        .link-u{
-            background-color: red;
-            display: flex;
+        andress{
+            display: inline;
+        }
+
+        a{
+            display: inline-block;
         }
 
         .icone{
@@ -18,6 +21,14 @@
             height: 25px;
             fill: white;
         }
+
+        .link-block{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+
 
 
     </style>
@@ -54,42 +65,30 @@
         </article>
 
         <andress>
-
-            <div class="link-u">
-                <a href="#" class="link-block">
-                    <svg class="icone">
-                        <use xlink:href="assest/symbol-defs.svg#icon-youtube"></use>
-                    </svg>
-                    Youtube
-                </a>
-            </div>
-
-            <div class="link-u">
-                <a href="#" class="link-block">
-                    <svg class="icone">
-                        <use xlink:href="assest/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                    Instagram
-                </a>
-            </div>
-
-            <div class="link-u">
-                <a href="#" class="link-block">
-                    <svg class="icone">
-                        <use xlink:href="assest/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                    Twitter
-                </a>
-            </div>
-
-            <div class="link-u">
-                <a href="#" class="link-block">
-                    <svg class="icone">
-                        <use xlink:href="assest/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                    Linkedn
-                </a>
-            </div>
+            <a href="#" class="link-block">
+                <svg class="icone">
+                    <use xlink:href="assest/symbol-defs.svg#icon-youtube"></use>
+                </svg>
+                <span>Youtube</span>
+            </a>
+            <a href="#" class="link-block">
+                <svg class="icone">
+                    <use xlink:href="assest/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+                <span>Instagram</span>
+            </a>
+            <a href="#" class="link-block">
+                <svg class="icone">
+                    <use xlink:href="assest/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+                <span>Twitter</span>
+            </a>
+            <a href="#" class="link-block">
+                <svg class="icone">
+                    <use xlink:href="assest/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+                <span>Linkedn</span>
+            </a>
         </andress>
     </main>
 </body>
