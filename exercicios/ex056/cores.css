@@ -1,1 +1,23 @@
 @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(imagens/tile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.cores{
+    border: 5px solid rgb(252, 66, 66);
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+}
