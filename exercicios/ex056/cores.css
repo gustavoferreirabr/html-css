@@ -9,7 +9,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, transparent 50%, rgb(204, 0, 255)),url(imagens/tile.png);
+    background-image: linear-gradient(to top, rgba(204, 0, 255, 0.89), transparent 70%),url(imagens/tile.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
