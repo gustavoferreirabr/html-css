@@ -4,19 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assest/style.css">
     <title>Projeto</title>
     <style>
 
 
-        .icone-link, .icone-ico{
-            display: inline-block;
-        }
-
-        .icone-ico{
-            fill: red;
-            color: white;
-            background-color: white;
-        }
 
 
 
@@ -54,10 +46,20 @@
         </article>
 
         <andress>
-            <a href="#" class="icone-link"><img src="assest/SVG/youtube.svg" class="icone-ico" alt="">Youtube</a>
-            <a href="#" class="icone-link"><img src="assest/SVG/instagram.svg" class="icone-ico" alt="">Instagram</a>
-            <a href="#" class="icone-link"><img src="assest/SVG/twitter.svg" class="icone-ico" alt="">Twitter</a>
-            <a href="#" class="icone-link"><img src="assest/SVG/linkedin.svg" class="icone-ico" alt="">Linkedn</a>
+            <a href="#" class="link-block">
+                <svg class="icone">
+                    <use xlink:href="assest/symbol-defs.svg#icon-twitter">Youtube</use>
+                </svg> 
+            </a>
+            <a href="#" class="link-block">
+                Instagram
+            </a>
+            <a href="#" class="link-block">
+                Twitter
+            </a>
+            <a href="#" class="link-block">
+                Linkedn
+            </a>
         </andress>
     </main>
 </body>
