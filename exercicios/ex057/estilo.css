@@ -21,24 +21,29 @@ body{
 }
 
 section{
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     width: 90%;
-    gap: 10px;
+    gap: 15px;
 }
 
 .row{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .card{
-    background-color: white;
     max-width: 500px;
     height: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 1px 2px 5px 1px black;
 }
 
 .card-primeiro{
-    
+    background-image: radial-gradient(at left top, red 10px, blue 5px)
+
 }
