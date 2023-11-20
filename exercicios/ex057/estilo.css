@@ -11,7 +11,34 @@
     --cor-papel: rgb(124, 61, 63);
 }
 
-body, main{
+body{
     min-height: 100vh;
     background-color: var(--cor-papel);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    background-color: white;
+    max-width: 500px;
+    height: 200px;
+}
+
+.card-primeiro{
+    
 }
