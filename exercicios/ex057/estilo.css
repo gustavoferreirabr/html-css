@@ -1,2 +1,17 @@
 @charset "UTF-8";
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root{
+    --cor-papel: rgb(124, 61, 63);
+}
+
+body, main{
+    min-height: 100vh;
+    background-color: var(--cor-papel);
+}
