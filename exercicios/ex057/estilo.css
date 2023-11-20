@@ -44,6 +44,5 @@ section{
 }
 
 .card-primeiro{
-    background-image: radial-gradient(at left top, red 10px, blue 5px)
-
+    background-color: white;
 }
