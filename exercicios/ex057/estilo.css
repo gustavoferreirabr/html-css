@@ -50,11 +50,11 @@ section{
 .card-segundo{
     max-width: 350px;
     height: fit-content;
-    padding: 25px 35px;
+    padding: 40px 30px 30px 50px;
     border: none;
     outline: none;
     background-image: 
-        linear-gradient(135deg, transparent 25px, white 10px ),
+        linear-gradient(135deg, transparent 25px, white 25px ),
         linear-gradient(135deg, transparent 25px, red 25px);
     background-size: 30px 40px, 100% 100%;
     background-repeat: no-repeat;
