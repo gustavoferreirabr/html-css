@@ -39,11 +39,11 @@ section{
     padding: 25px 35px;
     border: none;
     outline: none;
-    background-image: linear-gradient(315deg, white 95%, transparent 85% );
     filter: drop-shadow(0 0 5px black);
-    background-image: linear-gradient(315deg, white 410px, transparent 25px)
 }
 
 .card-primeiro{
-    
+    background-image: linear-gradient(315deg, white 410px, transparent 25px)
 }
+.card-segundo{
+    background-image: linear-gradient(135deg, red 25px, blue 25px), linear-gradient(135deg, purple 25px, green 25px)
