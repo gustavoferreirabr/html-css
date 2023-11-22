@@ -34,28 +34,16 @@ section{
 }
 
 .card{
-    max-width: 500px;
-    height: 200px;
-    padding: 25px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    max-width: 550px;
+    height: fit-content;
+    padding: 25px 35px;
     border: none;
     outline: none;
     background-image: linear-gradient(315deg, white 95%, transparent 85% );
+    filter: drop-shadow(0 0 5px black);
 }
 
 .card-primeiro{
     background-image: linear-gradient(315deg, white 95%, transparent 85% );
-    box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.486);
-    filter: drop-shadow(5px 5px 4px 1px rgba(0, 0, 0, 0.8));
-}
-
-.card-segundo::before{
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    transform: rotate(90deg);
+    
 }
