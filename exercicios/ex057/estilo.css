@@ -43,6 +43,7 @@ section{
     gap: 15px;
     border: none;
     outline: none;
+    background-image: linear-gradient(315deg, white 95%, transparent 85% );
 }
 
 .card-primeiro{
@@ -51,7 +52,10 @@ section{
     filter: drop-shadow(5px 5px 4px 1px rgba(0, 0, 0, 0.8));
 }
 
-.card-segundo{
-    background-image: linear-gradient(315deg, white 95%, transparent 85% );
-    box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.486) inset;
+.card-segundo::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(90deg);
 }
