@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip</title>
+    <style>
+
+    body{
+        background-color: brown;
+    }
+
+    .card{
+        /*outline: 2px solid black;*/
+        width: 350px;
+        background-color: white;
+        padding: 10px 15px;
+        position: relative;
+    }
+
+    .card-test{
+        width: 0px;
+        height: 0px;
+        background-color: rgb(199, 199, 199);
+        border-top: 15px solid transparent;
+        border-left: 15px solid brown;
+        border-bottom: 15px solid brown;
+        border-right: 15px solid transparent;
+        margin-top: 10px;
+        transform: rotate(90deg);
+        position: absolute;
+        top: -2px;
+        left: 8px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Gustavo Ferreira</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat eius iusto perferendis at libero laboriosam voluptates.
+        </p>
+    </div>
+    <div class="card-test"></div>
+</body>
+</html>
