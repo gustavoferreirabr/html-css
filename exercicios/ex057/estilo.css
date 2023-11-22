@@ -34,14 +34,29 @@ section{
 }
 
 .card{
+    
+}
+
+.card-primeiro{
     max-width: 550px;
     height: fit-content;
     padding: 25px 35px;
     border: none;
     outline: none;
+    background-image: linear-gradient(315deg, white 95%, transparent 85% );
     filter: drop-shadow(0 0 5px black);
-    background-image: linear-gradient(315deg, white 410px, transparent 25px)
 }
 
 .card-segundo{
-    background-image: linear-gradient(135deg, red 25px, blue 25px), linear-gradient(135deg, purple 25px, green 25px)
+    max-width: 350px;
+    height: fit-content;
+    padding: 25px 35px;
+    border: none;
+    outline: none;
+    background-image: 
+        linear-gradient(135deg, transparent 25px, white 10px ),
+        linear-gradient(135deg, transparent 25px, red 25px);
+    background-size: 30px 40px, 100% 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 5px black);
+}
