@@ -1,0 +1,13 @@
+body_print{
+    font-family: serif;
+    background-color: gainsboro;
+}
+
+a::after{
+    content: "(" attr(href) ")";
+}
+
+p{
+    color: red;
+    background-color: blue;
+}
