@@ -1,1 +1,28 @@
 @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-weight: 300;
+}
+
+.container_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards{
+    color: white;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+}
