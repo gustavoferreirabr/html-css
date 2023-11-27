@@ -17,7 +17,7 @@ body{
 }
 
 .card_header img{
-    max-height: 10em;
+    height: 10em;
     width: 100%;
     display: block;
     object-fit: cover;
@@ -27,12 +27,13 @@ body{
 .card_main{
     padding: 1em;
     background-color: rgb(192, 192, 192);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: 0.80em;
+    gap: 0.80em; */
 }
 
 .card_link{
+    margin: 0.75em 0em;
     text-decoration: none;
     display: inline-block;
     width: fit-content;
@@ -40,4 +41,17 @@ body{
     background-color: blue;
     color: white;
     border-radius: .32em;
+}
+
+@media screen and (min-width: 50em) {
+    
+    .card{
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+    }
+
+    .card_header img{
+        height: 100%;
+    }
 }
