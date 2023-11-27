@@ -11,6 +11,7 @@
 
     body{
         background-color: gray;
+        padding: 10px;
     }
     
     h1{
@@ -34,5 +35,13 @@
 
 @media screen and (min-width: 860px){
     
+    .container_cards{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex: 1 0 300px;
+    }
+
+
 }
 
