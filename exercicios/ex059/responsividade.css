@@ -7,22 +7,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-color: gray;
+@media all{
+
+    body{
+        background-color: gray;
+    }
+    
+    h1{
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    
+    .container_cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card{
+        color: white;
+        padding: 10px;
+        background-color: rgb(34, 34, 34);
+    }
+
 }
 
-h1{
-    font-weight: 300;
+@media screen and (min-width: 860px){
+    
 }
 
-.container_cards{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.cards{
-    color: white;
-    padding: 10px;
-    background-color: rgb(34, 34, 34);
-}
