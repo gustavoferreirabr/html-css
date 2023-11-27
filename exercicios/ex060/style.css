@@ -14,7 +14,7 @@ body{
 
 .container_card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1em;
 }
 
@@ -33,9 +33,11 @@ body{
 .card_main{
     padding: 1em;
     background-color: rgb(223, 223, 223);
-    /* display: flex;
+    /* 
+    display: flex;
     flex-direction: column;
-    gap: 0.80em; */
+    gap: 0.80em; 
+    */
 }
 
 .card_link{
