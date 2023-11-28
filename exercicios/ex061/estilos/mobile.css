@@ -23,7 +23,7 @@ body{
 
 .header-principal_logo{
     display: inline-block;
-    background-color: red;
+    /* background-color: red; */
     padding: 1em;
 }
 
@@ -36,7 +36,6 @@ body{
 .nav-principal ul li{
     list-style: none;
     text-align: center;
-    
 }
 
 .nav-principal ul li a{
