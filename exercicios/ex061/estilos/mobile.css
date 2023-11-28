@@ -4,4 +4,12 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
+    font-family: sans-serif;
 }
+
+body{
+    min-height: 100vh;
+}
+
+/* Configuração First Mobile. */
+
