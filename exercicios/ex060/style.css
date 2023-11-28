@@ -65,6 +65,7 @@ body{
         display: flex;
         flex-direction: row;
         background-color: red;
+        flex-basis: 300px;
     }
 
     .card_header img{
