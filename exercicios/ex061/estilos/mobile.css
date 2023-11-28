@@ -97,7 +97,7 @@ body{
 @media screen and (min-width: 63.75em) {
     
     .header-principal {
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
 }
