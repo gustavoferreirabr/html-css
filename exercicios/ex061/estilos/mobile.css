@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     align-items: center;
     /* background-color: blue; */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 
 .header-principal_logo{
@@ -85,6 +85,14 @@ body{
     }
 
 }
+
+/*
+
+>Configuração Latpot
+>Configuração de media maior de 1024px
+
+*/
+
 
 @media screen and (min-width: 63.75em) {
     
