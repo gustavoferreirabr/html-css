@@ -31,7 +31,6 @@ body{
 .nav-principal{
     background-color: purple;
     width: 100%;
-    padding: 0.75em;
 }
 
 .nav-principal ul{
@@ -42,6 +41,13 @@ body{
 
 .nav-principal ul li{
     list-style: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-principal ul li:hover{
+    background-color: rgb(202, 147, 202);
 }
 
 .nav-principal ul li a{
@@ -49,7 +55,7 @@ body{
     text-decoration: none;
     /* background-color: blue; */
     display: inline-block;
-    padding: 0.75em;
+    padding: 0.90em;
     font-weight: bold;
 }
 
@@ -77,6 +83,11 @@ body{
     .nav-principal ul{
         flex-direction: row;
         gap: 5px;
+    }
+
+    .nav-principal ul li:hover{
+        background-color: rgb(255, 215, 255);
+        border-radius: .3em;
     }
 
     .nav-principal ul li a{
