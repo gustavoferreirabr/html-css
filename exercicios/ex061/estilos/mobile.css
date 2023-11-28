@@ -9,6 +9,7 @@
 
 body{
     min-height: 100vh;
+    font-size: 1em;
 }
 
 /* Configuração First Mobile. */
@@ -63,14 +64,32 @@ body{
     
     .header-principal {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .nav-principal{
-        
+        width: fit-content;
+        background-color: rgb(255, 255, 255);
+        /* border: 3px solid black; */
+        padding: 0;
     }
 
     .nav-principal ul{
         flex-direction: row;
+        gap: 5px;
+    }
+
+    .nav-principal ul li a{
+        color: purple;
+        /* border: 3px solid black; */
+    }
+
+}
+
+@media screen and (min-width: 63.75em) {
+    
+    .header-principal {
+        justify-content: space-evenly;
     }
 
 }
