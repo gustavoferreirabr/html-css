@@ -33,17 +33,45 @@ body{
     padding: 0.75em;
 }
 
+.nav-principal ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .nav-principal ul li{
     list-style: none;
-    text-align: center;
 }
 
 .nav-principal ul li a{
     color: white;
     text-decoration: none;
     /* background-color: blue; */
-    display: block;
+    display: inline-block;
     padding: 0.75em;
     font-weight: bold;
+}
+
+/* 
+
+>Configuração Desktop 
+>800px media miníma.
+
+*/
+
+@media screen and (min-width: 50em){
+    
+    .header-principal {
+        flex-direction: row;
+    }
+
+    .nav-principal{
+        
+    }
+
+    .nav-principal ul{
+        flex-direction: row;
+    }
+
 }
 
