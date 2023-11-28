@@ -33,11 +33,9 @@ body{
 .card_main{
     padding: 1em;
     background-color: rgb(223, 223, 223);
-    /* 
     display: flex;
     flex-direction: column;
-    gap: 0.80em; 
-    */
+    gap: 0.80em;
 }
 
 .card_link{
@@ -56,7 +54,12 @@ body{
     background-color: rgb(0, 128, 255);
 }
 
-@media screen and (min-width: 50em) {
+.card_wapper{
+    container-type: inline-size;
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 60em) {
     
     .card{
         display: flex;
@@ -66,5 +69,12 @@ body{
 
     .card_header img{
         height: 100%;
+    }
+}
+
+@container (min-width: 50em) {    
+    .card {
+        display: flex;
+        flex-direction: row;
     }
 }
