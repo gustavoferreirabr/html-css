@@ -66,6 +66,18 @@ body{
     /* background-color: red; */
 }
 
+/* Beta - CSS Main */
+
+.main-principal{
+    background-color: red;
+    padding: 1em;
+}
+
+.main-principal_article{
+    background-color: gray;
+    border: 2px solid black;
+}
+
 /* 
 
 >Configuração Desktop 
