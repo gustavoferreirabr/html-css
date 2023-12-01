@@ -18,6 +18,10 @@ body{
     font-size: 1em;
 }
 
+:root{
+    --cor-primary: purple;
+}
+
 /* Configuração First Mobile. */
 
 .header-principal{
@@ -32,7 +36,7 @@ body{
 }
 
 .nav-principal{
-    background-color: purple;
+    background-color: var(--cor-primary);
     width: 100%;
 }
 
@@ -93,7 +97,7 @@ body{
     }
 
     .nav-principal ul li a{
-        color: purple;
+        color: var(--cor-primary);
     }
 
 }
