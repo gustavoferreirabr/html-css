@@ -44,21 +44,22 @@ body{
 
 .nav-principal ul li{
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     width: 100%;
     text-align: center;
 }
 
-.nav-principal ul li:hover{
+.nav-principal ul li a:hover{
     background-color: rgb(202, 147, 202);
 }
 
 .nav-principal ul li a{
     color: white;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: 0.90em;
     font-weight: bold;
+    /* background-color: red; */
 }
 
 /* 
