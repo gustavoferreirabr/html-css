@@ -70,12 +70,16 @@ body{
 
 .main-principal{
     background-color: red;
+    
     padding: 1em;
 }
 
 .main-principal_article{
-    background-color: gray;
+    margin-bottom: 0.75em;
+    background-color: white;
     border: 2px solid black;
+    text-align: center;
+    display: flex;
 }
 
 /* 
