@@ -72,6 +72,20 @@ body{
     background-color: ghostwhite;
 }
 
+.icones{
+    /* 
+    
+    color: var(--cor-primary);
+    background-color: var(--cor-primary);
+    fill: var(--cor-primary);
+    
+    * Como pintar o icone?
+
+    */
+    display: block;
+    width: 3.12em;
+}
+
 .main-principal_article{
     margin-bottom: 0.75em;
     padding: 1em;
