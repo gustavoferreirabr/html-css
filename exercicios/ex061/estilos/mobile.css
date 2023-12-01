@@ -76,10 +76,27 @@ body{
 
 .main-principal_article{
     margin-bottom: 0.75em;
+    padding: 1em;
     background-color: white;
     border: 2px solid black;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-principal_titulo-principal{
+    color: var(--cor-primary);
+}
+
+.main-principal_texto-destaque{
+    color: var(--cor-primary);
+}
+
+.main-principal_bnt{
+    background-color: aqua;
+    width: fit-content;
+    display: block;
 }
 
 /* 
