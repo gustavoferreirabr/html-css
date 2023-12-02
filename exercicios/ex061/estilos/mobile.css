@@ -157,6 +157,7 @@ body{
     .header-principal {
         flex-direction: row;
         justify-content: space-between;
+        position: sticky;
     }
 
     .nav-principal{
@@ -224,10 +225,14 @@ body{
     }
 
     .main-principal_article{
-        height: 500px;
+        height: 32.25em;
         background-color: inherit;
-        background-image: linear-gradient(to top, rgb(63, 0, 63), transparent);
-        background-image: url(../imagens/bg_topo_1198x670.jpg);
+        /* background-image: linear-gradient(to top, rgb(63, 0, 63), transparent); */
+        background-image: url(../imagens/bg_topo_1600x1374.jpg);
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
 }
 
