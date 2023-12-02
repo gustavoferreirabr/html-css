@@ -158,6 +158,9 @@ body{
         flex-direction: row;
         justify-content: space-between;
         position: sticky;
+        top: 0;
+        left: 0;
+        background-color: white;
     }
 
     .nav-principal{
@@ -182,6 +185,18 @@ body{
 
     .main-principal_article{
         background-color: rgb(80, 3, 80);
+        justify-content: flex-end;
+    }
+
+    .main-principal_article{
+        height: 30.25em;
+        background-color: inherit;
+        /* background-image: linear-gradient(to top, rgb(63, 0, 63), transparent); */
+        background-image: url(../imagens/bg_topo_1198x670.jpg);
+        background-size: cover;
+        background-position: top top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
 
     .icones-seguir{
@@ -225,12 +240,12 @@ body{
     }
 
     .main-principal_article{
-        height: 32.25em;
+        height: 30.25em;
         background-color: inherit;
         /* background-image: linear-gradient(to top, rgb(63, 0, 63), transparent); */
         background-image: url(../imagens/bg_topo_1600x1374.jpg);
         background-size: cover;
-        background-position: top center;
+        background-position: top top;
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
