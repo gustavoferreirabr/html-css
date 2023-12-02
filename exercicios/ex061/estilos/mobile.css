@@ -222,5 +222,12 @@ body{
     .header-principal {
         justify-content: space-around;
     }
+
+    .main-principal_article{
+        height: 500px;
+        background-color: inherit;
+        background-image: linear-gradient(to top, rgb(63, 0, 63), transparent);
+        background-image: url(../imagens/bg_topo_1198x670.jpg);
+    }
 }
 
