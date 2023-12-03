@@ -242,7 +242,6 @@ body{
     .main-principal_article{
         height: 30.25em;
         background-color: inherit;
-        /* background-image: linear-gradient(to top, rgb(63, 0, 63), transparent); */
         background-image: url(../imagens/bg_topo_1600x1374.jpg);
         background-size: cover;
         background-position: top top;
