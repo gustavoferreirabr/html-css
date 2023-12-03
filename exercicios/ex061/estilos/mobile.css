@@ -102,7 +102,6 @@ body{
 .article_flex{
     margin-bottom: 0.75em;
     padding: 1em;
-    /* border: 2px solid black; */
     text-align: center;
     display: flex;
     flex-direction: column;
