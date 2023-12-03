@@ -48,7 +48,6 @@ body{
 
 .nav-principal ul li{
     list-style: none;
-    /* display: inline-block; */
     width: 100%;
     text-align: center;
 }
