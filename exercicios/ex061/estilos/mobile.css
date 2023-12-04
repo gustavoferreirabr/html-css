@@ -56,6 +56,36 @@ body{
     font-weight: bold;
 }
 
+.ContainerMain{
+    padding: 1em;
+    outline: 2px solid black;
+    text-align: center;
+    line-height: 1.76em;
+}
+
+.ContainerMain a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.Maxwidht{
+    outline: 2px solid rgb(203, 25, 25);
+}
+
+.ContainerMain span[class^="icon-"]{
+    
+}
+
+.ContainerMain_title{
+    color: var(--cor-primary);
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.col{
+    outline: 2px solid blue;
+}
+
 @media screen and (min-width: 53em){
     
     .header-principal {
@@ -89,7 +119,7 @@ body{
 
     /* Configurações Conteudo Main */
 
-    
+
 }
 
 @media screen and (min-width: 63.75em) {
