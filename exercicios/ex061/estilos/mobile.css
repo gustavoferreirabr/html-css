@@ -67,26 +67,6 @@ body{
 /* Beta - CSS Main */
 
 
-.main-principal_texto-destaque{
-    color: var(--cor-primary);
-    font-weight: 500;
-}
-
-.main-principal_bnt{
-    background-color: rgb(45, 223, 223);
-    width: fit-content;
-    display: block;
-    padding: 0.93em 2.87em;
-    border-radius: 0.30em;
-    text-decoration: none;
-    color: white;
-}
-
-.main-principal_titulo-secundario{
-    color: var(--cor-primary);
-    text-transform: uppercase;
-    font-weight: 600;
-}
 
 /* 
 
@@ -126,46 +106,7 @@ body{
         color: var(--cor-primary);
     }
 
-    .main-principal_article{
-        background-color: rgb(80, 3, 80);
-        justify-content: flex-end;
-    }
-
-    .main-principal_article{
-        height: 30.25em;
-        background-color: inherit;
-        /* background-image: linear-gradient(to top, rgb(63, 0, 63), transparent); */
-        background-image: url(../imagens/bg_topo_1198x670.jpg);
-        background-size: cover;
-        background-position: top top;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
-
-    .icones-seguir{
-        width: 5em;
-        display: block;
-    }
-
-    .main-principal_article h1{
-        color: white;
-    }
-
-    .main-principal_article p{
-        color: white;
-    }
     
-
-    .main-article_conteudo{
-        width: 400px;
-        flex-grow: 1;
-        gap: 1.70em;
-    }
-
-    .article_flex {
-        flex-direction: row;
-        flex-flow: row wrap;
-     }
 }
 
 /*
