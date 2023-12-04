@@ -58,7 +58,7 @@ body{
 
 .ContainerMain{
     padding: 1em;
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
     text-align: center;
     line-height: 1.76em;
 }
@@ -69,7 +69,7 @@ body{
 }
 
 .Maxwidht{
-    outline: 2px solid rgb(203, 25, 25);
+    /* outline: 2px solid rgb(203, 25, 25); */
 }
 
 .row{
@@ -90,7 +90,7 @@ body{
 }
 
 .col{
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     width: 100%;
     flex: 1 0 auto;
 }
@@ -145,5 +145,8 @@ body{
 
     /* Configurações Conteudo Main */
 
+    .col-g-3{
+        width: calc(25% - 1em);
+    }
 }
 
