@@ -82,6 +82,7 @@ body{
     */
     display: block;
     width: 3.12em;
+    color: var(--cor-primary);
 }
 
 .icones-seguir{
@@ -241,14 +242,5 @@ body{
 
     */
 
-    .main-principal_article{
-        height: 30.25em;
-        background-color: inherit;
-        background-image: url(../imagens/bg_topo_1600x1374.jpg);
-        background-size: cover;
-        background-position: top top;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
 }
 
