@@ -16,6 +16,8 @@ body{
     --cor-primary: purple;
 }
 
+/* <! -- Configurações de Header -- !> */
+
 .header-principal{
     display: flex;
     flex-direction: column;
@@ -55,6 +57,49 @@ body{
     padding: 0.90em;
     font-weight: bold;
 }
+
+@media screen and (min-width: 53em){
+    
+    .header-principal {
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: white;
+    }
+
+    .nav-principal{
+        width: fit-content;
+        background-color: rgb(255, 255, 255);
+        padding: 0;
+    }
+
+    .nav-principal ul{
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .nav-principal ul li a:hover{
+        background-color: rgb(255, 224, 255);
+        border-radius: .3em;
+    }
+
+    .nav-principal ul li a{
+        color: var(--cor-primary);
+    }    
+}
+
+@media screen and (min-width: 63.75em) {
+    
+    .header-principal {
+        justify-content: space-around;
+    }
+}
+
+/* <!-- Finalização de Configurações Header --!> */
+
+/* <--! Iniciando Confiurações Main --!> */
 
 .ContainerMain{
     padding: 1em;
@@ -101,49 +146,12 @@ body{
 
 @media screen and (min-width: 53em){
     
-    .header-principal {
-        flex-direction: row;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        left: 0;
-        background-color: white;
-    }
-
-    .nav-principal{
-        width: fit-content;
-        background-color: rgb(255, 255, 255);
-        padding: 0;
-    }
-
-    .nav-principal ul{
-        flex-direction: row;
-        gap: 5px;
-    }
-
-    .nav-principal ul li a:hover{
-        background-color: rgb(255, 224, 255);
-        border-radius: .3em;
-    }
-
-    .nav-principal ul li a{
-        color: var(--cor-primary);
-    }    
-
-    /* Configurações Conteudo Main */
-
     .col-m-6{
         width: calc(50% - 1em);
     }
 }
 
 @media screen and (min-width: 63.75em) {
-    
-    .header-principal {
-        justify-content: space-around;
-    }
-
-    /* Configurações Conteudo Main */
 
     .col-g-3{
         width: calc(25% - 1em);
