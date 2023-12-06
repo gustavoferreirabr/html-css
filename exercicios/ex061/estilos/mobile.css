@@ -159,7 +159,8 @@ body{
         background-image: url(../imagens/bg_topo_1198x670.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        aspect-ratio: 1198 / 670;
+        height: 70vh;
+        width: 100%;
 
         display: flex;
         justify-content: flex-end;
@@ -169,7 +170,13 @@ body{
 }
 
 @media screen and (min-width: 73.75em){
-    
+    .HeroBanner{
+        background-image: url(../imagens/bg_topo_1600x1374.jpg);
+        background-color: var(--cor-primary);
+
+        width: 100%;
+        height: 80vh;
+    }
 }
 
 
