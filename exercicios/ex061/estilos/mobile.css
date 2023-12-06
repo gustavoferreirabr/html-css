@@ -99,6 +99,39 @@ body{
 
 /* <!-- Finalização de Configurações Header --!> */
 
+/* <!-- Congiuração HeroBanner --!> */
+
+.HeroBanner{
+    background-color: gray;
+    padding: 1em;
+    text-align: center;
+}
+
+.icon-play img{
+    width: 10%;
+    display: none;
+}
+
+.HeroBanner_title{
+    margin-bottom: 0.75em;
+    color: var(--cor-primary);
+    font-size: 1.80em;
+}
+
+.HeroBanner_subtitle{
+    margin-bottom: 0.75em;
+    font-size: 1em;
+    color: rgb(213, 119, 213);
+}
+
+.btn-header{
+    background-color: aqua;
+    padding: 1em 2.90em;
+    display: inline-block;
+    border-radius: 0.5em;
+    color: white;
+    text-decoration: none;
+}
 /* <--! Iniciando Confiurações Main --!> */
 
 .ContainerMain{
@@ -115,7 +148,7 @@ body{
 
 .maxwidht{
     margin: auto;
-    width: ;
+    width: 70.25em;
 }
 
 .row{
