@@ -103,7 +103,7 @@ body{
 
 .HeroBanner{
     /* background-color: gray; */
-    padding: 1em;
+    padding: 1.5em;
     text-align: center;
     line-height: 1.90em;
 }
@@ -148,7 +148,31 @@ body{
         display: inline-block;
         margin-bottom: .93em;
     }
+
+    .HeroBanner_subtitle{
+        color: white;
+    }
 }
+
+@media screen and (min-width: 63.75em){
+    .HeroBanner{
+        background-image: url(../imagens/bg_topo_1198x670.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        aspect-ratio: 1198 / 670;
+
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 73.75em){
+    
+}
+
+
 /* <--! Iniciando Confiurações Main --!> */
 
 .ContainerMain{
