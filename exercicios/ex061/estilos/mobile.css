@@ -105,6 +105,7 @@ body{
     /* background-color: gray; */
     padding: 1em;
     text-align: center;
+    line-height: 1.90em;
 }
 
 .icon-play img{
@@ -113,13 +114,13 @@ body{
 }
 
 .HeroBanner_title{
-    margin-bottom: 1em;
+    margin-bottom: .93em;
     color: var(--cor-primary);
     font-size: 1.80em;
 }
 
 .HeroBanner_subtitle{
-    margin-bottom: 2em;
+    margin-bottom: .93em;
     font-size: 1em;
     text-align: center;
     color: rgb(213, 119, 213);
@@ -133,13 +134,28 @@ body{
     color: white;
     text-decoration: none;
 }
+
+@media screen and (min-width: 53em){
+    .HeroBanner{
+        background-color: var(--cor-primary);
+    }
+
+    .HeroBanner_title{
+        color: white;
+    }
+
+    .icon-play img{
+        display: inline-block;
+        margin-bottom: .93em;
+    }
+}
 /* <--! Iniciando Confiurações Main --!> */
 
 .ContainerMain{
     padding: 1em;
     /* outline: 2px solid black; */
     text-align: center;
-    line-height: 1.76em;
+    line-height: 1.75em;
 }
 
 .ContainerMain a{
