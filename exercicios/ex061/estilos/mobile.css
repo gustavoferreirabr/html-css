@@ -113,8 +113,9 @@ body{
     text-decoration: none;
 }
 
-.Maxwidht{
-    /* outline: 2px solid rgb(203, 25, 25); */
+.maxwidht{
+    margin: auto;
+    width: ;
 }
 
 .row{
