@@ -14,10 +14,28 @@
 
         .gridContainer{
             width: 300px;
-            background-color: rgb(61, 61, 61);
+            background-color: rgb(255, 255, 255);
         }
 
-        .grid
+        .gridItem {
+            background-color: #a8a8a8;
+            font-size: 2em;
+            font-family: sans-serif;
+            padding: 5px 15px;
+        }
+
+        .gridItem:nth-child(even) {
+            background-color: #ff2222;
+            color: white;
+        }
+
+        /* Configuração Grid Container */
+
+        .gridContainer {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+        }
 
 
     </style>
