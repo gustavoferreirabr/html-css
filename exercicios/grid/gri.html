@@ -12,6 +12,10 @@
             box-sizing: 0;
         }
 
+        body {
+            padding: 10px;
+        }
+
         .gridContainer{
             width: 300px;
             background-color: rgb(0, 0, 0);
@@ -22,10 +26,11 @@
             font-size: 2em;
             font-family: sans-serif;
             padding: 5px 15px;
+            text-align: center;
         }
 
         .gridItem:nth-child(even) {
-            background-color: #ff2222;
+            background-color: #060aff;
             color: white;
         }
 
@@ -33,6 +38,7 @@
 
         .gridContainer {
             display: grid;
+            width: 100%;
             /* 
             
             Grid-Columns: Pensar que funiona igual uma planilha de excel, onde o colunm é a coluna onde podemos alterar o tamanho dela usando essa configuração.
@@ -51,7 +57,7 @@
                 3           100px
             
             */
-            grid-template-columns: repeat(3, 125px);
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 100px);
             row-gap: 5px;
             column-gap: 10px;
