@@ -9,7 +9,7 @@
         .gridContainer {
             background-color: #ccc;
             width: 100vw;
-            height: 100vh;
+            height: 90vh;
         }
 
         .gridItem {
@@ -24,10 +24,10 @@
             display: grid;
             gap: 1em;
             grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 75px 50px 1fr 50px;
         }
 
         header {
-            grid-row: 1 / 1;
             grid-column: 1 / -1;
         }
 
@@ -36,7 +36,16 @@
         }
 
         aside {
-            grid-row: ;
+            grid-row: 2 / -1;
+            grid-column: 3 / 3;
+        }
+
+        main {
+            grid-column: 1 / -2;
+        }
+
+        footer {
+            
         }
 
 
