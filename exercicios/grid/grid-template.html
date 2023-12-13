@@ -27,38 +27,26 @@
             grid-template-rows: [header-start] 75px [header-end nav-start] 50px [nav-end main-start] 1fr [main-end footer-start] 50px [footer-end]; 
         }
 
-        /* 
-        
-        Atalho para configuração acima 
-
-        Usamos o grid-template: Onde usamos o mesmo sistema acima, porém da seguinte forma.
-
-        "header header "header" (altura da liha) 75px
-        "nav nav aside" (altura da linha) 50px
-        "main main aside" (altura da linha) 1fr
-        "footer footer footer" (altura da linha) 50px
-        / 1fr 1fr 1fr; (tamanho das colunas) 
-        
-        */
-
         header {
             grid-column: col-start 1 / col-end 3;
-        }
+            }
 
         nav {
-            
+            grid-column: col-start 1 / col-end 2;
         }
 
         aside {
-            
+            grid-column: col-start 3;
+            grid-row: nav-start / footer-end;
         }
 
         main {
-            
+            grid-column: col-start 1 / col-end 2;
         }
 
         footer {
             
+            grid-column: col-start 1 / col-end 2;
         }
 
 
