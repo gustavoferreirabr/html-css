@@ -51,4 +51,85 @@ body {
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "digitoAC digito-porcentagem digitoX digito-barra"
+    "digito7 digito8 digito9 digito-asteristico"
+    "digito4 digito5 digito6 digito-menos"
+    "digito1 digito2 digito3 digito-mais"
+    "digito0 digito0 digito-ponto digito-mais"
+    ;
 }
+ 
+.digitoAC {
+    grid-area: digitoAC;
+}
+
+.digito-porcentagem {
+    grid-area: digito-porcentagem;
+} 
+
+.digitoX {
+    grid-area: digitoX;
+}
+
+.digito-barra{
+    grid-area: digito-barra;
+}
+
+.digito-asteristico {
+    grid-area: digito-asteristico;
+}
+
+.digito-menos{
+    grid-area: digito-menos;
+}
+
+.digito-mais {
+    grid-area: digito-mais;
+}
+
+.digito-ponto {
+    grid-area: digito-ponto;
+}
+
+.digito0 {
+    grid-area: digito0;
+}
+
+.digito1{
+    grid-area: digito1;
+}
+
+.digito2{
+    grid-area: digito2;
+}
+
+.digito3{
+    grid-area: digito3;
+}
+
+.digito4{
+    grid-area: digito4;
+}
+
+.digito5{
+    grid-area: digito5;
+}
+
+.digito6{
+    grid-area: digito6;
+}
+
+.digito6{
+    grid-area: digito6;
+}
+
+.digito7{
+    grid-area: digito7;
+}
+
+.digito8{
+    grid-area: digito8;
+}
+
