@@ -48,4 +48,7 @@ body {
 .Calc-bnt_container {
     outline: 2px solid blue;
     flex-grow: 1;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
 }
