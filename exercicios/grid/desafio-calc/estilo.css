@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
+    font-family: sans-serif;
 }
 
 :root {
@@ -43,6 +44,13 @@ body {
     background-image: linear-gradient(to top, var(--cor-botao), var(--cor-botao2));
     color: white;
     font-weight: bolder;
+}
+
+.digito-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 .Calc-bnt_container {
