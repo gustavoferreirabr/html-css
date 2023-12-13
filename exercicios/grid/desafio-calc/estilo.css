@@ -24,6 +24,28 @@ body {
 
 .ContainerCalc {
     background-color: var(--cor-calculadora);
-    width: 65%;
+    width: 60%;
     height: 31.25em;
+    padding: 1.75em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Calc_painel {
+    outline: 2px solid red;
+    padding: 0.4em;
+    font-size: 2em;
+    text-align: end;
+}
+
+.bnt-cor {
+    background-image: linear-gradient(to top, var(--cor-botao), var(--cor-botao2));
+    color: white;
+    font-weight: bolder;
+}
+
+.Calc-bnt_container {
+    outline: 2px solid blue;
+    flex-grow: 1;
 }
