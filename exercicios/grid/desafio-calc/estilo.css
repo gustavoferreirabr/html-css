@@ -16,4 +16,14 @@
 
 body {
     height: 100vh;
+    background-image: linear-gradient(to top, var(--cor-de-fundo), var(--cor-de-fundo2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerCalc {
+    background-color: var(--cor-calculadora);
+    width: 65%;
+    height: 31.25em;
 }
