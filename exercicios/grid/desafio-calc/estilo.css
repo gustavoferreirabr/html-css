@@ -1,2 +1,19 @@
 @charset "UTF-8";
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --cor-de-fundo: #2d2e78;
+    --cor-de-fundo2: #5a5de7;
+    --cor-calculadora: #557ba1;
+    --cor-botao: #1c1a1b;
+    --cor-botao2: #323032;
+}
+
+body {
+    height: 100vh;
+}
