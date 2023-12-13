@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .gridContainer {
+            background-color: #ccc;
+            width: 100vw;
+            height: 90vh;
+        }
+
+        .gridItem {
+            background-color: orange;
+            padding: 15px;
+            font-family: sans-serif;
+        }
+
+        /* Grid Layout */
+
+        .gridContainer {
+            display: grid;
+            gap: 1em;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 75px 50px 1fr 50px; 
+        }
+
+        /* 
+        
+        Atalho para configuração acima 
+
+        Usamos o grid-template: Onde usamos o mesmo sistema acima, porém da seguinte forma.
+
+        "header header "header" (altura da liha) 75px
+        "nav nav aside" (altura da linha) 50px
+        "main main aside" (altura da linha) 1fr
+        "footer footer footer" (altura da linha) 50px
+        / 1fr 1fr 1fr; (tamanho das colunas) 
+        
+        */
+
+        header {
+            
+        }
+
+        nav {
+            
+        }
+
+        aside {
+            
+        }
+
+        main {
+            
+        }
+
+        footer {
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="gridContainer">
+        <header class="gridItem">Header</header>
+        <nav class="gridItem">Nav</nav>
+        <aside class="gridItem">Aside</aside>
+        <main class="gridItem">Main</main>
+        <footer class="gridItem">Footer</footer>
+    </div>
+</body>
+</html>
