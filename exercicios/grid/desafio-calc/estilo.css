@@ -8,9 +8,9 @@
 }
 
 :root {
-    --cor-de-fundo: #2d2e78;
-    --cor-de-fundo2: #5a5de7;
-    --cor-calculadora: #557ba1;
+    --cor-de-fundo: #7f81e0;
+    --cor-de-fundo2: #8d8efa;
+    --cor-calculadora: #69a4de;
     --cor-botao: #1c1a1b;
     --cor-botao2: #323032;
 }
@@ -25,20 +25,20 @@ body {
 
 .ContainerCalc {
     background-color: var(--cor-calculadora);
-    width: 60%;
-    height: 31.25em;
+    width: 350px;
+    height: fit-content;
     padding: 1.5em;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
-/* Porque não foi possível adicionar o box-shadow? */
 
-/* div{
-    box-shadow: 1px 1px solid black;  
-} */
+div .ContainerCalc{
+    box-shadow: 0px 0px 10px solid black;
+    display: block;
+}
 
 .Calc_painel {
     padding: 0.6em;
@@ -50,6 +50,8 @@ body {
     background-image: linear-gradient(to top, var(--cor-botao), var(--cor-botao2));
     color: white;
     font-weight: bolder;
+    border-left: 1px solid #8a8a8a;
+    border-top: 1px solid #8a8a8a;
 }
 
 .digito-flex {
@@ -62,9 +64,9 @@ body {
 .Calc-bnt_container {
     flex-grow: 1;
     display: grid;
-    gap: 8px;
+    gap: 5px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 60px);
     grid-template-areas: 
     "digitoAC digito-porcentagem digitoX digito-barra"
     "digito7 digito8 digito9 digito-asteristico"
