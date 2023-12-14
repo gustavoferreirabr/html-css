@@ -5,8 +5,38 @@
     margin: 0;
 }
 
+body {
+    height: 100vh;
+    background-color: green;
+    padding: 1em;
+}
+
+:root {
+    --cor-item-texto: #A9A7A9;
+    --padding-padrao: 1em;
+}
+
+/* Configurações Body */
+
+.ContainerBody {
+    padding: 1em;
+}
+
 /* Configurações Header */
+
+header {
+    outline: 2px solid red;
+}
 
 /* Configurações Nav */
 
+.ContainerNav {
+    outline: 2px solid rgb(13, 0, 255);
+    
+}
+
 /* Configurações Main */
+
+.ContainerMain {
+    outline: 2px solid rgb(242, 255, 0);
+}
