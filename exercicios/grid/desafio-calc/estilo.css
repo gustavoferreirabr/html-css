@@ -62,7 +62,7 @@ body {
 .Calc-bnt_container {
     flex-grow: 1;
     display: grid;
-    gap: 5px;
+    gap: 8px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
@@ -70,8 +70,7 @@ body {
     "digito7 digito8 digito9 digito-asteristico"
     "digito4 digito5 digito6 digito-menos"
     "digito1 digito2 digito3 digito-mais"
-    "digito0 digito0 digito-ponto digito-mais"
-    ;
+    "digito0 digito0 digito-ponto digito-mais";
 }
  
 .digitoAC {
