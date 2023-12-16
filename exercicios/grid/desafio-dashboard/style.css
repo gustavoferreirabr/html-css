@@ -38,7 +38,6 @@ body {
 /* Configurações Nav */
 
 .ContainerNav {
-    /* outline: 2px solid rgb(13, 0, 255); */
     background-color: blue;
     grid-row: 1 / -1;
     grid-column: 1 / 2;
