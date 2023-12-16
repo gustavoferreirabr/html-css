@@ -50,7 +50,7 @@ body {
     background-color: var(--cor-nav-header);
     grid-row: 1 / -1;
     grid-column: 1 / 2;
-    padding: 1em 0em;
+    padding: 1em 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -62,7 +62,6 @@ body {
     height: fit-content;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .nav_flex ul {
@@ -71,11 +70,13 @@ body {
     gap: 10px;
 }
 
-.nav_flex ul li a{
+.nav_flex ul li a, .item-logout, .nav_title {
     outline: 2px solid white;
     display: inline-block;
     width: 100%;
     font-size: 18px;
+    background-color: yellow;
+    padding: 0em 1em;
 }
 
 .nav_title {
@@ -83,11 +84,7 @@ body {
     color: black;
     font-size: 30px;
     margin-bottom: 60px;
-}
-
-.item-logout{
-    outline: 2px solid rgb(254, 29, 29);
-    padding: 0px 5px;
+    background-color: aqua;
 }
 
 /* Configurações Main */
