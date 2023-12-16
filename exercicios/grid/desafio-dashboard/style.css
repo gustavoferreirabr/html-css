@@ -29,7 +29,6 @@ body {
 /* Configurações Header */
 
 .header {
-    /* outline: 2px solid red; */
     background-color: red;
     grid-column: 2 / -1;
     grid-row: 1;
