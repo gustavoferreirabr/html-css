@@ -51,8 +51,26 @@ body {
     grid-column: 1 / 2;
 }
 
+.nav_flex {
+    outline: 2px solid red;
+    padding: var(--padding-padrao);
+    height: 15.62em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav_flex ul li {
+    outline: 2px solid white;
+}
+
 .nav_title {
     text-transform: uppercase;
+    color: black;
+}
+
+.item-logout{
+    outline: 2px solid white;
 }
 
 
