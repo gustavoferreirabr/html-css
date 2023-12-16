@@ -14,7 +14,17 @@ body {
 
 :root {
     --cor-item-texto: #A9A7A9;
+    --cor-nav-header: #FFFDFF;
     --padding-padrao: 1em;
+}
+
+/* Configurações Gerais */
+
+.item, .item a{
+    color: var(--cor-item-texto);
+    list-style: none;
+    text-decoration: none;
+    font-size: px;
 }
 
 /* Configurações Body */
@@ -40,6 +50,13 @@ body {
     grid-row: 1 / -1;
     grid-column: 1 / 2;
 }
+
+.nav_title {
+    text-transform: uppercase;
+}
+
+
+
 
 /* Configurações Main */
 
