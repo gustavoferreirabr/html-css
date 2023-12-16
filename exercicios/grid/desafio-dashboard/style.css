@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-    --cor-item-texto: #A9A7A9;
+    --cor-item-texto: #8c8c8c;
     --padding-padrao: 1em;
 }
 
@@ -40,9 +40,29 @@ a {
 /* Configurações Header */
 
 .header {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     grid-column: 2 / -1;
     grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-padrao);
+    align-items: center;
+}
+
+.header_itens {
+    outline: 1px solid black;
+    color: var(--cor-item-texto);
+    height: fit-content;
+}
+
+.header_criador {
+    outline: 1px solid red;
+    height: fit-content;
+}
+
+.header_criador-name {
+    color: black;
+    font-weight: bold;
 }
 
 /* Configurações Nav */
@@ -51,7 +71,7 @@ a {
     background-color: var(white);
     grid-row: 1 / -1;
     grid-column: 1 / 2;
-    padding: 1em 2em;
+    padding: 36px 2em;
 }
 
 .nav_title {
@@ -59,7 +79,6 @@ a {
     margin-bottom: 58px;
     color: black;
     font-size: 25px;
-    
 }
 
 .nav_flex {
