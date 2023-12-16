@@ -50,13 +50,14 @@ a {
 }
 
 .header_itens {
-    outline: 1px solid black;
     color: var(--cor-item-texto);
     height: fit-content;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
 }
 
 .header_criador {
-    outline: 1px solid red;
     height: fit-content;
 }
 
