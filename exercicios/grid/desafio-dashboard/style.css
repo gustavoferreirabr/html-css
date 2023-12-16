@@ -103,7 +103,13 @@ a {
 /* Configurações Main */
 
 .ContainerMain {
-    background-color: rgb(167, 167, 22);
+    background-color: #F3F1FA;
+    padding: 1em;
     grid-row: 2 / -1;
     grid: 2 / -1;
+}
+
+.ContainerGrafic {
+    background-color: blue;
+    height: 100%;
 }
