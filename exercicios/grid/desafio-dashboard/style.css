@@ -6,7 +6,6 @@
     list-style: none;
     box-sizing: border-box;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -14,18 +13,8 @@ body {
 }
 
 :root {
-    --cor-item-texto: #797979;
-    --cor-nav-header: #FFFDFF;
+    --cor-item-texto: #A9A7A9;
     --padding-padrao: 1em;
-}
-
-/* Configurações Gerais */
-
-.item, .item a{
-    color: var(--cor-item-texto);
-    list-style: none;
-    text-decoration: none;
-    font-size: px;
 }
 
 /* Configurações Body */
@@ -40,7 +29,7 @@ body {
 
 .header {
     background-color: red;
-    grid-column: 1 / -1;
+    grid-column: 2 / -1;
     grid-row: 1;
 }
 
@@ -48,7 +37,7 @@ body {
 
 .ContainerNav {
     background-color: blue;
-    grid-row: 2 / -1;
+    grid-row: 1 / -1;
     grid-column: 1 / 2;
 }
 
