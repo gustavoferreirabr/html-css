@@ -40,51 +40,16 @@ body {
 
 .header {
     background-color: red;
-    grid-column: 2 / -1;
+    grid-column: 1 / -1;
     grid-row: 1;
 }
 
 /* Configurações Nav */
 
 .ContainerNav {
-    background-color: var(--cor-nav-header);
-    grid-row: 1 / -1;
+    background-color: blue;
+    grid-row: 2 / -1;
     grid-column: 1 / 2;
-    padding: 1em 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.nav_flex {
-    border-bottom: 1px solid var(--cor-item-texto);
-    padding: 0 1em 1em 0em;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-}
-
-.nav_flex ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.nav_flex ul li a, .item-logout, .nav_title {
-    outline: 2px solid white;
-    display: inline-block;
-    width: 100%;
-    font-size: 18px;
-    background-color: yellow;
-    padding: 0em 1em;
-}
-
-.nav_title {
-    text-transform: uppercase;
-    color: black;
-    font-size: 30px;
-    margin-bottom: 60px;
-    background-color: aqua;
 }
 
 /* Configurações Main */
