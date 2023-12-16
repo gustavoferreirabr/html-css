@@ -50,11 +50,15 @@ body {
     background-color: var(--cor-nav-header);
     grid-row: 1 / -1;
     grid-column: 1 / 2;
+    padding: 1em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nav_flex {
-    outline: 1px solid var(--cor-item-texto);
-    padding: var(--padding-padrao);
+    border-bottom: 1px solid var(--cor-item-texto);
+    padding: 0 1em 1em 0em;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -83,6 +87,7 @@ body {
 
 .item-logout{
     outline: 2px solid rgb(254, 29, 29);
+    padding: 0px 5px;
 }
 
 /* Configurações Main */
