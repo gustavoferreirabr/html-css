@@ -109,7 +109,23 @@ a {
     grid: 2 / -1;
 }
 
-.ContainerGrafic {
+.ContainerGrid {
     background-color: blue;
     height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    gap: 25px;
+}
+
+.main_resultado {
+    background-color: black;
+}
+
+.main_grafico-announced {
+    background-color: red;
+}
+
+.main_grafico-today {
+    background-color: royalblue;
 }
