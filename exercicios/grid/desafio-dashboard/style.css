@@ -149,8 +149,18 @@ a {
     flex-grow: 1;
 }
 
+.grafico_sorted img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .grafico_distributed {
-    outline: 1px solid red;
-    background-color: red;
     flex-grow: 1;
+}
+
+.grafico_distributed img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
