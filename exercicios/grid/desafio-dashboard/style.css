@@ -128,6 +128,12 @@ a {
     flex-grow: 1;
 }
 
+.main_grafico-announced img{
+    display: block;
+    max-height: 10px;
+    width: 100%;
+}
+
 .main_grafico-today {
     /* background-color: #F3F1FA; */
     background-color: blue;
