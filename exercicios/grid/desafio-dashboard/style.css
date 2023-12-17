@@ -111,21 +111,26 @@ a {
 
 .ContainerGrid {
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px;
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .main_resultado {
     background-color: black;
+    width: 100%;
+    height: 120px;
 }
 
 .main_grafico-announced {
     background-color: red;
+    width: 100%;
+    flex-grow: 1;
 }
 
 .main_grafico-today {
     /* background-color: #F3F1FA; */
     background-color: blue;
+    width: 100%;
+    flex-grow: 1;
 }
