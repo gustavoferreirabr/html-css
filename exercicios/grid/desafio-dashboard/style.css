@@ -72,7 +72,7 @@ a {
     background-color: var(white);
     grid-row: 1 / -1;
     grid-column: 1 / 2;
-    padding: 36px 2em;
+    padding: 36px 2em 200px;
 }
 
 .nav_title {
