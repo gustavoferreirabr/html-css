@@ -21,6 +21,9 @@ body {
     list-style-type: none;
     padding: 0;
     text-align: right;
+
+    /* Inf Importante: Display none será usado como o menu, após idsplay block/inlie */
+    display: none;
 }
 
 .header-menu a {
