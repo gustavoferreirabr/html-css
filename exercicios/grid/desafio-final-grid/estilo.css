@@ -166,7 +166,7 @@ img {
 }
 
 /* Tamanho Tablet = md */
-@media screen and (min-width: 46.25em){
+@media screen and (min-width: 46.25em) and (max-width: 89em){
     
     .row > .md-3{
         grid-column: span 3;
@@ -184,12 +184,12 @@ img {
 /* Tamanho Computer = lg */
 @media screen and (min-width: 90em){
     
-    .row > .lg-1-7 {
-        grid-column: 1 / 8;
+    .row > .lg-7 {
+        grid-column: span 7;
     }
 
-    .row > .lg-8-12{
-        grid-column: 8 / 13;
+    .row > .lg-5{
+        grid-column: span 5;
     }
 
     .row > .lg-4{
