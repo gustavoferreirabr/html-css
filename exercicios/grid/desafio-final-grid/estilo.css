@@ -29,7 +29,6 @@ body {
 .header-menu a {
     display: block;
     padding: 2em 0;
-
 }
 
 a {
@@ -84,7 +83,7 @@ img {
     border-radius: 5px;
     padding: 1em;
 
-    /* Configuração Flexbox */
+    /* Configuração Flexbox - */
     display: flex;
     justify-content: space-around;
     gap: 5px;
