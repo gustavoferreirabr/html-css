@@ -152,9 +152,22 @@ img {
     margin-bottom: 6rem;
 }
 
+.row {
+    display: grid;
+    gap: 3rem;
+}
+
 /* Tamanho Tablet = md */
-@media screen and (min-width: 46.25em){
+@media screen and (min-width: 500px){
     
+    .row > .lg-1-6 {
+        grid-column: 1 / 7;
+    }
+
+    .row > .lg-8-12 {
+        grid-column: 7 / 13;
+    }
+
 }
 
 /* Tamanho Laptop = lg */
