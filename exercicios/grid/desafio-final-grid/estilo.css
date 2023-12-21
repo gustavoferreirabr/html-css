@@ -173,6 +173,14 @@ img {
         grid-column: 1 / 7;
     }
 
+    .row > .md-7-12 {
+        grid-column: 7 / 13;
+    }
+
+    .row > .mg-8-12 {
+        grid-column: 8 / 13;
+    }
+
 }
 
 /* Tamanho Laptop = lg */
@@ -182,8 +190,12 @@ img {
         grid-column: 1 / 7;
     }
 
+    .row > .lg-1-7 {
+        grid-column: 1 / 8;
+    }
+
     .row > .lg-8-12 {
-        grid-column: 7 / 13;
+        grid-column: 8 / 13;
     }
 
     .row > .lg-1-5{
