@@ -154,7 +154,7 @@ img {
 
 .row {
     display: grid;
-    gap: 3rem;
+    gap: .5rem;
     grid-auto-flow: dense;
 }
 
@@ -164,6 +164,10 @@ img {
 
 /* Tamanho Tablet = md */
 @media screen and (min-width: 43em){
+
+    .row {
+        gap: 1rem;
+    }
     
     .row > .md-6-12 {
         grid-column: 7 / 13;
@@ -197,6 +201,10 @@ img {
 
 /* Tamanho Laptop = lg */
 @media screen and (min-width: 90em){
+
+    .row {
+        gap: 3rem;
+    }
     
     .row > .lg-1-4 {
         grid-column: 1 / 5;
