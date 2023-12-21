@@ -152,20 +152,12 @@ img {
     margin-bottom: 6rem;
 }
 
-/* Configurações Grid */
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 3rem;
-}
-
 /* Tamanho Tablet = md */
 @media screen and (min-width: 46.25em){
     
 }
 
-/* Tamanho Computer = lg */
+/* Tamanho Laptop = lg */
 @media screen and (min-width: 90em){
    
 }
