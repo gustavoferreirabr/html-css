@@ -112,6 +112,11 @@ img {
     border-radius: 5px;
     padding: 1rem;
     margin-top: 4rem;
+    padding: 64px 0px;
+}
+
+.contato_title{
+    margin-top: 0;
 }
 
 .contato_image {
