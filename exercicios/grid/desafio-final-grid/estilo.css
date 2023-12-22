@@ -178,6 +178,16 @@ img {
         text-align: center;
     }
 
+    .testemunho {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contato {
+        padding: 20px 15px;
+    }
+
     .row {
         gap: 1rem;
     }
