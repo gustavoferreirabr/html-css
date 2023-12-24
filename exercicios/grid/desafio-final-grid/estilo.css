@@ -177,6 +177,8 @@ img {
         text-align: left;
     }
 
+   
+
     .imagem {
         text-align: center;
     }
@@ -286,5 +288,9 @@ img {
 
     .row > .lg-10-12{
         grid-column: 10 / 13;
+    }
+
+    .testemunho {
+        margin-bottom: 0px;
     }
 }
