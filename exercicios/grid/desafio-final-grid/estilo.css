@@ -143,6 +143,9 @@ img {
     font-weight: bold;
     font-size: 1.2rem;
 }
+.testemunho {
+    margin-bottom: 15px;
+}
 
 .copyright {
     white-space: nowrap;
