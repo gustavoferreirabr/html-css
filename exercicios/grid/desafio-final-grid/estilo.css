@@ -181,6 +181,12 @@ img {
         text-align: center;
     }
 
+    .testemunho img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .testemunhos_wrapper {}
 
     .contato {
         padding: 20px 15px;
