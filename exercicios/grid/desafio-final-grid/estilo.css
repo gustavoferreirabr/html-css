@@ -175,9 +175,7 @@ img {
 
     body {
         text-align: left;
-    }
-
-   
+    }   
 
     .imagem {
         text-align: center;
@@ -186,6 +184,12 @@ img {
     .testemunho img {
         width: 150px;
         height: 150px;
+    }
+
+    .testemunho {
+        display: flex;
+        gap: 15px;
+        align-items: center;
     }
 
     .contato {
