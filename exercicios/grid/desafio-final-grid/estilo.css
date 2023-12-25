@@ -307,6 +307,11 @@ img {
 
     .testemunhos_title {
         text-align: center;
+    }
 
+    .contato {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse, nowrap;
     }
 }
