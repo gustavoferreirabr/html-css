@@ -294,7 +294,19 @@ img {
         grid-column: 10 / 13;
     }
 
+    .testemunhos_wrapper {
+        display: grid;
+    }
+
     .testemunho {
         margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testemunhos_title {
+        text-align: center;
+
     }
 }
