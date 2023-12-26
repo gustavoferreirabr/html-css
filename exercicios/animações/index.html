@@ -60,7 +60,8 @@
         }
 
         .animação div:nth-child(2) {
-            animation: andar 2s linear 2s 2 alternate;
+            animation: andar 2s linear 2s 3 alternate;
+            animation-play-state: running;
 
             /* animation: name duration timing-function delay iteration-count direction fill-mode; */
             /* 
@@ -77,6 +78,10 @@
             */
 
             animation-fill-mode: forwards;
+        }
+
+        .animação div:nth-child(2):hover {
+            animation-play-state: paused;
         }
 
     </style>
