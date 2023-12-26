@@ -335,6 +335,7 @@ img {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;  
+        transition: 5s;
     }
 
     .header-menu {
@@ -379,6 +380,7 @@ img {
 
     .menu-conf:checked ~ .header-menu {
         display: block;
+        transition: 5s;
     }
 
 }
