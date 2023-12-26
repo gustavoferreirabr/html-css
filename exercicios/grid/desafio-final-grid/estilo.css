@@ -175,6 +175,9 @@ img {
 
     body {
         text-align: left;
+        background-image: 
+            radial-gradient(circle at left top, rgb(142 172 213 / .3 ), transparent 400px),
+            radial-gradient(circle at right center, rgb(142 172 213 / .3 ), transparent 400px);
     }   
 
     .imagem {
