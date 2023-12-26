@@ -210,6 +210,10 @@ img {
         /* margin-left: 10px; */
     }
 
+    .menu-conf {
+        display: none;
+    }
+
     .header-menu li{
         display: inline-block;
     }
@@ -355,6 +359,26 @@ img {
         cursor: pointer;
         padding: 2em 0;
         border-radius: 5px;
+    }
+
+    .menu-icon {
+        position: relative;
+    }
+
+    .menu-conf {
+        display: inline-block;
+        position: absolute;
+        top: 70px;
+        right: 309px;
+        width: 1px;
+    }
+
+    .menu-btn {
+        color: red;
+    }
+
+    .menu-conf:checked ~ .header-menu {
+        display: block;
     }
 
 }
