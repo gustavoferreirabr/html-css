@@ -19,7 +19,7 @@
             outline: 1px solid black;
             margin-bottom: 5px;
             height: 50px;
-            width: 200px;
+            width: 100px;
         }
 
         @keyframes andar {
@@ -40,7 +40,23 @@
         }
 
         .animação div:nth-child(1) {
+            animation-name: andar;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            /* 
+            animation-count: Quer dizer a quantidade de vezes que eu quero que a minha animação seja realizada, então podemos deixar como infinitamente ou definir a quantidade manualmente. 
+            */
+            animation-iteration-count: infinite;
+            /* 
+            animation-direction: Podemos colocar diversas confiugrações nessa parte, por exemplo:
             
+            alternate: significa que estamos colocando que a animação vai ir e voltar 
+            */
+            animation-direction: alternate;
+            /* 
+            animation-fuction: sigficado que podemos mudar a velocidado da animação durante o percurso, por exemplo o estado ease é o normal o padrão, no entanto podemos usar essa função quando quiser acelar a animação no começo ou acelerar ela no final.
+            */
+            animation-timing-function: ease;
         }
 
     </style>
