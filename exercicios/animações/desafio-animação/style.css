@@ -24,3 +24,19 @@ body {
     flex-direction: column;
     gap: 80px;
 }
+
+.section_conteudo {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.conteudo_text h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.conteudo_emoji {
+    background-color: blue;
+}
