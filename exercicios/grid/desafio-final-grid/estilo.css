@@ -370,16 +370,9 @@ img {
         display: inline-block;
         position: absolute;
         top: 70px;
-        right: 309px;
-        background-color: none;
-        color: none;
+        right: 315px;
         width: 1px;
-        overflow: hidden;
     }       
-
-    .menu-conf:focus {
-        width: 10px;
-    }
 
     .menu-btn {
         color: red;
