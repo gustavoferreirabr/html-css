@@ -318,10 +318,20 @@ img {
     }
 }
 
-/* Configurações Menu */
+@media screen and (max-width: 44.99em) {
 
-.header {
-    position: relative;
+    /* Configurações Menu Mobile */
+
+    .header-menu {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .header-menu a:hover {
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 5px;
+    }
+
+
 }
-
-
