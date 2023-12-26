@@ -322,15 +322,34 @@ img {
 
     /* Configurações Menu Mobile */
 
+    /* .header nav {
+    
+    } */
+
     .header-menu {
         text-align: center;
         text-transform: uppercase;
     }
 
     .header-menu a:hover {
-        background-color: var(--primary-color);
+        background-color: var(--primary-color-dark);
         color: white;
         border-radius: 5px;
+    }
+
+    .menu-icon {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        cursor: pointer;
+        padding: 2em 0;
+        border-radius: 5px;
+    }
+
+    .menu-icon:hover {
+        color: white;
+        background-color: var(--primary-color-dark);
     }
 
 
