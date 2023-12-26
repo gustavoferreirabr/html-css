@@ -10,7 +10,7 @@
         .animação {
             outline: 2px solid black;
             width: 500px;
-            height: 110px;
+            height: fit-content;
             padding: 10px;
         }
 
@@ -56,17 +56,27 @@
             /* 
             animation-fuction: sigficado que podemos mudar a velocidado da animação durante o percurso, por exemplo o estado ease é o normal o padrão, no entanto podemos usar essa função quando quiser acelar a animação no começo ou acelerar ela no final.
             */
-            animation-timing-function: ease;
+            animation-timing-function: linear;
         }
 
         .animação div:nth-child(2) {
-            animation: andar 2s 2s alternate;
+            animation: andar 2s linear 2s 2 alternate;
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
             /* 
-            fill-mode: significa que, quando eu adicionar essa configuração, automaticamente a minha animção vai erdar todas as configurações do meu from e não ira herdar a configuração particular da minha .animação div.
+            fill-mode: significa que, quando eu adicionar essa configuração, automaticamente a minha animção vai começar a herdar todas as configurações do meu from e não ira herdar a configuração particular da minha .animação div.
 
             Para visualizar melhor isso, podemos simplesmente comentar o fill-mode e despois descomentar.
             */
             animation-fill-mode: backwards;
+
+            /* 
+            forwards é o contrário do backwards, significa que a animação dele vai terminar com a formatação/estilo da sua animação
+
+            são coisas parecidas, por exemplo enquanto um meche no começo da animação o outro meche no fim.
+            */
+
+            animation-fill-mode: forwards;
         }
 
     </style>
@@ -77,6 +87,7 @@
     <div class="animação">
         <div>1</div>
         <div>2</div>
+        <div>3</div>
     </div>
 </body>
 </html>
