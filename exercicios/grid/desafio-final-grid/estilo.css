@@ -371,7 +371,14 @@ img {
         position: absolute;
         top: 70px;
         right: 309px;
+        background-color: none;
+        color: none;
         width: 1px;
+        overflow: hidden;
+    }       
+
+    .menu-conf:focus {
+        width: 10px;
     }
 
     .menu-btn {
