@@ -59,6 +59,16 @@
             animation-timing-function: ease;
         }
 
+        .animação div:nth-child(2) {
+            animation: andar 2s 2s alternate;
+            /* 
+            fill-mode: significa que, quando eu adicionar essa configuração, automaticamente a minha animção vai erdar todas as configurações do meu from e não ira herdar a configuração particular da minha .animação div.
+
+            Para visualizar melhor isso, podemos simplesmente comentar o fill-mode e despois descomentar.
+            */
+            animation-fill-mode: backwards;
+        }
+
     </style>
 
 </head>
