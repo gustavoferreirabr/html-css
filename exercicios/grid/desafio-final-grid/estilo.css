@@ -25,7 +25,6 @@ body {
     text-align: right;
 
     /* Informação importante: Display none será usado como o menu, após idsplay block/inlie */
-    display: none;
 }
 
 .header-menu a {
@@ -318,3 +317,11 @@ img {
         flex-wrap: wrap-reverse, nowrap;
     }
 }
+
+/* Configurações Menu */
+
+.header {
+    position: relative;
+}
+
+
