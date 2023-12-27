@@ -14,6 +14,7 @@ body {
 }
 
 .container-center {
+    outline: 2px solid red;
     max-width: 90%;
     height: 90vh;
     margin: auto;
@@ -25,13 +26,15 @@ body {
 }
 
 .section_conteudo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+
 
 }
 
 .conteudoContainer {
     display: flex;
+    width: 50%;
     flex-direction: column;
     gap: 50px;
 }
@@ -68,6 +71,19 @@ input[type="text"] {
     cursor: pointer;
 }
 
+/* Configuração Animação Emoji */
+
 .conteudo_emoji {
-    background-color: blue;
+    background-color: white;
+    width: 50%;
+    
+}
+
+.conteudo_emoji img {
+    width: 100%;
+    height: 555px;
+    
+    /* text-align: center;
+    display: inline-block; */
+    margin: auto;
 }
