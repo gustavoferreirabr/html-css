@@ -86,12 +86,14 @@ input[type="text"] {
 
 .emoji {
     position: absolute;
+    animation-fill-mode: backwards;
+    
 }
 
 .emojis-1 {
     top: 120px;
     right: 474px;
-    animation-name: animar;
+    animation-name: animação;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -101,23 +103,42 @@ input[type="text"] {
 .emojis-2 {
     top: -11px;
     right: 87px;
+    animation-name: animação;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .emojis-3 {
     top: -17px;
     right: 50px;
+    animation-name: animação;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
 }
 
 .emojis-4 {
     bottom: -23px;
     left: 121px;
+    animation-name: animação;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .emojis-5 {
     top: -95px;
     left: 108px;
-    animation-name: animar;
-    animation-duration: 2s;
+    animation-name: animação;
+    animation-duration: 3s;
+    animation-delay: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -126,20 +147,24 @@ input[type="text"] {
 .emojis-6 {
     bottom: 99px;
     right: 18px;
+    animation-name: animação;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 /* Animação Keyframes */
 
 /* Animação 1: Será a responsável pela animação dos dois emojis superiores no canto superior esquerdo, no qual são representado pelas class: emojis-1 e emojis-5 */
-@keyframes animar {
+@keyframes animação {
 
     from {
-        transform: translateY(0px);
+        transform: translateY(0px) translateX(0px);
     }
 
     to {
-        transform: translateY(80px);
+        transform: translateY(35px) translateX(20px);
     }
-
-
 }
