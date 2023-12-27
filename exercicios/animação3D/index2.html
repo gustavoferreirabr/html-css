@@ -18,26 +18,23 @@
         }
 
         .cena {
+            /* 
+            As configurações acima, foram para definir o tamanho da nossa div, que iria definar o tamanho das divs filhos. */
             border: 2px solid #ccc;
             width: 300px;
             height: 400px;
             margin: 60px;
-            /* As configurações acima, foram para definir o tamanho da nossa div, que iria definar o tamanho das divs filhos. */
 
-            /* O perspective foi aplicado imediatamente na div cena, pelo o seguinte motivo:
+            /* 
+            O perspective foi aplicado imediatamente na div cena, pelo o seguinte motivo:
             
-            //Podemos observar que a div que iremos mecher será a div Card, porém ela tem o lado front e o lado back e para isso devemos realizar toda a animação e transformação a partir da div cena, no qual a perpesctive vai rodar a partir dela e não a partir da tag card.
-            
-            */
-            perspective: 600px;
+            Podemos observar que a div que iremos mecher será a div Card, porém ela tem o lado front e o lado back e para isso devemos realizar toda a animação e transformação a partir da div cena, no qual a perpesctive vai rodar a partir dela e não a partir da tag card.*/
+            perspective: 500px;
         }
 
         .cena:hover .card {
             /* 
-            
-            // Nesta situação, estamos indicando o seguinte, quando eu passar com o mouse na div cena, o meu card ira realizar a rotação de 180deg, assim é possível rodar o meu card que possui duas divs, podendo ser visualizado tanto o seu back quanto ao seu front.
-
-            */
+            Nesta situação, estamos indicando o seguinte, quando eu passar com o mouse na div cena, o meu card ira realizar a rotação de 180deg, assim é possível rodar o meu card que possui duas divs, podendo ser visualizado tanto o seu back quanto ao seu front*/
             transform: rotateY(180deg);
         }
 
@@ -45,10 +42,10 @@
             width: 100%;
             height: 100%;
             /* 
-            // Neste caso, usamos o transoform-style, para que os dois cards front e back estajam conectado, usando essa configurção, podemos unir os dois cards no mesmo mundo 3D, podendo ser realizada todas as alterações/tranformações, por este motivo usando esse card, para poder transformar duas divs em conjunto.
-            */
+            Neste caso, usamos o transoform-style, para que os dois cards front e back estajam conectado, usando essa configurção, podemos unir os dois cards no mesmo mundo 3D, podendo ser realizada todas as alterações/tranformações, por este motivo usando esse card, para poder transformar duas divs em conjunto.*/
             transform-style: preserve-3d;
-            /* Nesta situalção, como iremos animar a rotação do card, iremos deixar o mesmo com a animação, visto que é o próprio elemento que sera animado via hover */
+            /* 
+            Nesta situalção, como iremos animar a rotação do card, iremos deixar o mesmo com a animação, visto que é o próprio elemento que sera animado via hover */
             transition: 2s transform;
         }
 
@@ -68,9 +65,11 @@
 
         .card-back {
             background-color: blue;
-            /* Neste caso, usamos o transform rotateY para rotacionar o nosso card back para tras*/
+            /* 
+            Neste caso, usamos o transform rotateY para rotacionar o nosso card back para tras*/
             transform: rotateY(180deg);
-            /* Importante: Backface, usamos a configuração hidden, para deixar o contudo atras do nosso front, para ele ser sobrescrevido, ser deixado como segundo plano. */
+            /* 
+            Importante: Backface, usamos a configuração hidden, para deixar o contudo atras do nosso front, para ele ser sobrescrevido, ser deixado como segundo plano. */
             backface-visibility: hidden;
         }
 
