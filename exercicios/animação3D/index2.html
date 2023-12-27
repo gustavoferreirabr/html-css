@@ -22,14 +22,48 @@
             width: 300px;
             height: 400px;
             margin: 60px;
-            transform-style: ;
+            /* As configurações acima, foram para definir o tamanho da nossa div, que iria definar o tamanho das divs filhos. */
+
+            /* O perspective foi aplicado imediatamente na div cena, pelo o seguinte motivo:
+            
+            //Podemos observar que a div que iremos mecher será a div Card, porém ela tem o lado front e o lado back e para isso devemos realizar toda a animação e transformação a partir da div cena, no qual a perpesctive vai rodar a partir dela e não a partir da tag card.
+            
+            */
+            perspective: 600px;
+        }
+
+        .cena:hover .card {
+            /* 
+            
+            // Nesta situação, estamos indicando o seguinte, quando eu passar com o mouse na div cena, o meu card ira realizar a rotação de 180deg, assim é possível rodar o meu card que possui duas divs, podendo ser visualizado tanto o seu back quanto ao seu front.
+
+            */
+            transform: rotateY(180deg);
         }
 
         .card {
             width: 100%;
             height: 100%;
+            transform-style: preserve-3d;
+            transition: 2s transform;
+        }
+
+        .card-face {
+            position: absolute;
+            height: 100%;
+            width: 100%;
             display: flex;
             align-items: center;
+            justify-content: center
+        }
+        .card-front {
+            background-color: red;
+        }
+
+        .card-back {
+            background-color: blue;
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
         }
 
     </style>
