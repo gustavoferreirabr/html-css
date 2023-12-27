@@ -46,6 +46,15 @@ body {
     color: #AE2521;
 }
 
+.destaque-m {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    
+}
+
 .conteudo_emoji {
     background-color: blue;
 }
