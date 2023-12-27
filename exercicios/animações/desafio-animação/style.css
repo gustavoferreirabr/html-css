@@ -25,7 +25,6 @@ body {
 
 .section_conteudo {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .conteudoContainer {
@@ -75,18 +74,20 @@ input[type="text"] {
     height: 34.68rem;
 }
 
-.imagem {
+/* .imagem {
     display: block;
     margin: auto;
     width: 100%;
     height: 34.68rem;
     background-color: transparent;
-}
+} */
 
 .emoji {
     position: absolute;
-    animation-fill-mode: backwards;
-    
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-fill-mode: forwards; */
 }
 
 .emojis-1 {
@@ -94,9 +95,7 @@ input[type="text"] {
     right: 474px;
     animation-name: animação;
     animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    
 }
 
 .emojis-2 {
@@ -104,9 +103,6 @@ input[type="text"] {
     right: 87px;
     animation-name: animação;
     animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .emojis-3 {
@@ -115,10 +111,6 @@ input[type="text"] {
     animation-name: animação;
     animation-duration: 2s;
     animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: both;
 }
 
 .emojis-4 {
@@ -127,9 +119,6 @@ input[type="text"] {
     animation-name: animação;
     animation-duration: 2s;
     animation-delay: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .emojis-5 {
@@ -138,9 +127,6 @@ input[type="text"] {
     animation-name: animação;
     animation-duration: 3s;
     animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .emojis-6 {
@@ -149,9 +135,6 @@ input[type="text"] {
     animation-name: animação;
     animation-duration: 2s;
     animation-delay: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 /* Animação Keyframes */
