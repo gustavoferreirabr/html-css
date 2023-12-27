@@ -62,9 +62,10 @@ input[type="text"] {
 .bnt {
     background-color: #051E49;
     color: white;
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .conteudo_emoji {
