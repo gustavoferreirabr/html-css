@@ -74,6 +74,7 @@ input[type="text"] {
     background-color: white;
     width: 50%;
     position: relative;
+    height: 555px;
 }
 
 .imagem {
@@ -81,6 +82,7 @@ input[type="text"] {
     margin: auto;
     width: 100%;
     height: 555px;
+    background-color: transparent;
 }
 
 .emoji {
@@ -90,29 +92,29 @@ input[type="text"] {
 .emojis-1 {
     top: 120px;
     right: 474px;
-    transform: rotate(347deg);
 }
 
 .emojis-2 {
     top: -11px;
     right: 87px;
-    transform: rotate(370deg);
 }
 
 .emojis-3 {
-    top: 5px;
+    top: -17px;
     right: 50px;
-    transform: rotate(360deg);
 }
 
 .emojis-4 {
-
+    bottom: -23px;
+    left: 121px;
 }
 
 .emojis-5 {
-
+    top: -95px;
+    left: 108px;
 }
 
 .emojis-6 {
-
+    bottom: 99px;
+    right: 18px;
 }
