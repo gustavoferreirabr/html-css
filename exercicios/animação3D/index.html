@@ -6,30 +6,91 @@
     <title>Document</title>
     <style>
 
+        body {
+            min-height: 100vh;
+            padding: 3em;
+        }
+
         #cena1 {
             border: 2px solid #ccc;
             width: 400px;
             height: 300px;
-            padding: 1em 0em;
+            padding: 2em 0em 0em 0em;
+            height: fit-content;
+            margin-bottom: 20px;
         }
 
-        #cena1 > .plano {
+        #cena2 {
+            border: 2px solid #ccc;
+            width: 400px;
+            height: 300px;
+            padding: 2em 0em 0em 0em;
+            height: fit-content;
+            margin-bottom: 20px;
+        }
+
+        #cena3 {
+            border: 2px solid #ccc;
+            width: 400px;
+            height: 300px;
+            padding: 2em 0em 0em 0em;
+            height: fit-content;
+            margin-bottom: 20px;
+        }
+
+        .plano {
             background-color: red;
             color: white;
+
             width: 300px;
             height: 200px;
             margin: auto;
             outline: 1px dashed black;
         }
 
+        #cena1 .plano {
+            transform: perspective(600px) rotateY(-45deg);
+        }
 
+        #cena2 {
+            transform: perspective(500px) rotateY(12deg);
+        }
 
-
+        #cena3 .plano:nth-child(1) {
+            transform: perspective(200px) rotateX(50deg);
+        }
 
     </style>
 </head>
 <body>
     <div id="cena1">
+        <div class="plano">
+            Plano
+        </div>
+    </div>
+
+    <div id="cena2">
+        <div class="plano">
+            Plano
+        </div>
+        <div class="plano">
+            Plano
+        </div>
+        <div class="plano">
+            Plano
+        </div>
+    </div>
+
+    <div id="cena3">
+        <div class="plano">
+            Plano
+        </div>
+        <div class="plano">
+            Plano
+        </div>
+        <div class="plano">
+            Plano
+        </div>
         <div class="plano">
             Plano
         </div>
