@@ -20,7 +20,7 @@ body {
     /* Configuração Flex */
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .section_conteudo {
@@ -32,11 +32,11 @@ body {
     display: flex;
     width: 50%;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .conteudoContainer h1 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .text_destaque {
@@ -46,41 +46,40 @@ body {
 
 .destaque-m {
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 0.93rem;
 }
 
 input[type="text"] {
     background-color: transparent;
     outline: 1px solid black;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 5px;
+    padding: .625rem;
+    border-radius: .3125rem;
+    margin-right: .3125rem;
 }
 
 .bnt {
     background-color: #051E49;
     color: white;
-    padding: 10px 15px;
+    padding: .625rem .9375rem;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     cursor: pointer;
 }
 
 /* Configuração Animação Emoji */
 
 .conteudo_emoji {
-    background-color: white;
     width: 50%;
     position: relative;
-    height: 555px;
+    height: 34.68rem;
 }
 
 .imagem {
     display: block;
     margin: auto;
     width: 100%;
-    height: 555px;
+    height: 34.68rem;
     background-color: transparent;
 }
 
@@ -157,7 +156,7 @@ input[type="text"] {
 
 /* Animação Keyframes */
 
-/* Animação 1: Será a responsável pela animação dos dois emojis superiores no canto superior esquerdo, no qual são representado pelas class: emojis-1 e emojis-5 */
+/* Animação 1: Será a responsável pela animação dos dois emojis superiores no canto superior esquerdo, no qual são representado pelas class: do 1 até 6*/
 @keyframes animação {
 
     from {
