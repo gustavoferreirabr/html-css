@@ -44,7 +44,11 @@
         .card {
             width: 100%;
             height: 100%;
+            /* 
+            // Neste caso, usamos o transoform-style, para que os dois cards front e back estajam conectado, usando essa configurção, podemos unir os dois cards no mesmo mundo 3D, podendo ser realizada todas as alterações/tranformações, por este motivo usando esse card, para poder transformar duas divs em conjunto.
+            */
             transform-style: preserve-3d;
+            /* Nesta situalção, como iremos animar a rotação do card, iremos deixar o mesmo com a animação, visto que é o próprio elemento que sera animado via hover */
             transition: 2s transform;
         }
 
@@ -54,7 +58,9 @@
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: center
+            justify-content: center;
+            /* 
+            Não sei o motivo de usar o position absolute e usamos apenas o flex para realizar a centralização dos cards. */
         }
         .card-front {
             background-color: red;
@@ -62,7 +68,9 @@
 
         .card-back {
             background-color: blue;
+            /* Neste caso, usamos o transform rotateY para rotacionar o nosso card back para tras*/
             transform: rotateY(180deg);
+            /* Importante: Backface, usamos a configuração hidden, para deixar o contudo atras do nosso front, para ele ser sobrescrevido, ser deixado como segundo plano. */
             backface-visibility: hidden;
         }
 
