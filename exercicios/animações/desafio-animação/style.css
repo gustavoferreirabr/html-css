@@ -88,18 +88,31 @@ input[type="text"] {
 }
 
 .emojis-1 {
-    top: 161px;
-    right: 470px;
+    top: 120px;
+    right: 474px;
+    transform: rotate(347deg);
 }
 
 .emojis-2 {
-
+    top: -11px;
+    right: 87px;
+    transform: rotate(370deg);
 }
 
 .emojis-3 {
-
+    top: 5px;
+    right: 50px;
+    transform: rotate(360deg);
 }
 
 .emojis-4 {
+
+}
+
+.emojis-5 {
+
+}
+
+.emojis-6 {
 
 }
