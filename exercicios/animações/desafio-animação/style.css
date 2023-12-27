@@ -14,7 +14,6 @@ body {
 }
 
 .container-center {
-    outline: 2px solid red;
     max-width: 95%;
     margin: auto;
 
@@ -92,6 +91,11 @@ input[type="text"] {
 .emojis-1 {
     top: 120px;
     right: 474px;
+    animation-name: animar;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .emojis-2 {
@@ -112,9 +116,30 @@ input[type="text"] {
 .emojis-5 {
     top: -95px;
     left: 108px;
+    animation-name: animar;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .emojis-6 {
     bottom: 99px;
     right: 18px;
+}
+
+/* Animação Keyframes */
+
+/* Animação 1: Será a responsável pela animação dos dois emojis superiores no canto superior esquerdo, no qual são representado pelas class: emojis-1 e emojis-5 */
+@keyframes animar {
+
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(80px);
+    }
+
+
 }
