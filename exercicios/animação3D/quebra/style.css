@@ -98,7 +98,3 @@ img {
     top: 50px;
     left: 65px;
 }
-
-input:checked .card {
-    transform: rotateY(180deg);
-}
