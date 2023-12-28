@@ -76,9 +76,9 @@ h1 {
     border: 2px solid rgb(167, 0, 0);
 }
 
-.cena:hover .card {
+/* .cena:hover .card {
     transform: rotateY(180deg);
-}
+} */
 
 .card-back {
     transform: rotateY(180deg);
@@ -96,6 +96,9 @@ img {
     height: 10px;
     position: absolute;
     top: 50px;
-    left: 50px;
-    outline: 3px solid black;
+    left: 65px;
+}
+
+input:checked .card {
+    transform: rotateY(180deg);
 }
