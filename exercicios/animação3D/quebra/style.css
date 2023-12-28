@@ -76,9 +76,9 @@ h1 {
     border: 2px solid rgb(167, 0, 0);
 }
 
-/* .cena:hover .card {
+.cena:hover .card {
     transform: rotateY(180deg);
-} */
+}
 
 .card-back {
     transform: rotateY(180deg);
