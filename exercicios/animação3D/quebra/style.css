@@ -73,7 +73,7 @@ h1 {
     height: 100%;
     transform-style: preserve-3d;
     transition: 2s transform;
-    border: 2px solid rgb(167, 0, 0);
+    border: 2px solid rgb(125, 59, 59);
 }
 
 /* .cena:hover .card {
@@ -95,6 +95,13 @@ img {
 }
 
 .row:has(#check1:focus) label > .card {
-    outline: 2px solid red;
-    outline-offset: 2px;
+    outline: 2px solid rgb(215, 0, 0);
+}
+
+input {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 1px;
+    height: 1px;
 }
