@@ -21,13 +21,13 @@
         var player2 = prompt("Jogador 2, digite seu número:")
         player2 = parseInt(player2);
 
-        if (player1 == player2) {
+        if (player1 === player2) {
             alert("Jogo empatado!");
             // Check
             
         } else {
             
-            var numberSorteio = Math.random * 2;
+            var numberSorteio = Math.random() * 2;
             numberSorteio = parseInt(numberSorteio);
             
             if (numberSorteio == 0) {
