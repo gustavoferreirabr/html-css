@@ -15,50 +15,41 @@
 
     <script>
 
-        var player1 = prompt("Jogador 1, digite seu número:");
-        player1 = parseInt(player1);
-
-        var player2 = prompt("Jogador 2, digite seu número:")
-        player2 = parseInt(player2);
-
-        if (player1 === player2) {
-            alert("Jogo empatado!");
-            // Check
-            
+        //fazer jogador1 digitar um numero
+        var nJogador1 = prompt('numero do jogador 1');
+        nJogador1 = parseInt(nJogador1);
+        
+        //fazer jogador2 digitar outro numero
+        var nJogador2 = prompt('numero do jogador 2');
+        nJogador2 = parseInt(nJogador2);
+        
+        //se forem iguais, mostrar mensagem 'empate'
+        if(nJogador1 === nJogador2){
+            alert('voces empataram');
         } else {
             
-            var numberSorteio = Math.random() * 2;
-            numberSorteio = parseInt(numberSorteio);
-            
-            alert(numberSorteio);
-            
-            if (numberSorteio == 0) {
+            //sortear um numero entre 0 e 1
+            var nSorteado = parseInt(Math.random() * 2);
+            // se o numero sorteado for 0, ganha quem escolher o numero MENOR
+            if(nSorteado === 0){
                 
-                if (player1 < player2) {
-                    
-                    alert("Jogador 1, vencedor!")
-
+                if(nJogador1 < nJogador2){
+                    alert('ganhou o jogador 1');
                 } else {
-                    
-                    alert("Jogador 2, vencedor!")
+                    alert('ganhou o jogador 2');
                 }
-
+                
+            //se o numero sorteado for 1, ganha quem escolher o numero MAIOR
             } else {
-                
-                if (player1 > player2) {
-                    
-                    alert("Jogador 1, vencedor!")
-
+                if(nJogador1 > nJogador2){
+                    alert('ganhou o jogador 1');
                 } else {
-                    
-                    alert("Jogador 2, vencedor!")
-
+                    alert('ganhou o jogador 2')
                 }
-                
             }
-
+            
         }
-
+        
     </script>
 
 </body>
