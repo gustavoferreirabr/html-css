@@ -32,7 +32,7 @@
             var nSorteado = parseInt(Math.random() * 2);
             // se o numero sorteado for 0, ganha quem escolher o numero MENOR
            
-            if (nSorteado == 0 && nJogador1 < nJogador2 || nSorteado == 1 && nJogador1 > nJogador2) {
+            if ( (nSorteado == 0 && nJogador1 < nJogador2) || (nSorteado == 1 && nJogador1 > nJogador2) ) {
                 alert("Jogador 1, vencedor!")
             } else {
                 alert("Jogador 2, vencedor!")
