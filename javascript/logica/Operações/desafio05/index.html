@@ -17,8 +17,9 @@
         n2 =  parseInt(n2);
 
         var media = (n1 + n2) / 2;
+        // media > 5 || media == 5 && n1 > 0 || n1 == 1 && n2 > 0 || n2 == 1
 
-        if (media > 5 || media == 5 && n1 > 0 || n1 == 1 && n2 > 0 || n2 == 1) {
+        if (media > 5 || media == 5 && n1 > 0 && n2 > 0 ) {
             
             alert("Parabéns! Você foi aprovado");
 
