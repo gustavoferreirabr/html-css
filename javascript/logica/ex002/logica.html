@@ -10,19 +10,22 @@
 
     <script>
         
-        var n1 = prompt("Digite o primeiro numero");
-        n1 = parseInt(n1);
+        var numero = prompt("Digite um número para fatoriar")
+        numero = parseInt(numero);
 
-        var n2 = prompt("Digite o segundo numero:");
-        n2 = parseInt(n2);
-
-        if (n1 > n2) {
+        if (numero < 0) {
             
-            alert("O primeiro numero escolhida é o maior!")
+            alert("Digite um número maior que zero (positivo)")
 
         } else {
             
-            alert("O segundo numero escolhido é o maior!")
+            var fatorial = 1
+            while( numero == fatorial){
+                
+                fatorial = fatorial * numero;
+            }
+            
+            alert(fatorial);
 
         }
 
