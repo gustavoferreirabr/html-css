@@ -9,18 +9,22 @@
     <h1>JavaScript Lógica</h1>
 
     <script>
-        // O nosso prompt é igual input em python
-        var horas = prompt("Digite suas horas trabalhadas:");
-        horas = parseInt(horas);
         
-        var salario = prompt("Digite seu salario mensal:")
-        salario = parseInt(salario);
+        var n1 = prompt("Digite o primeiro numero");
+        n1 = parseInt(n1);
 
-        var valorHora = salario / horas;
-        valorHora =  parseInt(valorHora);
+        var n2 = prompt("Digite o segundo numero:");
+        n2 = parseInt(n2);
 
-        // Nosso alet é igual a print para exibir algo
-        alert("O valor que você recebe por hora é: "+ valorHora);
+        if (n1 > n2) {
+            
+            alert("O primeiro numero escolhida é o maior!")
+
+        } else {
+            
+            alert("O segundo numero escolhido é o maior!")
+
+        }
 
     </script>
 
