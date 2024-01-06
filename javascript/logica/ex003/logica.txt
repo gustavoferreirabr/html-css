@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="logica.py">
-    <title>JavaScript Lógica</title>
-</head>
-<body>
-    <h1>Python</h1>
-
-    <script>
-
-        var numero_de_vezes_atrasado = prompt("Quant")
-
-    </script>
-
-</body>
-</html>
-
-   <!-- Iniciação do Programa -->
+<!-- Iniciação do Programa -->
 
     <!-- 
         Quais são os dados de entrada necessário:
