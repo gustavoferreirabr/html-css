@@ -3,38 +3,38 @@
     <!-- 
         Quais são os dados de entrada necessário:
 
-        1. Quantas vezes eu chegue atrasado
-        2. 
+        1. Pedir o primeiro numero
+        2. Pedir o segundo numero
     -->
 
     <!-- 
         Oque devo fazer com estes dados?
 
-        1. Comparar se o numero total de vezes que cheguei atrasado é igual ou maior a 3
+        1. Verificar entre os dois números, qual é o maior.
         2. 
      -->
 
      <!-- 
         Quais são as registrições deste problema?
         
-        1.  O usuário terá que digitar quantas vezes o mesmo chegou atrasado.
+        1. Os números não podem ser iguais.
       -->
 
       <!-- 
         Qual é o resultado esperado?
 
-        1. Iremos verificar se o aluno podera entrar na escola, através do número de atrasos do mesmo.
+        1. Verificar qual é o maior número
        -->
 
        <!-- 
         Qual é a sequência dos passos a ser feito paa chegar no resultado especifico?
 
-        1. Pedir ao usuário quantas vezes chegou atrasado.
-        2. Guardar informação
-        3. Realizar uma condição 
-        4. Caso o aluno tenha se atrasado 3 vezes ou mais, o mesmo não ira entrar e aparecerar uma mensagem, você não pode entrar.
-        5. Caso o aluno não tenha se atrasado mais de 3 vezes, ele podera entrar e apareca uma mensagem, você pode entrar.
-        6.
+        1. Pedir o primeiro numero
+        2. Pedir o segundo numero
+        3. Condicional
+        4. Caso os numeros sejam iguais, o programa ira resetar e pedir para tentar novamente.
+        5. Caso os números forem diferentes, devemos comparar qual é maior.
+        6. Após comparar qual é o maior número, devemos informar isso em uma mensagem
         7.
         8.
         9.
