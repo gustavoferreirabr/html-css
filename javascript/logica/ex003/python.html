@@ -11,7 +11,16 @@
 
     <script>
 
-        var numero_de_vezes_atrasado = prompt("Quant")
+        var numero_de_vezes_atrasado = prompt
+        ("Quantas vezes você chegou atrasado?");
+        
+        numero_de_vezes_atrasado = parseInt(numero_de_vezes_atrasado)
+
+        if (numero_de_vezes_atrasado >= 3) {
+            alert("Você não pode entrar.")
+        } else {
+            alert("Você pode entrar.")
+        }
 
     </script>
 
