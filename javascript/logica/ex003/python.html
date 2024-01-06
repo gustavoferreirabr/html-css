@@ -11,7 +11,25 @@
 
     <script>
 
-        
+        var primeiro_numero = prompt("Digite o primeiro numero")
+        primeiro_numero = parseFloat(primeiro_numero)
+
+        var segundo_numero = prompt("Digite o segundo numero")
+        segundo_numero = parseFloat(segundo_numero)
+
+        if (primeiro_numero == segundo_numero) {
+            
+            alert("Os números escolhidos são iguais, tente novamente.")
+
+        } else {
+            
+            if (primeiro_numero > segundo_numero) {
+                alert("Primeiro número é o maior de todos.")
+            } else {
+                alert("Segundo número é o maior de todos.")
+            }
+
+        }
 
     </script>
 
