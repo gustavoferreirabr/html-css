@@ -16,14 +16,22 @@
         var nota2 = prompt("Digite sua outra nota")
         nota2 = parseInt(nota2)
 
-        var media = (nota1 + nota2) / 2;
-        media = parseInt(media)
+        if(nota1 <= 10 && nota1 >= 0 && nota2 <= 10 && nota2 >= 0){
 
-        if (nota1 > 0 && nota2 > 0 && media >= 5) {
-            alert("Aprovado")
+            var media = (nota1 + nota2) / 2;
+            media = parseInt(media)
+
+            if (nota1 > 0 && nota2 > 0 && media >= 5) {
+                alert("Aprovado")
+            } else {
+                alert("Reprovado")
+            }
+
         } else {
-            alert("Reprovado")
+            alert("Digite uma nota entre 0 a 10")
         }
+
+        
 
     </script>
 
