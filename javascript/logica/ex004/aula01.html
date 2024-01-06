@@ -10,10 +10,7 @@
 
     <script>
 
-        var number_sorteio = Math.random() * 2;
-        number_sorteio = parseInt(number_sorteio)
-
-        alert(number_sorteio);
+        
 
         var primeiro_number = prompt("Digite um número:")
         primeiro_number = parseInt(primeiro_number)
@@ -25,8 +22,26 @@
             alert("Empate")
         } else {
             
-            if(){
+            var number_sorteio = Math.random() * 2;
+            number_sorteio = parseInt(number_sorteio)
 
+            alert(number_sorteio);
+
+            if(number_sorteio == 0){
+
+                if(primeiro_number < segundo_number){
+                    alert("Primeiro numero é menor")
+                } else {
+                    alert("Segundo numero é menor")
+                }
+
+            } else {
+                
+                if(primeiro_number > segundo_number){
+                    alert("Meu primeiro número é maior")
+                } else {
+                    alert("Meu segundo número é maior")
+                }
             }
 
         }
