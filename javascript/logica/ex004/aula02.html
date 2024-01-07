@@ -21,12 +21,14 @@
             var media = (nota1 + nota2) / 2;
             media = parseInt(media)
 
-            if (nota1 > 0 || nota2 > 0 || media <= 5) {
+            if (nota1 == 0 || nota2 == 0 || media < 5) {
                 
-
+                alert("Você está reprovado!")
 
             } else {
                 
+                alert("Você está aprovado!")
+
             }
 
         } else {
