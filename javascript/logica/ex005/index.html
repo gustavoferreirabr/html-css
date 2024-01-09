@@ -13,20 +13,36 @@
 
     <script>
 
+        function LimparTabuada(){
+
+            mensagem = '';
+            output.innerHTML = mensagem;
+            // Explicação: Eu determinei que a minha function LimparTabuada, realizasse o seguinte comando: mensagem seria vazio, e seria exibido no meu documento HTML na div output, como vazio, assim limpando a mensagem na criação da tabuada.
+
+        }
+
         function CriarTabuada(){
 
             var numero = prompt("Digite um numero")
             numero = parseInt(numero);
 
+            LimparTabuada()
+
             var indice = 1;
+            var mensagem = "";
 
             while(indice <= 1000){
 
-                mensagem = numero+" x "+indice+" = "++
-
+                mensagem += numero+" x "+indice+" = "+(numero*indice)+'<br>';
+                indice += 1;
             }
 
+            var output = document.querySelector('#output');
+            output.innerHTML = mensagem;
         }
+
+        
+       
 
     </script>
 
