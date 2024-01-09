@@ -18,17 +18,12 @@
             document.write(ano_inicio +"<br>")
             ano_inicio = ano_inicio + 4
 
-            if (ano_inicio % 100 == 0) {
-                document.write("Esse ano não é bisexto")
-            } else {
+            if (!(ano_inicio % 100 == 0) || (ano_inicio % 400 == 0)) {
                 
+            } else {
+                document.write("Esse ano não é bisexto")
             }
 
-            if (ano_inicio % 400 == 0) {
-                document.write("Esse ano não é bisexto")
-            } else {
-                
-            }
         }
         document.write("Saiu do loop")
 
