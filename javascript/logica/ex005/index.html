@@ -23,21 +23,32 @@
 
         function CriarTabuada(){
 
+            // Nessa função, o objetivo é que seja criado uma tabuada do numero digitado até o 1000.    
             var numero = prompt("Digite um numero")
             numero = parseInt(numero);
-
+            // Neste sentindo, pedimos um numero pro usuário para criarmos a tabuada.
+            
+            // Porém durante esse caminho, adicionamos a nossa função de LimparTabuada, no qual automaticamente, após o usuario digitar outro número ira fazer com que nosso tabuada seja resetada, visto que não aparece nenhum conteudo dentro da nossa var mensagem.
             LimparTabuada()
 
+            // Definimos o indice, da onde começara a nossa tabuada, que será do um até o 1000.
             var indice = 1;
+            // Demos um nome para nossa var, mensagem, no qual neste momento não possui nenhum conteudo, ois o conteudo que ira aparecer na mesma, será mostrado após o nosso loop.
             var mensagem = "";
 
-            while(indice <= 1000){
+            // Realizamos o loop, no qual indica que o loop continuara enquanto meu indicie for menor ou igual a 1000.
+            while(indice <= 100){
 
-                mensagem += numero+" x "+indice+" = "+(numero*indice)+'<br>';
+                // Neste caso, fiquei com um pouco de dúvida na parte mensagem +=, visto que se for tirado o sinal de mais o comando não ira funcionar, porém não entendo a lógica por trás disso. Sendo assim, devemos indentificar doque se trata-se essa mensagem a mais.
+                mensagem = mensagem + (numero+" x "+indice+" = "+(numero*indice)+'<br>');
+
+                // Resumindo essa linha, trat-se para que meu loop seja dado continuidade, ficando do seguinte modo: indice = indice + 1
                 indice += 1;
             }
 
+            // Neste caso, demos um nome para nosso variante que ira selecionar a nossa <div id="output"><div> 
             var output = document.querySelector('#output');
+            // Depois disso, estamos dizendo que iremos adicionar um conteudo através do meu javascript no meu id="output", no qual ira aparecer a variante mensagem que consta em nosso loop, no caso todo o bloco calculado.
             output.innerHTML = mensagem;
         }
 
