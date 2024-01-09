@@ -7,19 +7,26 @@
 </head>
 <body>
     <h1>JavaScript Lógica</h1>
-
+    <button onclick="CriarTabuada()">Criar Tabuada</button>
+    <button onclick="LimparTabuada()">Limpar Tabuada</button>
     <div id="output"></div>
 
     <script>
 
-        var output = document.querySelector('#output');
-        var mensagem = '';
+        function CriarTabuada(){
 
-        for(var i = 0; i < 1001; i++){
-            mensagem = mensagem + 'i: '+ i +'<br>'
+            var numero = prompt("Digite um numero")
+            numero = parseInt(numero);
+
+            var indice = 1;
+
+            while(indice <= 1000){
+
+                mensagem = numero+" x "+indice+" = "++
+
+            }
+
         }
-
-        output.innerHTML = mensagem;
 
     </script>
 
