@@ -8,10 +8,10 @@
 <body>
     <h1>JavaScript Lógica</h1>
 
-    <button onclick="soma()" onclick="soma2()">+</button>
-    <button>-</button>
-    <button>/</button>
-    <button>*</button>
+    <button onclick="soma()">+</button>
+    <button onclick="subtracao()">-</button>
+    <button onclick="divisao()">/</button>
+    <button onclick="mutiplicacao()">*</button>
     <div id="output"></div>
 
 
@@ -20,32 +20,26 @@
         var numero_original = prompt("Digite um número");
         numero_original = parseInt(numero_original);
 
-        if ( >= 1) {
-            
-            function soma(){
-                var numero = prompt("Digite o número que será somado com o anterior:")
-                numero = parseInt(numero);
+        function soma(){
 
-                resultado = resultado + numero;
+            var numero = prompt("Digite o número que será somado com o anterior:")
+            numero = parseInt(numero);
 
-                var output = document.querySelector('#output');
-                output.innerHTML = resultado;
-            }
-
-        } else {
-            
-            function soma(){
-                var numero = prompt("Digite o número que será somado com o anterior:")
-                numero = parseInt(numero);
-
-                var resultado = (numero_original + numero);
-                var output = document.querySelector('#output');
-                output.innerHTML = resultado;
-            }
-
+            var resultado = (numero_original + numero);
+            var output = document.querySelector('#output');
+            output.innerHTML = resultado;
         }
 
+        function subtracao(){
 
+            numero = prompt("Digite o número que será subtraido com o anterior:")
+            numero = parseInt(numero);
+
+            resultado = (numero_original - numero);
+            output = document.querySelector('#output');
+            output.innerHTML = resultado;
+
+        }
 
 
     </script>
