@@ -20,14 +20,21 @@
         var numero_original = prompt("Digite um número");
         numero_original = parseInt(numero_original);
 
-        function soma()
+        function escrever(){
+
+            var output = document.querySelector('#output');
+            output.innerHTML = numero_original;
+
+        }
+
+        function soma(){
 
             var numero = prompt("Digite o número que será somado com o anterior:")
             numero = parseInt(numero);
 
-            var resultado = (numero_original + numero);
-            var output = document.querySelector('#output');
-            output.innerHTML = resultado;
+            numero_original = (numero_original + numero);
+            escrever();
+            
         }
 
         function subtracao(){
@@ -35,9 +42,8 @@
             numero = prompt("Digite o número que será subtraido com o anterior:")
             numero = parseInt(numero);
 
-            resultado = (numero_original - numero);
-            output = document.querySelector('#output');
-            output.innerHTML = resultado;
+            numero_original = (numero_original - numero);
+            escrever();            
         }
 
         function divisao(){
@@ -45,9 +51,8 @@
             numero = prompt("Digite o número que será dividido com o anterior:")
             numero = parseInt(numero);
 
-            resultado = (numero_original / numero);
-            output = document.querySelector('#output');
-            output.innerHTML = resultado;
+            numero_original = (numero_original / numero);
+            escrever();
         }
 
         function mutiplicacao(){
@@ -55,9 +60,8 @@
             numero = prompt("Digite o número que será dividido com o anterior:");
             numero = parseInt(numero);
 
-            resultado = (numero_original * numero);
-            output = document.querySelector('#output');
-            output.innerHTML = resultado;
+            numero_original = (numero_original * numero);
+            escrever();
         }
 
 
