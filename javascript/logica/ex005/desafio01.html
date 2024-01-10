@@ -8,7 +8,7 @@
 <body>
     <h1>JavaScript Lógica</h1>
 
-    <button>+</button>
+    <button onclick="soma()">+</button>
     <button>-</button>
     <button>/</button>
     <button>*</button>
@@ -17,7 +17,19 @@
 
     <script>
 
-        
+        var numero_original = prompt("Digite um número");
+        numero_original = parseInt(numero_original);
+
+        function soma(){
+
+            var numero_soma = prompt("Digite o número que será somado com o anterior:")
+            numero_soma = parseInt(numero_soma);
+
+            var resultado = (numero_original + numero_soma);
+            var output = document.querySelector('#output');
+            output.innerHTML = resultado;
+        }
+
 
     </script>
 
