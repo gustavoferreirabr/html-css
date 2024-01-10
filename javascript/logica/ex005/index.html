@@ -23,13 +23,14 @@
 
         function CriarTabuada(){
 
+            LimparTabuada()
             // Nessa função, o objetivo é que seja criado uma tabuada do numero digitado até o 1000.    
             var numero = prompt("Digite um numero")
             numero = parseInt(numero);
             // Neste sentindo, pedimos um numero pro usuário para criarmos a tabuada.
             
             // Porém durante esse caminho, adicionamos a nossa função de LimparTabuada, no qual automaticamente, após o usuario digitar outro número ira fazer com que nosso tabuada seja resetada, visto que não aparece nenhum conteudo dentro da nossa var mensagem.
-            LimparTabuada()
+            
 
             // Definimos o indice, da onde começara a nossa tabuada, que será do um até o 1000.
             var indice = 1;
