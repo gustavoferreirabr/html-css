@@ -15,19 +15,31 @@
     <button onclick="areaAlert">
         Exibir Aérea Alert
     </button>
+
+    <div id="output"></div>
     
     <script>
 
-        function dados_de_entrada(){
+            
+
+        function areaAlert(){
+
             var altura = prompt("Digite um valor");
             altura = parseInt(altura);
 
             var largura = prompt("Digite um novo numero");
             largura = parseInt(largura);
+
+            var resultado = calcArea();
+            alert = resultado;
+
         }
 
+
         function calcArea(){
-            
+
+            var area = (altura * largura);
+
         }
 
 
