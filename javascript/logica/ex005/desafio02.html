@@ -6,20 +6,34 @@
     <title>JavaScript Lógica</title>
 </head>
 <body>
-    <button onclick="Calc(largura, altura)">Parametro</button>
+    
+    <button onclick="calc('+')">+</button>
+    <button onclick="calc('-')">-</button>
+    <button onclick="calc('*')">*</button>
+    <button onclick="calc('/')">*</button>
+    <div id="output"></div>
 
     <script>
 
-        var largura = prompt("Digite um numero");
-        largura =  parseInt(largura);
+        var numero_original = prompt("Digite um número");
+        numero_original = parseInt(numero_original);
 
-        var altura = prompt("Digite um novo numero");
-        altura = parseInt(altura);
+        function escrever(){
 
-        function Calc(l, a){
-            alert("O parametro é: "+ (l * a)); 
+            var output = document.querySelector('#output');
+            output.innerHTML = numero_original;
+
         }
-        
+
+        function calc(soma, subtracao, mutiplicacao, divisao){
+
+            var numero = prompt("Digite o número que será somado com o anterior:")
+            numero = parseInt(numero);
+
+            numero_original = (numero_original + numero);
+            escrever();
+            
+        }
 
     </script>
 
