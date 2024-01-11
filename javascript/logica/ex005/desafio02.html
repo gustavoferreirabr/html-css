@@ -7,10 +7,10 @@
 </head>
 <body>
     
-    <button onclick="calc('+')">+</button>
-    <button onclick="calc('-')">-</button>
-    <button onclick="calc('*')">*</button>
-    <button onclick="calc('/')">*</button>
+    <button onclick="calcular('soma')">+</button>
+    <button onclick="calcular('subtracao')">-</button>
+    <button onclick="calcular('mutiplicacao')">*</button>
+    <button onclick="calcular('divisao')">/</button>
     <div id="output"></div>
 
     <script>
@@ -25,14 +25,34 @@
 
         }
 
-        function calc(soma, subtracao, mutiplicacao, divisao){
+        function calcular(operacao){
 
-            var numero = prompt("Digite o número que será somado com o anterior:")
+            var numero = prompt("Digite um novo numero");
             numero = parseInt(numero);
 
-            numero_original = (numero_original + soma);
-            escrever();
-            
+            switch (operacao) {
+                case 'soma':
+                    numero_original += numero;
+                    break;
+                
+                case 'subtracao':
+                    numero_original -= numero;
+                    break;
+
+                case 'mutiplicacao':
+                    numero_original *= numero;
+                    break;
+
+                case 'divisao':
+                    numero_original /= numero;
+                    break;
+
+                default:
+                    break;
+            }
+
+            escrever()
+
         }
 
     </script>
