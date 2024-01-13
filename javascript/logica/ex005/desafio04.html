@@ -20,6 +20,21 @@
         altura = parseFloat(altura);
 
         function calcularArea(){
+            return largura * altura;
+        }
+
+        function calcularAreaAlert(){
+
+            var area =  calcularArea();
+            alert(area);
+
+        }
+
+        function calcularAreaOutput(){
+
+            var area = calcularArea();
+            var output = document.querySelector('.output')
+            output.innerHTML = area;
             
         }
 
