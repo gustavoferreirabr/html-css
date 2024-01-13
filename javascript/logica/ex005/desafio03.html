@@ -8,41 +8,33 @@
 <body>
     <h1>Lógica</h1>
 
-    <button onclick="areaOutput">
-        Exibir Aérea Output
-    </button>
-
-    <button onclick="areaAlert">
-        Exibir Aérea Alert
-    </button>
+    <button onclick="calcular('+')">+</button>
+    <button onclick="calcular('-')">-</button>
+    <button onclick="calcular('*')">*</button>
+    <button onclick="calcular('/')">/</button>
 
     <div id="output"></div>
     
     <script>
 
+        var n = prompt("Digite um numero:");
+        n = parseInt(n);
+
+        function calcular(operar){
+
+            var n1 = prompt("Digite um novo número:");
+            n1 = parseInt(n1);
+
+            switch (operar) {
+                case '+':
+                    n += n1;
+                    break;
             
-
-        function areaAlert(){
-
-            var altura = prompt("Digite um valor");
-            altura = parseInt(altura);
-
-            var largura = prompt("Digite um novo numero");
-            largura = parseInt(largura);
-
-            var resultado = calcArea();
-            alert = resultado;
+                default:
+                    break;
+            }
 
         }
-
-
-        function calcArea(){
-
-            var area = (altura * largura);
-
-        }
-
-
 
     </script>
 </body>
