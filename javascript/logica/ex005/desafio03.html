@@ -29,10 +29,25 @@
                 case '+':
                     n += n1;
                     break;
-            
+                
+                case '-':
+                    n -= n1;
+                    break;
+
+                case '*':
+                    n *= n1;
+                    break;
+
+                case '/':
+                    n /= n1;
+                    break;
+
                 default:
                     break;
             }
+
+            var output = document.querySelector('#output');
+            output.innerHTML = n;
 
         }
 
