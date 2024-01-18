@@ -10,20 +10,13 @@
     <script>
 
         var largura = prompt("Digite o valor da largura");
-        if (isNaN(largura)) {
-            alert("Digite um número válido.");
-        }
-            
-        var altura = prompt("Digite o valor da altura");
-        if (isNaN(altura)) {
-            alert("Digite um número válido.");
-        }
+        largura = parseInt(largura);
+        
+        var altura = prompt("Digite o valor da altura")
+        altura = parseInt(altura);
 
-        largura = parseFloat(largura);
-        altura = parseFloat(altura)
-
-        var AreaTotal = (largura * altura);
-        alert=(AreaTotal);
+        var Area = (largura * altura);
+        alert = (Area);
         
 
 
