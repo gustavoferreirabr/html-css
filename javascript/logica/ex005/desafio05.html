@@ -6,7 +6,7 @@
     <title>Desafio</title>
 </head>
 <body>
-    
+
     <script>
 
         var largura = prompt("Digite o valor da largura");
@@ -15,11 +15,24 @@
         var altura = prompt("Digite o valor da altura")
         altura = parseInt(altura);
 
-        var Area = (largura * altura);
-        alert = "Esse é o resultado "+ Area;
+        if (isNaN(largura) || isNaN(altura)) {
+            alert("Digite numeros válidos")
+        } else {
+            calcular()
+        }
+
+        function calcular(){
+            var Area = (largura * altura);
+            alert("Valor da area = "+ Area);
+        }
+
+        
+
+        
         
 
 
+        
     </script>
 
 </body>
