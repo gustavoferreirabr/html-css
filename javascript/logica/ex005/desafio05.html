@@ -12,23 +12,17 @@
         var largura = prompt("Digite o valor da largura");
         if (isNaN(largura)) {
             alert("Digite um número válido.");
-        } else {
-            largura = parseFloat(largura);
-
-            var altura = prompt("Digite o valor da altura");
-                if (isNaN(altura)) {
-                    alert("Digite um número válido.");
-                } else {
-                    altura = parseFloat(altura);
-                }
+        }
+            
+        var altura = prompt("Digite o valor da altura");
+        if (isNaN(altura)) {
+            alert("Digite um número válido.");
         }
 
-        function calcular(){
-            var AreaTotal = "Área Total = "+ (altura * largura);
-        }
+        largura = parseFloat(largura);
+        altura = parseFloat(altura)
 
-        alert=(AreaTotal)
-
+        var AreaTotal = (largura * altura);
         
 
 
