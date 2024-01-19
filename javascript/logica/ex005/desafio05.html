@@ -27,21 +27,21 @@
 
         function MostrarArea(){
 
-            largura =  prompt("Digite uma largura");
-            largura = parseInt(largura);
+            l =  prompt("Digite uma largura");
+            l = parseInt(l);
 
-            altura = prompt("Digite a altura");
-            altura = parseInt(altura);
+            a = prompt("Digite a altura");
+            a = parseInt(a);
 
-            if (isNaN(largura) || isNaN(altura)) {
-            alert("Digite um número:")
+            if (isNaN(l) || isNaN(a)) {
+            alert("Digite um número válido:")
             }
 
-            var resultado = (largura * altura);
+            var resultado = (l * a);
 
             var output = document.querySelector('.output');
 
-            output.innerHTML = resultado;
+            output.innerHTML = "Area total: "+ resultado;
 
 
         }
