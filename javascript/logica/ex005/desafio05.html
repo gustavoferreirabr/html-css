@@ -6,6 +6,8 @@
     <title>Desafio</title>
 </head>
 <body>
+    
+    <button onclick="iniciarButton()">Calcular Area</button>
 
     <script>
 
@@ -15,16 +17,36 @@
         var altura = prompt("Digite o valor da altura")
         altura = parseInt(altura);
 
-        if (isNaN(largura) || isNaN(altura)) {
-            alert("Digite numeros válidos")
-        } else {
-            calcular()
-        }
+        iniciarProg();
 
+        function iniciarProg(){
+
+            if (isNaN(largura) || isNaN(altura)) {
+            alert("Digite numeros válidos")
+            } else {
+                calcular()
+            }
+
+        }
+        
         function calcular(){
             var Area = (largura * altura);
             alert("Valor da area = "+ Area);
         }
+
+        function iniciarButton(){
+
+            var largura = prompt("Digite o valor da largura");
+            largura = parseInt(largura);
+            
+            var altura = prompt("Digite o valor da altura")
+            altura = parseInt(altura);
+
+            iniciarProg();
+            
+        }
+
+
 
         
 
