@@ -17,21 +17,16 @@
         var altura = prompt("Digite o valor da altura")
         altura = parseInt(altura);
 
-        iniciarProg();
-
-        function iniciarProg(){
-
-            if (isNaN(largura) || isNaN(altura)) {
-            alert("Digite numeros válidos")
-            } else {
-                calcular()
-            }
-
+        if (isNaN(largura) || isNaN(altura)) {
+        alert("Digite numeros válidos")
+        } else {
+            calcular()
         }
         
         function calcular(){
             var Area = (largura * altura);
             alert("Valor da area = "+ Area);
+            return Area;
         }
 
         function iniciarButton(){
@@ -42,19 +37,17 @@
             var altura = prompt("Digite o valor da altura")
             altura = parseInt(altura);
 
-            iniciarProg();
+            if (isNaN(largura) || isNaN(altura)) {
+            alert("Digite numeros válidos")
+            } else {
+                AreaButton = (largura * altura);
+                alert(AreaButton); 
+            }
+
+                       
             
         }
 
-
-
-        
-
-        
-        
-
-
-        
     </script>
 
 </body>
