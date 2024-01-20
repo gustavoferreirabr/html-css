@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <div class="output"></div>
+
+    <script>
+
+        var usuario = [
+
+            {"nome": "Gustavo", "email": "gustavo@gmail.com"},
+            {"nome": "Stefanie", "email": "stefanie@gmail.com"},
+            {"nome": "José", "email": "jose@gmail.com"}
+        ];
+
+        var msg = '';
+
+        for(var i = 0; i < usuario.length; i++){
+
+            console.log(usuario[i])
+            msg += "Nome do usuário: "+usuario[i].nome+"<br>"
+            msg += "E-mail do usuário: "+usuario[i].email+"<hr> <br>"
+
+        }
+
+        var output = document.querySelector('.output');
+        output.innerHTML = msg;
+
+
+    </script>
+</body>
+</html>
