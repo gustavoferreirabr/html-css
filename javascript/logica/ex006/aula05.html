@@ -19,14 +19,15 @@
 
         var msg = '';
 
-        for(var i = 0;i < produtos.length; i++){
+        for(var i = 0; i < produtos.length; i++){
 
             console.log(produtos[i]);
-            msg += "<h2>Produto: "+produto[i].nome+"<h2>";
+            msg += "<h2>Produto: "+produtos[i].nome+"<h2>";
             
-            msg += "<p> preço: "+produto[i].preco+"<p>";
+            msg += "<p> preço: "+produtos[i].preco+"<p>";
 
-            msg += "<p> em estoque: "+produto[i].estoque+"<p>";
+            msg += "<p> em estoque: "+produtos[i].estoque+"<p> <br>";
+
 
         }
 
