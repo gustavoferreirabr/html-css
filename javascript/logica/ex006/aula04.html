@@ -16,9 +16,16 @@
         produto1.preco = '10.99';
         produto1.estoque = '15';
 
-        produto1.comprar = function(){
+        produto1.comprar = function(qtd){
+
+            if((!qtd)) {
+                qtd = 1;
+            }
+
             console.log('comprou caneta');
-            console.log(this);
+            // this.estoque--
+            this.estoque = this.estoque - qtd;
+            console.log(this.estoque);        
         }
 
         var msg = '';
