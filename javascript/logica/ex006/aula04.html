@@ -21,10 +21,19 @@
         lapis.preco = '1.49';
         lapis.estoque = '20';
 
-        var caderno = new Object();
-        caderno.nome = 'caderno';
-        caderno.preco = '10.99';
-        caderno.estoque = '15';
+        var produto1 = new Object();
+        produto1.nome = 'caderno';
+        produto1.preco = '10.99';
+        produto1.estoque = '15';
+
+        var msg = '';
+
+        msg += 'nome: '+ produto1.nome +'<br>';
+        msg += 'preço: '+ produto1.preco+'<br>';
+        msg += "estoqueo: "+produto1.estoque+'<br>'
+
+        var output = document.querySelector('.output');
+        output.innerHTML = (msg);
 
     </script>
 
