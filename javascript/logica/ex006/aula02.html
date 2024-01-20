@@ -9,7 +9,11 @@
     
     <script>
 
-        var dias = new Array('', 'domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado')
+        var dias = new Array('','segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado', 'domingo')
+        var hoje = new Date();
+        var diaSemana = hoje.getDay();
+
+        alert(diaSemana);
 
     </script>
 
