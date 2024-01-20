@@ -11,20 +11,15 @@
 
     <script>
 
-        var caneta = new Object();
-        caneta.nome = 'caneta';
-        caneta.preco = '2';
-        caneta.estoque = '50';
-
-        var lapis = new Object();
-        lapis.nome = 'lapis';
-        lapis.preco = '1.49';
-        lapis.estoque = '20';
-
         var produto1 = new Object();
         produto1.nome = 'caderno';
         produto1.preco = '10.99';
         produto1.estoque = '15';
+
+        produto1.comprar = function(){
+            console.log('comprou caneta');
+            console.log(this);
+        }
 
         var msg = '';
 
@@ -34,6 +29,8 @@
 
         var output = document.querySelector('.output');
         output.innerHTML = (msg);
+
+
 
     </script>
 
