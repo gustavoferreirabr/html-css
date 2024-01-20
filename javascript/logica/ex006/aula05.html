@@ -6,6 +6,8 @@
     <title>JavaScript</title>
 </head>
 <body>
+
+    <div id="output"></div>
     
     <script>
 
@@ -13,13 +15,23 @@
             {'nome': 'caneta', 'preco': 2.49, 'estoque': 8},
             {'nome': 'lapis', 'preco': 1, 'estoque': 4},
             {'nome': 'caderno', 'preco': 10, 'estoque': 9}
-        ]
+        ];
 
         var msg = '';
 
-        for(){
+        for(var i = 0;i < produtos.length; i++){
+
+            console.log(produtos[i]);
+            msg += "<h2>Produto: "+produto[i].nome+"<h2>";
             
+            msg += "<p> preço: "+produto[i].preco+"<p>";
+
+            msg += "<p> em estoque: "+produto[i].estoque+"<p>";
+
         }
+
+        var output = document.querySelector('#output');
+        output.innerHTML = msg;
 
     </script>
 
