@@ -83,26 +83,37 @@
     <script>
 
         var display = document.querySelector('#display');
-        var msg = ''
+        var msg = 0
         display.innerHTML = msg;
 
-        function incluirDigito(digito){
-            switch (digito) {
-                case '1':
-                    display.innerHTML = 1;
-                    break;
-                
-                case '2':
-                    display.innerHTML = 2;
-                    break;
-                
-                case '3':
-                    display.innerHTML = 3
+		function incluirDigito(number){
+			switch (number) {
+				case '1':
+					var n1 = 1
+					var n1 = 1
+					break;
+				
+				case '2':
+					var n1 = 2
+					var n2 = 2
 
-                default:
-                    break;
-            }
-        }
+				default:
+					break;
+			}
+		}
+
+       function iniciarCalculo(op){
+			switch (op) {
+				case '+':
+					var resultado = n1 + n2
+					break;
+			
+				default:
+					break;
+			}
+	   }
+
+
 
 
     </script>
