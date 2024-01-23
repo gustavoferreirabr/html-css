@@ -86,8 +86,22 @@
         var msg = ''
         display.innerHTML = msg;
 
-        function incluirDigito(){
-            
+        function incluirDigito(digito){
+            switch (digito) {
+                case '1':
+                    display.innerHTML = 1;
+                    break;
+                
+                case '2':
+                    display.innerHTML = 2;
+                    break;
+                
+                case '3':
+                    display.innerHTML = 3
+
+                default:
+                    break;
+            }
         }
 
 
