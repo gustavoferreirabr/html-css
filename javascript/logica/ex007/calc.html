@@ -57,7 +57,7 @@
 <body>
 
 	<div id="calculator">
-		<div id="display">0</div>
+		<div id="display"></div>
 		
 		<button onclick="limpar()">AC</button> 
 		<button onclick="obterPorcento()">%</button> 
@@ -82,7 +82,11 @@
 
     <script>
 
+        var display = document.querySelector('#display');
 
+        var msg = ''
+
+        display.innerHTML = msg;
 
 
     </script>
