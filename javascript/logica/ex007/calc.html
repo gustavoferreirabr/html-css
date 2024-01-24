@@ -104,35 +104,9 @@
 
 		}
 
-		function iniciarCalculo(operacao){
-
-			n1 = parseInt(n1);
-
-			function incluirDigito(digito){
-
-				if (n2 == '') {
-					n2 = digito;
-				} else {
-					n2 += digito
-				}
-
-			}
-
-			MostrarDisplay(n2);
-
-			n2 = parseInt(n2);
-
-
-
-
-			switch (operacao) {
-				case '+':
-					
-					break;
-			
-				default:
-					break;
-			}
+		function iniciarCalculo(simbolo){
+			operacao = simbolo;
+			console.log(n1, operacao, n2)
 
 		}
 
