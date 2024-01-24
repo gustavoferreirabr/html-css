@@ -83,10 +83,12 @@
 	<script>
 
 		var n1 = '0';
+		var operacao = null;
+		var n2 = '';
 
 		function incluirDigito(digito){
 
-			if (n1 == '0') {
+			if (n1 === '0') {
 				n1 = digito;
 			} else {
 				n1 += digito;
@@ -99,6 +101,26 @@
 
 			var display = document.querySelector('#display');
 			display.innerHTML = valor;
+
+		}
+
+		function iniciarCalculo(operacao){
+
+			n1 = parseInt(n1);
+
+			n2 = ''
+
+			MostrarDisplay(n2)
+
+
+			switch (operacao) {
+				case '+':
+					
+					break;
+			
+				default:
+					break;
+			}
 
 		}
 
