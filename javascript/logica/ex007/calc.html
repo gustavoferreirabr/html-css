@@ -88,13 +88,19 @@
 
 		function incluirDigito(digito){
 
-			if (n1 === '0') {
-				n1 = digito;
+			if (operacao !== null ) {
+				n2 += digito;
+				MostrarDisplay(n2);
 			} else {
-				n1 += digito;
+				if (n1 === '0') {
+				n1 = digito;
+				} else {
+					n1 += digito;
+				}
+
+				MostrarDisplay(n1);
 			}
 
-			MostrarDisplay(n1);
 		}
 
 		function MostrarDisplay(valor){
