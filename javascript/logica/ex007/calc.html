@@ -108,9 +108,21 @@
 
 			n1 = parseInt(n1);
 
-			n2 = ''
+			function incluirDigito(digito){
 
-			MostrarDisplay(n2)
+				if (n2 == '') {
+					n2 = digito;
+				} else {
+					n2 += digito
+				}
+
+			}
+
+			MostrarDisplay(n2);
+
+			n2 = parseInt(n2);
+
+
 
 
 			switch (operacao) {
