@@ -131,23 +131,25 @@
 
 		function calcular(){
 
+			var _n1 = parseFloat(n1);
+			var _n2 = parseFloat(n2);
 			var nCalculado = 0;
 
 			switch (operacao) {
 				case '+':
-					nCalculado = n1 + n2;
+					nCalculado = _n1 + _n2;
 					break;
 
 				case '-':
-					nCalculado = n1 - n2;
+					nCalculado = _n1 - _n2;
 					break;
 
 				case '*':
-					nCalculado = n1 * n2;
+					nCalculado = _n1 * _n2;
 					break;
 
 				case '/':
-					nCalculado = n1 / n2;
+					nCalculado = _n1 / _n2;
 					break;
 			
 				default:
