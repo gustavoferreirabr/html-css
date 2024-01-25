@@ -111,9 +111,50 @@
 		}
 
 		function iniciarCalculo(simbolo){
-			operacao = simbolo;
+			
+			if(operacao = simbolo || n2 === ''){
+
+				operacao = simbolo;
+			}else{
+
+				var resultado = calcular();
+				n1 = resultado;
+				operacao = simbolo;
+				n2 = '';
+				MostrarDisplay(n1);
+
+			}
+
 			console.log(n1, operacao, n2)
 
+		}
+
+		function calcular(){
+
+			var nCalculado = 0;
+
+			switch (operacao) {
+				case '+':
+					nCalculado = n1 + n2;
+					break;
+
+				case '-':
+					nCalculado = n1 - n2;
+					break;
+
+				case '*':
+					nCalculado = n1 * n2;
+					break;
+
+				case '/':
+					nCalculado = n1 / n2;
+					break;
+			
+				default:
+					break;
+			}
+
+			return nCalculado;
 		}
 
 	</script>
