@@ -28,12 +28,20 @@
             console.log("nComputador "+ nComputador);
             console.log("nJogador "+ nJogador);
 
-            
+            nJogador = parseInt(nJogador);
+            nComputador = parseInt(nComputador);
+            var resultado = (nJogador + nComputador);
+
+            if (resultado % 2 == 0) {
+                console.log("Par")
+            } else {
+                console.log("Impar")
+            }
         }
 
         function calcularResultado(){
 
-
+            
 
         }
 
