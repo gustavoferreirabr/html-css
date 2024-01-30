@@ -9,7 +9,7 @@
     
     <h1>Jogo Par ou Impar</h1>
     <p>Digite um numero de 0 a 5</p>
-    <input type="number" id="meuNumber" min="0" max="5">
+    <input type="number" id="meuNumber" min="0" max="5" required>
     <button onclick="jogar()">Jogar</button>
 
     <script>
@@ -23,6 +23,15 @@
         }
 
         function jogar(){
+
+            if(nJog){
+
+            }else{
+
+
+
+            }
+
             nJogador = document.querySelector('#meuNumber').value;
             nComputador = sortear(5);
             console.log("nComputador "+ nComputador);
