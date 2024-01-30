@@ -36,19 +36,20 @@
 
             nJogador = parseInt(nJogador);
             nComputador = parseInt(nComputador);
-            var resultado = (nJogador + nComputador);
+            var total = (nJogador + nComputador);
 
-            if (resultado % 2 == 0) {
+            if (total % 2 == 0) {
                 console.log("Par")
+                if(minhaEscolha === "Par"){
+                    alert("Jogador Ganhou")
+                }
+
             } else {
                 console.log("Impar")
-            }
-
-            if(minhaEscolha === resultado){
-                alert("Jogador ganhou")
-            }else{
                 alert("Computador ganhou")
             }
+
+    
 
         }
 
