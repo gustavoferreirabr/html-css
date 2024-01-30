@@ -16,7 +16,7 @@
 
         var nComputador = "";
         var nJogador = "";
-        var minhaEscolha = "";
+        var minhaEscolha = "Par";
 
         function sortear(max){
             return Math.floor(Math.random() * max);
@@ -41,6 +41,12 @@
                 console.log("Par")
             } else {
                 console.log("Impar")
+            }
+
+            if(resultado == minhaEscolha){
+                alert("Jogador ganhou")
+            }else{
+                alert("Computador ganhou")
             }
 
         }
