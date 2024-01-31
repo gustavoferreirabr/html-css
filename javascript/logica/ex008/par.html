@@ -25,21 +25,21 @@
         function jogar(){
             //  >= 0 segu, se não volta
 
-            if(!(nJogador == "")){
-                
-                nJogador = document.querySelector('#meuNumber').value;
-                nComputador = sortear(5);
+            nJogador = document.querySelector('#meuNumber').value;
+            nComputador = sortear(5);
+
+            if(nJogador == ""){
+                alert("Retorne")
+            }else{
+
                 console.log("nComputador "+ nComputador);
                 console.log("nJogador "+ nJogador);
 
                 calcularResultado();
-            }else{
-
-                alert("Retorn")
 
             }
 
-            
+      
             
         }
 
