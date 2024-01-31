@@ -16,22 +16,12 @@
             [5,6,4,3], [2,8,5,6], [3,6,4,8], [2,8,4,9]
         ];
 
-        var primeiro_semestre = notas[0][0]
-
-        for(var i = 0; i < 3; i++){
-            
-            primeiro_semestre += notas[0][i];
-
-        }
-
-        // var primeiro_semestre = notas[0][0] + notas[0][1];
+        var semestre1 = notas[0][0] + notas[0][1] + notas[0][2] + notas[0][3];
         
-        console.log(primeiro_semestre)
+        var media1 = semestre1 / 4;
+        console.log("Media do primeiro semestre: "+ media1)
         
-        var msg = "";
-                
-        
-        document.querySelector('#output').innerHTML = msg;
+    
         
         
     </script>
