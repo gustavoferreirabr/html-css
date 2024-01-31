@@ -24,7 +24,6 @@
 
         for(var i = 0; i < alunos.length; i++){
 
-
             // var NotaAluno = alunos[i].notas[i];
             // console.log("Notas dos alunos: "+ NotaAluno)
 
@@ -34,19 +33,16 @@
             for(var n = 0; n < 4; n++){    
 
                 var NotaAluno = alunos[i].notas[n];
-                NotaTotal += alunos[i].notas[n]; 
+                NotaTotal += alunos[i].notas[n];
                 console.log("Nota dos alunos: "+ NotaAluno)
-
-
-
             }
+
+
+            
             
         }
        
         var msg = "";
-        
-        
-        
         document.querySelector('#output').innerHTML = msg;
         
         
