@@ -20,11 +20,27 @@
             {nome: 'lucia', notas: [2,1,8,5]}
         ];
         
+        var NotaTotal = 0;
+
         for(var i = 0; i < alunos.length; i++){
+
+
+            // var NotaAluno = alunos[i].notas[i];
+            // console.log("Notas dos alunos: "+ NotaAluno)
 
             var NomeAluno = alunos[i].nome;
             console.log("Nome do Aluno: "+ NomeAluno)
 
+            for(var n = 0; n < 4; n++){    
+
+                var NotaAluno = alunos[i].notas[n];
+                NotaTotal += alunos[i].notas[n]; 
+                console.log("Nota dos alunos: "+ NotaAluno)
+
+
+
+            }
+            
         }
        
         var msg = "";
