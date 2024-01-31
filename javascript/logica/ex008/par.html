@@ -24,12 +24,22 @@
 
         function jogar(){
             //  >= 0 segu, se não volta
-            nJogador = document.querySelector('#meuNumber').value;
-            nComputador = sortear(5);
-            console.log("nComputador "+ nComputador);
-            console.log("nJogador "+ nJogador);
 
-            calcularResultado();
+            if(!(nJogador == "")){
+                
+                nJogador = document.querySelector('#meuNumber').value;
+                nComputador = sortear(5);
+                console.log("nComputador "+ nComputador);
+                console.log("nJogador "+ nJogador);
+
+                calcularResultado();
+            }else{
+
+                alert("Retorn")
+
+            }
+
+            
             
         }
 
