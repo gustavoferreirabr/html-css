@@ -21,9 +21,8 @@
         for(var i = 0; i < notas.length; i++){
 
             console.log(notas[i])
-            msg += '<p> notas do '+(i + 1)+'bimestre: '+ notas[i].join(',')+'<p>'
+            console.log('notas do '+(i + 1)+'º bimestre: '+ notas[i].join(','))
             
-
             var totalBimestre = 0
             for(var j = 0; j < notas[i].length; j++){
 
@@ -31,9 +30,9 @@
                 totalBimestre += notas[i][j];
             }
 
-            var MediaBimestre = totalBimestre / notas[i].length;
+            var MediaBimestre = totalBimestre / 4;
 
-            msg += '<p> A média do '+(i + 1)+' bimestre é: '+ MediaBimestre+'<p><hr>'
+            console.log('A média do '+(i + 1)+' bimestre é: '+ MediaBimestre)
             console.log('mediaBimestre '+ MediaBimestre)
 
         }
