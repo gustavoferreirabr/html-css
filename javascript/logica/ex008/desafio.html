@@ -33,13 +33,18 @@
             for(var n = 0; n < 4; n++){    
 
                 var NotaAluno = alunos[i].notas[n];
-                NotaTotal += alunos[i].notas[n];
                 console.log("Nota dos alunos: "+ NotaAluno)
+
+                
                 
             }
 
-            
+            NotaTotal += alunos[i].notas[n];
+            console.log(NotaAluno)
         }
+
+        var MediaGeral = NotaTotal / alunos.length;
+        console.log("Media Geral Alunos: "+ MediaGeral)
        
         var msg = "";
         document.querySelector('#output').innerHTML = msg;
