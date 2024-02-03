@@ -11,14 +11,35 @@
         var Gustavo = {
             nome: 'gustavo',
             CPF: '543.648.388-70',
-            idade: '20'
+            idade: '20',
         }
 
         for(propriedades in Gustavo){
 
-            console.log(propriedades)
+            console.log(propriedades, Gustavo[propriedades])
 
         }
+
+        function Endereco(r, n, cep){
+
+            this.rua = r;
+            this.number = n;
+            this.cep = cep;
+
+        }
+
+        function EnderecoComplete(){
+
+            return 
+            console.log("Endereço Completo"+ this.rua, this.number, this.cep)
+
+        }
+
+        var endereco1 = new Endereco('Estrada das Hortencias', 190, '06150-330');
+
+        var endereco = new Endereco('Estrada das Rosas', 1043, '06150-300')
+
+        
 
 
     </script>
