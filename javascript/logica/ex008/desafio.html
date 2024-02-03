@@ -33,10 +33,14 @@
             var notasAluno = alunos[i].notas;
             console.log("Notas: "+ notasAluno)
 
-            
-            console.log("Media: "+ total)
+            var aluno = 0
+            for(var j = 0; j < 4; j++){
 
-            
+                aluno += alunos[j].notas[j];
+                console.log(aluno)
+                
+            }
+           
         }
 
        
