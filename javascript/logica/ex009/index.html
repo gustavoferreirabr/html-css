@@ -1,43 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logica</title>
-</head>
-<body>
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+        
+        <div id="output"></div>
+    </body>
+    
     <script>
 
-        var Gustavo = {
-            nome: 'gustavo',
-            CPF: '543.648.388-70',
-            idade: '20',
-        }
-
-        for(propriedades in Gustavo){
-
-            console.log(propriedades, Gustavo[propriedades])
-
-        }
-
-        function Endereco(r, n, cep){
-
-            this.rua = r;
-            this.number = n;
-            this.cep = cep;
-
-            this.enderecocomplete = function(){
-                return this.rua +', Nº '+ this.number+', CEP: '+ this.cep;
-            }
-        }
-
-        var endereco1 = new Endereco('Estrada das Hortencias', 190, '06150-330');
-
-        var endereco = new Endereco('Estrada das Rosas', 1043, '06150-300')
-
-        console.log(endereco1.enderecocomplete())
-
-
+       var alunos = [
+           {nome: 'daniel', id: 112233, endereco: 'rua faz de conta 2, ap 3, são paulo SP'},
+           {nome: 'josé', id: 112244, endereco: 'rua belezura 5, Sao paulo'},
+           {nome: 'joão', id: 113344, endereco: 'rua belezura 20, Sao Paulo - perto do josé'},
+           {nome: 'maria', id: 114444, endereco: 'rua chuchu 1, RJ'},
+           {nome: 'ana', id: 114555, endereco: 'Av belezura 41,  SP'},
+       ]
+        
+        
+        
+        
+        
+        
+        var msg = "";
+        
+        
+        document.querySelector('#output').innerHTML = msg;
+        
+        
     </script>
-</body>
 </html>
