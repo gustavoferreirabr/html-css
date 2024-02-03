@@ -26,20 +26,16 @@
             this.number = n;
             this.cep = cep;
 
-        }
-
-        function EnderecoComplete(){
-
-            return 
-            console.log("Endereço Completo"+ this.rua, this.number, this.cep)
-
+            this.enderecocomplete = function(){
+                return this.rua +', Nº '+ this.number+', CEP: '+ this.cep;
+            }
         }
 
         var endereco1 = new Endereco('Estrada das Hortencias', 190, '06150-330');
 
         var endereco = new Endereco('Estrada das Rosas', 1043, '06150-300')
 
-        
+        console.log(endereco1.enderecocomplete())
 
 
     </script>
