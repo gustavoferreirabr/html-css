@@ -21,6 +21,7 @@
         ];
         
         var total = 0;
+        var mediaAlunos = 0;
 
         for(var i = 0; i < alunos.length; i++){
 
@@ -32,7 +33,7 @@
 
             var notasAluno = alunos[i].notas;
             console.log("Notas: "+ notasAluno)
-
+            // PRESTAR ATENÇÃO NESSA LINHA DE BAIXO E ENTENDER O MOTIVO DO NOTAS!!!!!!!!
             var notas = alunos[i].notas
             var notaTotal = 0;
             for(var j = 0; j < notas.length; j++)
@@ -41,13 +42,17 @@
             }
 
             var media = notaTotal / notas.length;
+            mediaAlunos += media
             console.log('Media: '+ media)
 
 
         }
 
-       
+
+
+        mediaAlunos = mediaAlunos / alunos.length;
+       console.log("Media Geral: "+ mediaAlunos)
         
-        
+        // REVISAR SOBRE OS LEGNHTS - URGENTENMENTE!!!!!!!!!!!
     </script>
 </html>
