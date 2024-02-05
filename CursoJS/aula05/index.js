@@ -1,1 +1,2 @@
-console.log("Hellow")
+//  Um comentário
+console.log("Olá gustavo!")
