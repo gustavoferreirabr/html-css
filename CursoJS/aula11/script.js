@@ -1,8 +1,8 @@
 
-const primeiroNumero = prompt("Digite um número");
+let primeiroNumero = prompt("Digite um número");
 primeiroNumero =  parseFloat(primeiroNumero);
 
-const segundoNumero = prompt("Digite mais um outr número:");
+let segundoNumero = prompt("Digite mais um outr número:");
 segundoNumero = parseFloat(segundoNumero);
 
 const resultado = (primeiroNumero + segundoNumero);
