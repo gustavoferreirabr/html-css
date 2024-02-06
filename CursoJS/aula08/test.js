@@ -13,4 +13,4 @@ console.log('Peso IMC: ', imc)
 
 // Calculo do ano de nascimento
 anoDeNascimento = (anoAtual - idade);
-console.log("Ano de nascimento: ", anoDeNascimento)
+console.log(`Ano de nascimento: ${anoDeNascimento}`)
