@@ -1,10 +1,16 @@
+let varA = 'A'; // B
+let varB = 'B'; // C
+let varC = 'C'; // A
+let varGeral = '';
 
-let primeiroNumero = prompt("Digite um número");
-primeiroNumero =  parseFloat(primeiroNumero);
+varGeral = varB;
+varA = varGeral;
+console.log(varA)
 
-let segundoNumero = prompt("Digite mais um outr número:");
-segundoNumero = parseFloat(segundoNumero);
+varGeral = varC
+varB = varGeral;
+console.log(varB);
 
-const resultado = (primeiroNumero + segundoNumero);
-console.log(resultado)
-alert("O resultado da adição dos dois números digitas é: "+ resultado)
+varGeral = varA;
+varC = varGeral;
+console.log(varC)
