@@ -13,7 +13,10 @@
 
         document.body.innerHTML += `Seu numero é ${number}<br>`;
         document.body.innerHTML += `Raiz quadrada: ${number ** 0.5}<br>`;
-        document.body.innerHTML += ` ${number} é inteiro: ${Number.isInteger(number)}`
+        document.body.innerHTML += ` ${number} é inteiro: ${Number.isInteger(number)}<br>`;
+        document.body.innerHTML += `Arredondado para baixo ${Math.floor(number)}<br>`
+        document.body.innerHTML += `Arredondado para cima ${Math.ceil(number)}<br>`
+        document.body.innerHTML += `Com duas casas decimais ${number.fixed(2)}<br>`
 
     </script>
 </body>
