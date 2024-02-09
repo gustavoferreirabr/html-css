@@ -7,16 +7,23 @@
 </head>
 <body>
 
-    <h1>O seu numero é <span id="titulo"></span></h1>
+    <h1>O seu numero é <span id="numero-titulo">0</span></h1>
+    <div id="texto">Texto</div>
 
 
     <script>
 
-        let number = prompt("Digite um numero")
-        number = parseFloat(number)
+        const number = Number(prompt("Digite um numero"));
 
-        
+        const numeroTitulo = document.getElementById('numero-titulo');
+        const numeroTexto = document.getElementById('texto');
 
+        numeroTitulo.innerHTML = number;
+        numeroTexto.innerHTML = `<p>Raiz quadrada: ${number ** 0.5}</p>`;
+        numeroTexto.innerHTML += `<p>${number} é inteiro: ${Number.isInteger(number)}</p>`;
+        numeroTexto.innerHTML += `<p>Arredondado para baixo ${Math.floor(number)}</p>`;
+        numeroTexto.innerHTML += `<p>Arredondado para cima ${Math.ceil(number)}</p>`;
+        numeroTexto.innerHTML += `<p>Com duas casas decimais: ${number.toFixed(2)}</p>`;
 
 
         // document.titulo.innerHTML = number;
