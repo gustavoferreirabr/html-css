@@ -6,12 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>O seu numero é <span id="titulo"></span></h1>
+
+
     <script>
 
         let number = prompt("Digite um numero")
         number = parseFloat(number)
 
-        document.body.innerHTML += `Seu numero é ${number}<br>`;
+        document.querySelector('#titulo');
+
+        document.titulo.innerHTML = number;
         document.body.innerHTML += `Raiz quadrada: ${number ** 0.5}<br>`;
         document.body.innerHTML += ` ${number} é inteiro: ${Number.isInteger(number)}<br>`;
         document.body.innerHTML += `Arredondado para baixo ${Math.floor(number)}<br>`
