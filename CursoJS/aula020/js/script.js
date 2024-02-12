@@ -5,6 +5,10 @@ function meuEscopo(){
         evento.preventDefalt();
 
         const nome = form.querySelector('.nome');
-        
+        const nome = form.querySelector('.nome');
+        const nome = form.querySelector('.nome');
+        const nome = form.querySelector('.nome');
+        const nome = form.querySelector('.nome');
+
     }
 }
