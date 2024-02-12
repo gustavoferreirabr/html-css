@@ -9,7 +9,7 @@ function meuEscopo(){
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
-        console.log(nome, sobrenome, peso, altura);
+        console.log(nome.value, sobrenome, peso, altura);
     }
 
     form.addEventListener('submit', recebeEventoForm);
