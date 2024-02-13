@@ -21,6 +21,8 @@ function meuEscopo() {
 
         console.log(pessoas)
 
+        resultado.innerHTML += 
+        `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}<p>`
     }
 
     form.addEventListener('submit', recebeEventoForm);//Neste caso, quando o usuário, cliclar no meu button, submit, era será executado a minha função evento.preventDefalt, no qual não vai realizar a função automatica do navegador.
