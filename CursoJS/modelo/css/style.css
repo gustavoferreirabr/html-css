@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root{
+    --cor-prymary: #ccc;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--cor-prymary);
+}
