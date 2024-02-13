@@ -10,22 +10,25 @@ function meuEscopo() {
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
-        pessoas.push({
+        criarObj(nome.value, sobrenome.value, peso.value, altura.value);
 
-            nome: nome.value,
-            sobrenome: sobrenome.value,
-            peso: peso.value,
-            altura: altura.value,
+        function criarObj(nome, sobrenome, peso, altura){
+            return {
+                nome: nome,
+                sobrenome: sobrenome,
+                peso: peso,
+                altura: altura
+            };
 
-        })
+        console.log(criarObj);
+       
+        }
 
-        console.log(pessoas)
-
-        resultado.innerHTML += 
+        resultado.innerHTML = 
         `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}<p>`
     }
 
-    form.addEventListener('submit', recebeEventoForm);//Neste caso, quando o usuário, cliclar no meu button, submit, era será executado a minha função evento.preventDefalt, no qual não vai realizar a função automatica do navegador.
+    form.addEventListener('Submit', recebeEventoForm);//Neste caso, quando o usuário, cliclar no meu button, submit, era será executado a minha função evento.preventDefalt, no qual não vai realizar a função automatica do navegador.
 }
 
 meuEscopo();
