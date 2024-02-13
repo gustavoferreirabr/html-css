@@ -10,7 +10,6 @@ function meuEscopo() {
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
-        criarObj(nome.value, sobrenome.value, peso.value, altura.value);
 
         function criarObj(nome, sobrenome, peso, altura){
             return {
@@ -19,10 +18,11 @@ function meuEscopo() {
                 peso: peso,
                 altura: altura
             };
-
-        console.log(criarObj);
        
         }
+
+        criarObj(nome.value, sobrenome.value, peso.value, altura.value);
+
 
         resultado.innerHTML = 
         `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}<p>`
