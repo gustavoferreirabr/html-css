@@ -1,4 +1,22 @@
 function meuEscopo(){
+    const form = document.querySelector('.form');
+    form.addEventListener('submit', recebeEventoForm);
+
+    function recebeEventoForm(evento) {
+        evento.preventDefault();
+
+        const peso = form.querySelector('#peso');
+        const altura = form.querySelector("altura");
+
+        // const nome = form.querySelector('.nome');
+
+        // criarObj(nome.value, sobrenome.value, peso.value, altura.value);
+
+        // function criarObj(nome, sobrenome, peso, altura){
+        //     pessoas.push = {nome, sobrenome, peso, altura}
+        //     console.log(pessoas);
+        // }
+    }
 
     // Primeiro, devemos bloquear o evento do formulário, visto que se deixarmos o formulário agir da forma que o mesmo age, não iremos conseguir obter o resultado.
 
