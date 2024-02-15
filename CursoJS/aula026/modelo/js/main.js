@@ -6,10 +6,18 @@ function meuEscopo(){
     function recebeEventoForm(evento) {
         evento.preventDefault();
 
-        const peso = form.querySelector('#peso');
-        const altura = form.querySelector("#altura");
+        let peso = form.querySelector('#peso');
+        let altura = form.querySelector("#altura");
+        altura = parseFloat(altura.value);
+        peso = parseFloat(peso.value);
+        console.log(`${peso}, ${altura}`)
 
-        console.log(`${peso.value}, ${altura.value}`)
+        // function calculoIMC(altura, peso){
+
+        //     const calculo = ((altura ));
+        //     return calculo;
+
+        // }
 
         // const nome = form.querySelector('.nome');
 
@@ -24,9 +32,9 @@ function meuEscopo(){
 }
 meuEscopo();
 
- // Primeiro, devemos bloquear o evento do formulário, visto que se deixarmos o formulário agir da forma que o mesmo age, não iremos conseguir obter o resultado.
+ // FEITO = Primeiro, devemos bloquear o evento do formulário, visto que se deixarmos o formulário agir da forma que o mesmo age, não iremos conseguir obter o resultado. 
 
-    // Segundo, devemos obter os dados que serão preenchidos no nossos inputs altura e largura.
+// FEITO = Segundo, devemos obter os dados que serão preenchidos no nossos inputs altura e largura.
 
     // Terceiro, devemos efetuar a divisão entre altura e input.
 
