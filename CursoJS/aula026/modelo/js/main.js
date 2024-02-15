@@ -14,10 +14,11 @@ function meuEscopo(){
 
         function calculoIMC(altura, peso){
             const calculo = ((peso / altura) / altura);
-            console.log(calculo)
+            return calculo;
         }
 
-        calculoIMC(altura, peso)
+        const resultado = calculoIMC(altura, peso);
+        console.log(resultado);
 
 
         // const nome = form.querySelector('.nome');
