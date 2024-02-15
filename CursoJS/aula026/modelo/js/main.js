@@ -12,12 +12,13 @@ function meuEscopo(){
         peso = parseFloat(peso.value);
         console.log(`${peso}, ${altura}`)
 
-        // function calculoIMC(altura, peso){
+        function calculoIMC(altura, peso){
+            const calculo = ((peso / altura) / altura);
+            console.log(calculo)
+        }
 
-        //     const calculo = ((altura ));
-        //     return calculo;
+        calculoIMC(altura, peso)
 
-        // }
 
         // const nome = form.querySelector('.nome');
 
