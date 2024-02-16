@@ -1,8 +1,8 @@
 function meuEscopo(){
     const form = document.querySelector('.form');
-    form.addEventListener('submit', recebeEventoForm);
     let output = document.querySelector('.output');
 
+    form.addEventListener('submit', recebeEventoForm);
     function recebeEventoForm(evento) {
         evento.preventDefault();
 
