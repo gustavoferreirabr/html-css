@@ -16,5 +16,6 @@ console.log("Minutos", data.getMinutes());
 console.log("Segundos", data.getSeconds());
 console.log("Milisegundos", data.getMilliseconds());
 console.log("Dia da semana", data.getDay()); // o domingo começa em 0 e o sabado vai até 6
+console.log(Date.now());
 
 console.log(data.toString());
