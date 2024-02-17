@@ -1,12 +1,24 @@
-// Exibir: (dia da semana), o (dia do mes) de (mês) de (ano), (horário:)
+// Devemos exibir por escrito o dia da semana, o dia do mês, o próprio mês e o ano e o horário.
 
+// Primeiro, devemos exibir o dia da semana.
 
-let data = new Date('2003-05-13 03:05:44');
-console.log(data)
-console.log("Dia", data.getDate()); // Dia
-console.log("Mês", data.getMonth() + 1); // Mês - Inidice começa 0
-console.log("Ano", data.getFullYear());
-console.log("Horas", data.getHours());
-console.log("Minutos", data.getMinutes());
-console.log("Segundos", data.getSeconds());
-console.log("Dia da semana", data.getDay()); // o domingo começa em 0 e o sabado vai até 6
+let data =  new Date();
+const diaSemana = data.getDay();
+console.log(diaSemana)
+
+const diaSemanaTexto = localizadorDiaSemana(diaSemana);
+function localizadorDiaSemana(diaSemana){
+
+    let diaSemanaTxt;
+
+    if(diaSemana === 0){
+       diaSemanaTxt = "Domingo";
+    } else if(diaSemana === 6){
+       diaSemanaTxt = "Sabado";
+    }
+
+    return diaSemanaTxt;
+
+}
+
+console.log(diaSemanaTexto)
