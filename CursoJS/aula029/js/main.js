@@ -1,5 +1,5 @@
 // Devemos exibir por escrito o dia da semana, o dia do mês, o próprio mês e o ano e o horário.
-
+let output = document.querySelector('.output');
 // Primeiro, devemos exibir o dia da semana.
 
 let data = new Date();
@@ -10,7 +10,6 @@ const diaSemanaTexto = localizadorDiaSemana(diaSemana);
 function localizadorDiaSemana(diaSemana) {
 
     let diaSemanaText;
-
     switch (diaSemana) {
         case 0:
             diaSemanaText = "Domingo";
@@ -43,9 +42,8 @@ function localizadorDiaSemana(diaSemana) {
             diaSemanaText = "Não foi encontrado o dia da semana";
             break;
     }
-
     return diaSemanaText;
-
 }
 
 console.log(diaSemanaTexto)
+output.innerHTML = "Dia da semana"+ diaSemanaTexto;
