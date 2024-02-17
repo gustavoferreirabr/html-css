@@ -2,7 +2,7 @@
 let output = document.querySelector('.output');
 // Primeiro, devemos exibir o dia da semana.
 
-let data = new Date('2003-05-13 03:45');
+let data = new Date();
 const diaSemana = data.getDay();
 const diaMes = data.getDate();
 const mesNumber = data.getMonth() + 1;
@@ -17,30 +17,30 @@ function localizadorDiaSemana(diaSemana) {
     let diaSemanaText;
     switch (diaSemana) {
         case 0:
-            diaSemanaText = "Domingo";
+            diaSemanaText = "domingo";
             break;
 
         case 1:
-            diaSemanaText = "Segunda";
+            diaSemanaText = "segunda-feira";
             break;
 
         case 2:
-            diaSemanaText = "Terça";
+            diaSemanaText = "terça-feira";
             break;
 
         case 3:
-            diaSemanaText = "Quarta";
+            diaSemanaText = "quarta-feira";
             break;
         case 4:
-            diaSemanaText = "Quinta";
+            diaSemanaText = "quinta-feira";
             break;
 
         case 5:
-            diaSemanaText = "Sexta";
+            diaSemanaText = "sexta-feira";
             break;
 
         case 6:
-            diaSemanaText = "Sabado";
+            diaSemanaText = "sabado";
             break;
 
         default:
