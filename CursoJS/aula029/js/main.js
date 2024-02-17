@@ -2,14 +2,14 @@
 let output = document.querySelector('.output');
 // Primeiro, devemos exibir o dia da semana.
 
-let data = new Date();
+let data = new Date('2003-05-13 03:45');
 const diaSemana = data.getDay();
 const diaMes = data.getDate();
 const mesNumber = data.getMonth() + 1;
 const ano = data.getFullYear();
 const hora = data.getHours();
 const minutos = data.getMinutes();
-console.log(minutos);
+// console.log(minutos);
 
 const diaSemanaTexto = localizadorDiaSemana(diaSemana);
 function localizadorDiaSemana(diaSemana) {
@@ -51,7 +51,6 @@ function localizadorDiaSemana(diaSemana) {
 }
 
 const mesTexto = localizadorMes(mesNumber);
-console.log(mesTexto)
 function localizadorMes(mesNumber) {
 
     let mesPorEscrito;
@@ -113,8 +112,4 @@ function localizadorMes(mesNumber) {
     return mesPorEscrito;
 }
 
-
-
-
-console.log(diaSemanaTexto)
 output.innerHTML = `${diaSemanaTexto}, ${diaMes} de ${mesTexto} de ${ano}, ${hora}:${minutos}`
