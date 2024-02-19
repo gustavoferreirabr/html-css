@@ -9,3 +9,14 @@ console.log(resto)
 
 const [primeiro, ,terceiro, ,quinto] = numeros;
 console.log(primeiro, terceiro, quinto);
+
+// Como podemos acessar indices dentro de indices
+
+const listas = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+] 
+
+console.log(listas[1][1]);// Estou acessando o indice 1 da minha array listas, e dentro dela estou acessando o indice 1 que é o 5
+
