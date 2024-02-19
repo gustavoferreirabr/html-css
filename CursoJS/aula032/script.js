@@ -4,3 +4,8 @@ const [primeiroIndice, segundoIndice, ...resto] = numeros; // Isso daqui apenas 
 
 console.log(primeiroIndice, segundoIndice);
 console.log(resto)
+
+// Além disso, conseguimos pular elemento/indices, usando um espaço entre virgulas.
+
+const [primeiro, ,terceiro, ,quinto] = numeros;
+console.log(primeiro, terceiro, quinto);
