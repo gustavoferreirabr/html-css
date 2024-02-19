@@ -18,5 +18,9 @@ const listas = [
     [7, 8, 9]
 ] 
 
-console.log(listas[1][1]);// Estou acessando o indice 1 da minha array listas, e dentro dela estou acessando o indice 1 que é o 5
+console.log(listas[1][1]);// Estou acessando o indice 1 da minha array listas, e dentro dela estou acessando o indice 1 que é o 5;
+
+const [primeiraLista, ,terceiraLista] = listas
+console.log(primeiraLista[1], terceiraLista[2]);
+
 
