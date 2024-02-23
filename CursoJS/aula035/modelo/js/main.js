@@ -1,6 +1,6 @@
-let msg = document.querySelector('.paragrafo');
-msg.innerHTML = '';
-
-for(let i = 1; i <= 4; i++){
-    msg.innerHTML += `Frase ${i} <br>`;
-}
+const elementos = [
+    {tag: 'p', texto:'Olá mundo - Frase 1'},
+    {tag: 'div', texto:'Olá Gustavo - Frase 2'},
+    {tag: 'section', texto:'Olá cidade - Frase 3'},
+    {tag: 'footer', texto:'Ola gente! - Frase 4'}
+]
