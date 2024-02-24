@@ -6,6 +6,6 @@ const pessoas = {
 
 for(let chave in pessoas){
 
-    console.log(pessoas)
+    console.log(chave, pessoas[chave])
 
 }
