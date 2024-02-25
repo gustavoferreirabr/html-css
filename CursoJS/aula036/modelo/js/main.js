@@ -1,2 +1,12 @@
 const paragrafos = document.querySelector('.paragrafos');
-paragrafos.document.querySelectorAll('p');
+const ps = paragrafos.querySelectorAll('p');
+
+
+const estilosBody = getComputedStyle(document.body);
+const backgroundBody = estilosBody.backgroundColor;
+// console.log(backgroundBody);
+
+for(let p of ps){
+    console.log(p)
+}
+
