@@ -1,2 +1,2 @@
-const ePaisagem = (altura, largura) => largura > altura ? true : false;
-console.log
+const ePaisagem = (altura, largura) => largura > altura;
+console.log(ePaisagem(400, 8000))
