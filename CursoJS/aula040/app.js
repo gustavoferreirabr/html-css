@@ -8,6 +8,14 @@ function meuEscopo(numeroDado){
    if (numeroDado >= 0 && numeroDado <= 100){
      console.log("Numero Valido") 
 
+     if(){
+
+     } if else (){
+
+     } if else(){
+        
+     }
+
    } else console.log("Digite um numero valido de 0 a 100")
 
 }
