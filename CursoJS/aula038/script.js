@@ -1,19 +1,13 @@
 function meuEscopo(){
 
-    const valorA = Number(prompt("Digite um numero"));
-    const valorB = Number(prompt("Digite um novo numero"));
-    console.log(valorA, valorB)
 
-    maiorNumber(valorA, valorB)
+    const maximo = (x, y) => x > y ? x : y;
+    // function max(x, y){
+    //     return x > y ? x : y;
+    // }
 
-    function maiorNumber(valorA, valorB){
+    console.log(maximo(100, 50))
 
-        if(valorA > valorB){
-            console.log(`O valor A (${valorA}) é maior`)
-        } else{
-            console.log(`O valor B (${valorB}) é maior`)
-        }
-    }
 }
 
 meuEscopo();
