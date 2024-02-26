@@ -9,7 +9,12 @@ function meuEscopo(numeroDado){
      console.log("Numero Valido") 
     // Novo fluxo
 
-    
+      if ( numeroDado % 3 == 1 && numeroDado % 5 == 1){
+        console.log("FizzBuzz")
+      } else if (){
+        
+      }
+
 
 
 
