@@ -9,16 +9,16 @@ function meuEscopo(numeroDado) {
     console.log("Numero Valido")
     // Novo fluxo
 
-    if (numeroDado % 3 == 1 && numeroDado % 5 == 1) {
+    if (numeroDado % 3 == 0 && numeroDado % 5 == 0) {
       console.log("FizzBuzz")
-    } else if (numeroDado % 3 == 1) {
+    } else if (numeroDado % 3 == 0) {
       console.log("Fizz")
-    } else if (numeroDado % 5 == 1) {
+    } else if (numeroDado % 5 == 0) {
       console.log("Buzz")
     } else {
       console.log(`Não é divisel por nenhum numero, então retornamos ele mesmo: ${numeroDado}`)
     }
-    
+
   } else {
     console.log("Digite um numero valido de 0 a 100")
   }
