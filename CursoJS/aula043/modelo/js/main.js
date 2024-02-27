@@ -6,3 +6,11 @@ const zerar = document.querySelector('.zerar')
 iniciar.addEventListener('click', function(event) {
     alert('Cliquei no inciar')
 })
+
+pausar.addEventListener('click', function(event){
+
+})
+
+zerar.addEventListener('click', function(event){
+    
+})
