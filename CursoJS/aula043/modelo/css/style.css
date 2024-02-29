@@ -44,7 +44,18 @@ form input:focus {
 
 form button {
   border: none;
-  background: var(-
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
 
 .relogio {
   font-size: 2rem;
