@@ -14,8 +14,10 @@ function mostraHora(){
 
 iniciar.addEventListener('click', function(event) {
     
-    const cronometro = setInterval(mostraHora(), 1000);
-    console.log(cronometro);
+    const cronometro = setInterval(function(){
+        console.log(mostraHora());
+    }, 1000)
+
 })
 
 pausar.addEventListener('click', function(event){
