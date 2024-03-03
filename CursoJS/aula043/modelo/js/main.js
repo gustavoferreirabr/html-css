@@ -12,21 +12,3 @@ function mostraHora(){
 
 }
 
-iniciar.addEventListener('click', function(event) {
-    
-    const cronometro = setInterval(function(){
-        return console.log(mostraHora());
-    }, 1000)
-
-    relogio.innerHTML = cronometro;
-
-})
-
-pausar.addEventListener('click', function(event){
-
-})
-
-zerar.addEventListener('click', function(event){
-    
-})
-
