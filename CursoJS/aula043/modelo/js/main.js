@@ -5,18 +5,7 @@ const zerar = document.querySelector('.zerar')
 
 function mostraHora(){
 
-    let data = new Date();
-    return data.toLocaleTimeString('pt-BR', {
-       
-    });
-
-}
-
-iniciar.addEventListener('click', function(event) {
-
-    relogio.innerHTML += setInterval(function(){return console.log(mostraHora());}, 1000);
-
-})
+    let
 
 pausar.addEventListener('click', function(event){
 
