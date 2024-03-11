@@ -24,9 +24,7 @@ pausar.addEventListener('click', function(event){
 
 zerar.addEventListener('click', function(event){
     
-    function resetHora(dataReset){
-
-        const hora =
+    function r
 
     }
 
